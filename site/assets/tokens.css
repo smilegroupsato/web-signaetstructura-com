@@ -1,0 +1,19 @@
+:root {
+  --paper: #f5efe4;
+  --paper-deep: #eadfce;
+  --ink: #191714;
+  --ink-soft: #5c554d;
+  --rule: #c8bcaa;
+  --accent: #9b2f2f;
+  --positive: #246247;
+  --negative: #9b2f2f;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: Arial, Helvetica, sans-serif;
+  --measure: 760px;
+  --wide: 1180px;
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+}
