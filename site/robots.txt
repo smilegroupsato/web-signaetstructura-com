@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
 
-# Preview scaffold. Replace with production policy at launch.
+Sitemap: https://signaetstructura.com/sitemap.xml
