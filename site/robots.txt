@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Preview scaffold. Replace with production policy at launch.

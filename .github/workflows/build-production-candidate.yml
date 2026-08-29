@@ -1,0 +1,54 @@
+name: Build Production Candidate
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_ref:
+        description: 'Git ref or SHA to package as production candidate'
+        required: true
+        default: 'main'
+
+permissions:
+  contents: read
+
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout requested source
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_ref }}
+      - name: Record source SHA
+        id: sha
+        shell: bash
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Validate production bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f site/index.html
+          test -f site/ja/index.html
+          test -f site/en/index.html
+          test -f site/assets/site.css
+          test -f site/assets/tokens.css
+          ! grep -RInE '(BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|api[_-]?key[[:space:]]*[:=]|private[_-]?key[[:space:]]*[:=]|seed phrase)' site
+      - name: Build manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p candidate-meta
+          find site -type f -print0 | sort -z | xargs -0 sha256sum > candidate-meta/files.sha256
+          printf '%s\n' '${{ steps.sha.outputs.sha }}' > candidate-meta/source-sha.txt
+          date -u +'%Y-%m-%dT%H:%M:%SZ' > candidate-meta/generated-at-utc.txt
+          tar -czf signa-et-structura-production-candidate.tgz site candidate-meta
+          sha256sum signa-et-structura-production-candidate.tgz > candidate-meta/candidate.sha256
+      - name: Upload candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: signa-et-structura-production-candidate-${{ steps.sha.outputs.sha }}
+          path: |
+            signa-et-structura-production-candidate.tgz
+            candidate-meta/
+          if-no-files-found: error
+          retention-days: 30
