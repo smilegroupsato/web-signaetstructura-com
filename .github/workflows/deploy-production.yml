@@ -1,0 +1,93 @@
+name: Deploy Production (Manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      approved_sha:
+        description: 'Approved main commit SHA to deploy'
+        required: true
+        type: string
+      confirm_production:
+        description: 'Type DEPLOY to confirm production deployment'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+environment:
+  name: production
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.verify.outputs.sha }}
+    steps:
+      - name: Require explicit confirmation
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "${{ inputs.confirm_production }}" = "DEPLOY"
+      - name: Checkout approved SHA
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.approved_sha }}
+          fetch-depth: 0
+      - name: Verify approved SHA belongs to main
+        id: verify
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          APPROVED="$(git rev-parse HEAD)"
+          MAIN="$(git rev-parse origin/main)"
+          test "$APPROVED" = "${{ inputs.approved_sha }}" || test "$(git rev-parse ${{ inputs.approved_sha }})" = "$APPROVED"
+          git merge-base --is-ancestor "$APPROVED" "$MAIN"
+          echo "sha=$APPROVED" >> "$GITHUB_OUTPUT"
+      - name: Validate production bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f site/index.html
+          test -f site/ja/index.html
+          test -f site/en/index.html
+          test -f site/assets/site.css
+          test -f site/assets/tokens.css
+          test -f site/robots.txt
+          ! grep -RInE '(BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|api[_-]?key[[:space:]]*[:=]|private[_-]?key[[:space:]]*[:=]|seed phrase)' site
+      - name: Create deployment manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p deploy-meta
+          find site -type f -print0 | sort -z | xargs -0 sha256sum > deploy-meta/files.sha256
+          printf 'approved_sha=%s\nserver_dir=%s\n' "${{ steps.verify.outputs.sha }}" 'signaetstructura.com' > deploy-meta/deploy.txt
+      - name: Upload deployment manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-deploy-manifest
+          path: deploy-meta/
+          retention-days: 90
+
+  deploy:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+    steps:
+      - name: Checkout approved SHA
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.verify.outputs.sha }}
+      - name: Deploy by FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: ./site/
+          server-dir: signaetstructura.com/
+          log-level: minimal
