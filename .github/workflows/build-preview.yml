@@ -25,7 +25,16 @@ jobs:
           test -f site/assets/site.css
           test -f site/assets/tokens.css
           test -f site/robots.txt
-          grep -q 'Disallow: /' site/robots.txt
+          test -s site/robots.txt
+          if grep -q '^Allow: /' site/robots.txt; then
+            test -f site/sitemap.xml
+            grep -q 'https://signaetstructura.com/sitemap.xml' site/robots.txt
+          elif grep -q '^Disallow: /' site/robots.txt; then
+            :
+          else
+            echo 'robots.txt must explicitly Allow: / or Disallow: /'
+            exit 1
+          fi
           ! grep -RInE '(BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|api[_-]?key[[:space:]]*[:=]|private[_-]?key[[:space:]]*[:=]|seed phrase)' site --exclude='build-preview.yml'
       - name: Check local href/src targets
         shell: bash
