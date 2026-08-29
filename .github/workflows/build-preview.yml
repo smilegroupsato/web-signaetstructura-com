@@ -1,0 +1,72 @@
+name: Build Preview Artifact
+
+on:
+  pull_request:
+    paths:
+      - 'site/**'
+      - '.github/workflows/build-preview.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate required site files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f site/index.html
+          test -f site/ja/index.html
+          test -f site/en/index.html
+          test -f site/assets/site.css
+          test -f site/assets/tokens.css
+          test -f site/robots.txt
+          grep -q 'Disallow: /' site/robots.txt
+          ! grep -RInE '(BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|api[_-]?key[[:space:]]*[:=]|private[_-]?key[[:space:]]*[:=]|seed phrase)' site --exclude='build-preview.yml'
+      - name: Check local href/src targets
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          from urllib.parse import urlparse
+
+          root = Path('site')
+          errors = []
+
+          class Parser(HTMLParser):
+              def __init__(self, page):
+                  super().__init__(); self.page = page
+              def handle_starttag(self, tag, attrs):
+                  d = dict(attrs)
+                  for key in ('href','src'):
+                      value = d.get(key)
+                      if not value or value.startswith(('#','mailto:','tel:','data:')):
+                          continue
+                      u = urlparse(value)
+                      if u.scheme or u.netloc:
+                          continue
+                      target = (self.page.parent / u.path).resolve()
+                      try: target.relative_to(root.resolve())
+                      except ValueError: continue
+                      if u.path.endswith('/'):
+                          target = target / 'index.html'
+                      if not target.exists():
+                          errors.append(f'{self.page}: {key}={value} -> missing {target}')
+
+          for page in root.rglob('*.html'):
+              p = Parser(page); p.feed(page.read_text(encoding='utf-8'))
+          if errors:
+              print('\n'.join(errors)); raise SystemExit(1)
+          PY
+      - name: Package site preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: signa-et-structura-site-preview
+          path: site/
+          if-no-files-found: error
+          retention-days: 14
