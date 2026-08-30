@@ -15,9 +15,6 @@ on:
 permissions:
   contents: read
 
-environment:
-  name: production
-
 jobs:
   verify:
     runs-on: ubuntu-latest
