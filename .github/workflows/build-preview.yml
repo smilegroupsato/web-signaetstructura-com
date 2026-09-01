@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Validate automatic Market Watch contract
+        run: python3 scripts/validate_auto_brief.py publishing/fixtures/auto-brief-base-valid.json --now 2026-09-01T23:55:00+09:00
       - name: Build registry-driven preview
         run: python3 scripts/build_publication_site.py --preview
       - name: Validate required site files
@@ -29,6 +31,10 @@ jobs:
           test -f site/ja/feed.xml
           test -f site/en/feed.xml
           test -f site/feed.xml
+          test -f site/ja/market-watch/index.html
+          test -f site/en/market-watch/index.html
+          test -f site/ja/series/base-tokenized-stock-yield-watch/index.html
+          test -f site/en/series/base-tokenized-stock-yield-watch/index.html
           test -f site/assets/site.css
           test -f site/assets/tokens.css
           test -f site/robots.txt
