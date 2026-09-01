@@ -1,0 +1,38 @@
+{
+  "schema_version": "signa-auto-series-profile-registry-v0.1",
+  "updated_at_jst": "2026-09-01 23:55 JST",
+  "global_kill_switch": false,
+  "profiles": [
+    {
+      "profile_id": "base-tokenized-stock-yield-watch-v0.1",
+      "series_id": "base-tokenized-stock-yield-watch",
+      "enabled": true,
+      "production_auto_publish": false,
+      "languages": ["ja"],
+      "max_age_minutes": 360,
+      "min_evidence_items": 1,
+      "max_title_chars": 100,
+      "max_summary_chars": 280,
+      "max_what_changed_chars": 1200,
+      "max_limitations_chars": 600,
+      "require_source_url": true,
+      "require_disclosure": true,
+      "allowed_claim_types": [
+        "observed_metric_change",
+        "public_launch_or_deployment",
+        "public_parameter_change",
+        "public_market_structure_observation"
+      ],
+      "prohibited_terms_case_insensitive": [
+        "buy now",
+        "sell now",
+        "strong buy",
+        "entry price",
+        "position size",
+        "take profit",
+        "stop loss"
+      ],
+      "public_disclosure_template": "本稿は公開市場の観測記録であり、売買推奨ではありません。"
+    }
+  ]
+}
