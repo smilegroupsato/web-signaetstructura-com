@@ -21,9 +21,12 @@ def main():
     ap.add_argument('--source-sha',required=True)
     ap.add_argument('--source-path',required=True)
     ap.add_argument('--shadow',action='store_true')
+    ap.add_argument('--now',help='override validation clock for deterministic tests only')
     args=ap.parse_args()
 
-    subprocess.run(['python3',str(ROOT/'scripts/validate_auto_brief.py'),args.brief],check=True)
+    validate_cmd=['python3',str(ROOT/'scripts/validate_auto_brief.py'),args.brief]
+    if args.now: validate_cmd += ['--now',args.now]
+    subprocess.run(validate_cmd,check=True)
     brief=load(args.brief)
     pubsdoc=load(PUBS); pubs=pubsdoc['publications']
     if any(x['publication_id']==brief['publication_id'] and x['language']==brief['language'] for x in pubs): raise SystemExit('duplicate publication_id/language')
