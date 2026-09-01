@@ -1,8 +1,8 @@
 {
-  "request_id": "ses-prod-20260901-001",
-  "target_sha": "f75ec695136793925de8e4e32407a4905e5597d0",
+  "request_id": "ses-prod-20260901-002",
+  "target_sha": "a250a24673ad5ccddd3f317b4fda9ced6ea57200",
   "confirm": "DEPLOY",
-  "approved_at_jst": "2026-09-01 11:39 JST",
+  "approved_at_jst": "2026-09-01 12:49 JST",
   "approved_by": "佐藤",
-  "note": "Explicit user approval to publish final Robinhood Chain and Twofold Theme Watch articles. Canonical research commits: 5e74219 and eb2d31c."
+  "note": "Post-publication correction: restore full canonical research copy, reduce article title size, remove reader-facing canonical commit hashes, and add direct homepage links to the two published articles. Research conclusions and evidence unchanged."
 }
