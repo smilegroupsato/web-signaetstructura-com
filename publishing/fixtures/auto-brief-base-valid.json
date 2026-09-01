@@ -1,0 +1,23 @@
+{
+  "schema_version": "signa-auto-brief-v0.1",
+  "publication_id": "mw-fixture-base-001",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "observed_at": "2026-09-01T22:00:00+09:00",
+  "as_of": "2026-09-01T22:00:00+09:00",
+  "language": "ja",
+  "title": "Base上のトークン化株式利回り市場で新しい公開Vaultを確認",
+  "summary": "公開情報上で新しいVaultが確認されたため、継続観測対象へ追加する。",
+  "what_changed": "これまでの観測対象に含まれていなかった公開Vaultが確認された。現時点では実績利回りや継続的な資金流入を示すものではないため、TVL・利用状況・利回り原資を後続観測する。",
+  "claim_type": "public_launch_or_deployment",
+  "evidence": [
+    {
+      "source_name": "Fixture public source",
+      "source_url": "https://example.com/public-vault",
+      "observed_at": "2026-09-01T22:00:00+09:00",
+      "fact": "公開ページ上に新しいVaultが掲載された。"
+    }
+  ],
+  "limitations": "Fixture。実運用では公開一次資料または検証可能な公開データを使用する。",
+  "disclosure": "本稿は公開市場の観測記録であり、売買推奨ではありません。",
+  "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+}
