@@ -1,0 +1,8 @@
+{
+  "request_id": "ses-prod-20260901-001",
+  "target_sha": "f75ec695136793925de8e4e32407a4905e5597d0",
+  "confirm": "DEPLOY",
+  "approved_at_jst": "2026-09-01 11:39 JST",
+  "approved_by": "佐藤",
+  "note": "Explicit user approval to publish final Robinhood Chain and Twofold Theme Watch articles. Canonical research commits: 5e74219 and eb2d31c."
+}
