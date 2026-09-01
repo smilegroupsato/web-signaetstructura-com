@@ -1,16 +1,66 @@
 {
   "schema_version": "public-series-registry-v0.1",
-  "updated_at_jst": "2026-09-01 23:12 JST",
+  "updated_at_jst": "2026-09-02 08:17 JST",
   "series": [
     {
       "series_id": "base-tokenized-stock-yield-watch",
       "section": "market-watch",
-      "title_ja": "Base Tokenized Stock Yield Watch",
+      "title_ja": "Base トークン化株式利回り観測",
       "title_en": "Base Tokenized Stock Yield Watch",
       "dek_ja": "Base上のトークン化株式利回り市場で、意味のある構造変化だけを記録する継続観測。",
       "dek_en": "A continuing watch of material structural changes in tokenized-stock yield markets on Base.",
-      "method_ja": "新しいvaultやprotocol、TVLの急変、incentive、APYの利回り原資、担保・LP・structured productとしての新しいcompositionを追う。変化がない日は更新しない。",
+      "method_ja": "新しいVaultやプロトコル、TVLの急変、インセンティブ、APYの利回り原資、担保・LP・構造化商品としての新しい組み合わせを追う。変化がない日は更新しない。",
       "method_en": "We track new vaults and protocols, material TVL shifts, incentives, changes in yield composition, and new uses of tokenized stocks as collateral, LP assets or structured products. No material change means no post."
+    },
+    {
+      "series_id": "defi-watch",
+      "section": "market-watch",
+      "title_ja": "DeFi観測",
+      "title_en": "DeFi Watch",
+      "dek_ja": "DeFiのTVL、利回り、流動性、利用率、Vaultやプロトコルの重要変化を追う短報。",
+      "dek_en": "Short observations on material changes in DeFi TVL, yield, liquidity, utilization, vaults and protocols.",
+      "method_ja": "公開データと公式情報を基に、変化量、利回り原資、インセンティブ、主要な制約を分けて記録する。",
+      "method_en": "We separate observable changes, yield sources, incentives and material limitations using public data and official sources."
+    },
+    {
+      "series_id": "abnormal-flow-watch",
+      "section": "market-watch",
+      "title_ja": "異常需給観測",
+      "title_en": "Abnormal Flow Watch",
+      "dek_ja": "出来高、流動性、価格変動、オンチェーンフローなどの異常な変化を公開データから追う。",
+      "dek_en": "Public-data observations of unusual changes in volume, liquidity, price action and on-chain flow.",
+      "method_ja": "通常時からの乖離を記録し、原因を断定せず、確認できる需給変化と未確認の解釈を分離する。",
+      "method_en": "We record deviations from normal conditions while separating observed flow changes from unverified explanations."
+    },
+    {
+      "series_id": "x-sns-trend-watch",
+      "section": "market-watch",
+      "title_ja": "X・SNSトレンド観測",
+      "title_en": "X / SNS Trend Watch",
+      "dek_ja": "公開SNS上の投稿量、発信者数、CA言及、影響力あるアカウントの出現など、注目度の変化を追う。",
+      "dek_en": "Tracks changes in public social attention including post volume, unique authors, contract-address mentions and influential accounts.",
+      "method_ja": "公開投稿の集計を市場データと分離して記録し、SNS上の話題性を売買推奨として扱わない。",
+      "method_en": "We record public-post aggregates separately from market data and do not treat social attention as a trading recommendation."
+    },
+    {
+      "series_id": "meme-attention-watch",
+      "section": "market-watch",
+      "title_ja": "Meme市場注目度観測",
+      "title_en": "Meme Attention Watch",
+      "dek_ja": "Meme市場の注目度、出来高、流動性、取引参加の急変を観測する。",
+      "dek_en": "Observations of abrupt changes in attention, volume, liquidity and participation across meme markets.",
+      "method_ja": "公開市場にすでに存在する変化だけを扱い、煽動、価格誘導、Exit Liquidity形成につながる表現を避ける。",
+      "method_en": "We cover only changes already observable in public markets and avoid promotional or price-inducing language."
+    },
+    {
+      "series_id": "new-dex-pair-watch",
+      "section": "market-watch",
+      "title_ja": "新規DEX・ペア観測",
+      "title_en": "New DEX / Pair Watch",
+      "dek_ja": "新規DEX、pair作成、listing、初期流動性などの公開イベントを追う。",
+      "dek_en": "Tracks public events such as new DEX launches, pair creation, listings and initial liquidity.",
+      "method_ja": "contract、chain、pair、初期流動性、公開時刻等を固定し、存在確認と投資評価を分離する。",
+      "method_en": "We fix contract, chain, pair, initial liquidity and public timestamps while separating existence checks from investment evaluation."
     }
   ]
 }

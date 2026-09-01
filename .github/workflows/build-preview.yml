@@ -5,8 +5,10 @@ on:
     paths:
       - 'site/**'
       - 'publishing/**'
+      - 'publication/**'
       - 'scripts/**'
       - '.github/workflows/build-preview.yml'
+      - '.github/workflows/receive-market-watch-brief.yml'
   workflow_dispatch:
 
 permissions:
@@ -19,6 +21,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: Validate automatic Market Watch contract
         run: python3 scripts/validate_auto_brief.py publishing/fixtures/auto-brief-base-valid.json --now 2026-09-01T23:55:00+09:00
+      - name: Render automatic Market Watch shadow fixture
+        shell: bash
+        run: |
+          python3 scripts/ingest_auto_brief.py publishing/fixtures/auto-brief-base-valid.json \
+            --source-repo smilegroupsato/sc-crypto-ops \
+            --source-sha fixture-source-sha \
+            --source-path publication/sc-markets-research/auto-intake/fixture.json \
+            --shadow \
+            --now 2026-09-01T23:55:00+09:00
       - name: Build registry-driven preview
         run: python3 scripts/build_publication_site.py --preview
       - name: Validate required site files
@@ -35,6 +46,9 @@ jobs:
           test -f site/en/market-watch/index.html
           test -f site/ja/series/base-tokenized-stock-yield-watch/index.html
           test -f site/en/series/base-tokenized-stock-yield-watch/index.html
+          test -f site/ja/research/fixture-base-vault-observation/index.html
+          test -f publication/auto-receipts/mw-fixture-base-001.json
+          grep -F 'noindex,nofollow' site/ja/research/fixture-base-vault-observation/index.html >/dev/null
           test -f site/assets/site.css
           test -f site/assets/tokens.css
           test -f site/robots.txt
@@ -70,6 +84,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: signa-et-structura-site-preview
-          path: site/
+          path: |
+            site/
+            publication/auto-receipts/
           if-no-files-found: error
           retention-days: 14

@@ -1,0 +1,146 @@
+name: Receive Market Watch Brief
+
+on:
+  repository_dispatch:
+    types:
+      - market_watch_brief
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-watch-auto-intake
+  cancel-in-progress: false
+
+jobs:
+  validate-and-shadow:
+    runs-on: ubuntu-latest
+    outputs:
+      production_auto_publish: ${{ steps.profile.outputs.production_auto_publish }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Materialize dispatched brief
+        shell: bash
+        env:
+          BRIEF_JSON: ${{ toJson(github.event.client_payload.brief) }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/signa-intake
+          printf '%s' "$BRIEF_JSON" > /tmp/signa-intake/brief.json
+          python3 -m json.tool /tmp/signa-intake/brief.json >/dev/null
+      - name: Validate automatic brief
+        run: python3 scripts/validate_auto_brief.py /tmp/signa-intake/brief.json
+      - name: Read production profile mode
+        id: profile
+        shell: bash
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          from pathlib import Path
+          b=json.loads(Path('/tmp/signa-intake/brief.json').read_text())
+          p=json.loads(Path('publishing/auto-series-profiles.json').read_text())
+          profile=next(x for x in p['profiles'] if x['profile_id']==b['auto_publish_profile'])
+          print('production_auto_publish=' + ('true' if profile.get('production_auto_publish') else 'false'))
+          PY
+      - name: Render shadow article and projections
+        shell: bash
+        run: |
+          python3 scripts/ingest_auto_brief.py /tmp/signa-intake/brief.json \
+            --source-repo '${{ github.event.client_payload.source_repo }}' \
+            --source-sha '${{ github.event.client_payload.source_sha }}' \
+            --source-path '${{ github.event.client_payload.source_path }}' \
+            --shadow
+          python3 scripts/build_publication_site.py --preview
+      - name: Validate shadow site
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f site/ja/market-watch/index.html
+          ! grep -RInE '(BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|api[_-]?key[[:space:]]*[:=]|private[_-]?key[[:space:]]*[:=]|seed phrase)' site
+      - name: Upload shadow preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: market-watch-shadow-${{ github.run_id }}
+          path: |
+            site/
+            publication/auto-receipts/
+          retention-days: 14
+
+  production-publish:
+    needs: validate-and-shadow
+    if: needs.validate-and-shadow.outputs.production_auto_publish == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+    concurrency:
+      group: production-publish
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Materialize dispatched brief
+        shell: bash
+        env:
+          BRIEF_JSON: ${{ toJson(github.event.client_payload.brief) }}
+        run: |
+          mkdir -p /tmp/signa-intake
+          printf '%s' "$BRIEF_JSON" > /tmp/signa-intake/brief.json
+      - name: Revalidate exact brief
+        run: python3 scripts/validate_auto_brief.py /tmp/signa-intake/brief.json
+      - name: Ingest production brief
+        shell: bash
+        run: |
+          python3 scripts/ingest_auto_brief.py /tmp/signa-intake/brief.json \
+            --source-repo '${{ github.event.client_payload.source_repo }}' \
+            --source-sha '${{ github.event.client_payload.source_sha }}' \
+            --source-path '${{ github.event.client_payload.source_path }}'
+          python3 scripts/build_publication_site.py
+      - name: Commit public registry, article and receipt
+        shell: bash
+        run: |
+          set -euo pipefail
+          PUB_ID="$(python3 -c "import json;print(json.load(open('/tmp/signa-intake/brief.json'))['publication_id'])")"
+          git config user.name 'signa-publication-bot'
+          git config user.email 'admin@smilegroup.io'
+          git add publishing/publications.json site publication/auto-receipts
+          git diff --cached --check
+          git commit -m "auto-market-watch: ${PUB_ID}"
+          git push origin HEAD:main
+          echo "WEB_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+          echo "PUB_ID=$PUB_ID" >> "$GITHUB_ENV"
+      - name: Build exact committed production site
+        run: python3 scripts/build_publication_site.py
+      - name: Create automatic deployment manifest
+        shell: bash
+        run: |
+          mkdir -p deploy-meta
+          find site -type f -print0 | sort -z | xargs -0 sha256sum > deploy-meta/files.sha256
+          {
+            printf 'publication_id=%s\n' "$PUB_ID"
+            printf 'web_sha=%s\n' "$WEB_SHA"
+            printf 'source_repo=%s\n' '${{ github.event.client_payload.source_repo }}'
+            printf 'source_sha=%s\n' '${{ github.event.client_payload.source_sha }}'
+            printf 'auto_lane=true\n'
+          } > deploy-meta/deploy.txt
+      - name: Upload automatic deployment manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: auto-market-watch-deploy-${{ env.PUB_ID }}
+          path: deploy-meta/
+          retention-days: 90
+      - name: Deploy by FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: ./site/
+          server-dir: signaetstructura.com/
+          log-level: minimal
