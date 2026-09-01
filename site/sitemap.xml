@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url><loc>https://signaetstructura.com/</loc></url>
-  <url><loc>https://signaetstructura.com/ja/</loc></url>
-  <url><loc>https://signaetstructura.com/en/</loc></url>
-  <url><loc>https://signaetstructura.com/ja/research/</loc></url>
-  <url><loc>https://signaetstructura.com/ja/research/robinhood-chain-capital-parking/</loc></url>
-  <url><loc>https://signaetstructura.com/ja/research/twofold-same-dollars-two-jobs/</loc></url>
-  <url><loc>https://signaetstructura.com/en/research/</loc></url>
+  <url><loc>https://signaetstructura.com/ja/</loc><xhtml:link rel="alternate" hreflang="ja" href="https://signaetstructura.com/ja/"/><xhtml:link rel="alternate" hreflang="en" href="https://signaetstructura.com/en/"/></url>
+  <url><loc>https://signaetstructura.com/en/</loc><xhtml:link rel="alternate" hreflang="ja" href="https://signaetstructura.com/ja/"/><xhtml:link rel="alternate" hreflang="en" href="https://signaetstructura.com/en/"/></url>
+  <url><loc>https://signaetstructura.com/ja/research/</loc><xhtml:link rel="alternate" hreflang="ja" href="https://signaetstructura.com/ja/research/"/><xhtml:link rel="alternate" hreflang="en" href="https://signaetstructura.com/en/research/"/></url>
+  <url><loc>https://signaetstructura.com/en/research/</loc><xhtml:link rel="alternate" hreflang="ja" href="https://signaetstructura.com/ja/research/"/><xhtml:link rel="alternate" hreflang="en" href="https://signaetstructura.com/en/research/"/></url>
+  <url><loc>https://signaetstructura.com/ja/research/robinhood-chain-capital-parking/</loc><xhtml:link rel="alternate" hreflang="ja" href="https://signaetstructura.com/ja/research/robinhood-chain-capital-parking/"/><xhtml:link rel="alternate" hreflang="en" href="https://signaetstructura.com/en/research/robinhood-chain-capital-parking/"/></url>
+  <url><loc>https://signaetstructura.com/en/research/robinhood-chain-capital-parking/</loc><xhtml:link rel="alternate" hreflang="ja" href="https://signaetstructura.com/ja/research/robinhood-chain-capital-parking/"/><xhtml:link rel="alternate" hreflang="en" href="https://signaetstructura.com/en/research/robinhood-chain-capital-parking/"/></url>
+  <url><loc>https://signaetstructura.com/ja/research/twofold-same-dollars-two-jobs/</loc><xhtml:link rel="alternate" hreflang="ja" href="https://signaetstructura.com/ja/research/twofold-same-dollars-two-jobs/"/><xhtml:link rel="alternate" hreflang="en" href="https://signaetstructura.com/en/research/twofold-same-dollars-two-jobs/"/></url>
+  <url><loc>https://signaetstructura.com/en/research/twofold-same-dollars-two-jobs/</loc><xhtml:link rel="alternate" hreflang="ja" href="https://signaetstructura.com/ja/research/twofold-same-dollars-two-jobs/"/><xhtml:link rel="alternate" hreflang="en" href="https://signaetstructura.com/en/research/twofold-same-dollars-two-jobs/"/></url>
   <url><loc>https://signaetstructura.com/ja/methods/</loc></url>
   <url><loc>https://signaetstructura.com/en/methods/</loc></url>
   <url><loc>https://signaetstructura.com/ja/editorial-policy/</loc></url>
