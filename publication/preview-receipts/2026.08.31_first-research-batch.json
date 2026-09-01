@@ -1,0 +1,40 @@
+{
+  "batch_id": "signa-preview-20260831-001",
+  "status": "preview_pending_human_publish_approval",
+  "created_at": "2026-08-31T18:03:00+09:00",
+  "source_gate_review_commit": "7e65c147a88bfd4d84ce8cf0f54bead96b98e591",
+  "articles": [
+    {
+      "publication_id": "scmr-20260831-001",
+      "slug": "robinhood-chain-capital-parking",
+      "source_repo": "smilegroupsato/sc-crypto-ops",
+      "source_path": "publication/sc-markets-research/drafts/2026.08.28_01_robinhood_chain_capital_parking_theme_watch.md",
+      "source_blob_sha": "20241aa0afafd070f78a7c4836e5638cb318c7c5",
+      "preview_path": "site/ja/research/robinhood-chain-capital-parking/index.html",
+      "publish_gate": "pass",
+      "compliance_gate": "pass",
+      "conflict_of_interest": false,
+      "figures": [
+        {"id":"scmr-20260831-001-fig01","canonical_svg_sha":"0f75292743c8ff9bae33e03fe3c96b8930ca3a7c"},
+        {"id":"scmr-20260831-001-fig02","canonical_svg_sha":"ab92d78a52e90743851262ab067d4f549a231c4e"}
+      ]
+    },
+    {
+      "publication_id": "scmr-20260831-002",
+      "slug": "twofold-same-dollars-two-jobs",
+      "source_repo": "smilegroupsato/sc-crypto-ops",
+      "source_path": "publication/sc-markets-research/drafts/2026.08.28_04_twofold_same_dollars_two_jobs_theme_watch.md",
+      "source_blob_sha": "d8ceaf1fc60b842b8a0e2b5e52dfc08b8b85318c",
+      "preview_path": "site/ja/research/twofold-same-dollars-two-jobs/index.html",
+      "publish_gate": "pass",
+      "compliance_gate": "pass_with_high_risk_conditions",
+      "conflict_of_interest": false,
+      "figures": [
+        {"id":"scmr-20260831-002-fig01","canonical_svg_sha":"6d7de8e94d542beefa10be7e2d5ab5713f3b52e4"},
+        {"id":"scmr-20260831-002-fig02","canonical_svg_sha":"c8daec26408fe3ba0380e8bf26b5d922cee23ce9"}
+      ]
+    }
+  ],
+  "publication_receipt": null,
+  "published_urls": null
+}

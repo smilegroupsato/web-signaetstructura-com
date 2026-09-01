@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#555"/></marker></defs>
+<rect width="1200" height="675" fill="white"/>
+<text x="80" y="70" font-family="serif" font-size="32" font-weight="700">Twofold / DualPool capital reuse</text>
+<text x="80" y="108" font-family="sans-serif" font-size="17">The same principal changes role through time: lending while idle, LP liquidity during swaps.</text>
+<rect x="-5" y="290" width="150" height="82" rx="14" fill="white" stroke="#555" stroke-width="2"/><text x="70" y="326" text-anchor="middle" font-family="sans-serif" font-size="17">Idle USDG</text><line x1="155" y1="331" x2="193" y2="331" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<rect x="207" y="290" width="150" height="82" rx="14" fill="white" stroke="#555" stroke-width="2"/><text x="282" y="326" text-anchor="middle" font-family="sans-serif" font-size="17">ERC-4626</text><text x="282" y="348" text-anchor="middle" font-family="sans-serif" font-size="17">lending vault</text><line x1="367" y1="331" x2="405" y2="331" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<rect x="419" y="290" width="150" height="82" rx="14" fill="white" stroke="#555" stroke-width="2"/><text x="494" y="326" text-anchor="middle" font-family="sans-serif" font-size="17">JIT</text><text x="494" y="348" text-anchor="middle" font-family="sans-serif" font-size="17">withdrawal</text><line x1="579" y1="331" x2="617" y2="331" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<rect x="631" y="290" width="150" height="82" rx="14" fill="white" stroke="#555" stroke-width="2"/><text x="706" y="326" text-anchor="middle" font-family="sans-serif" font-size="17">Uniswap v4</text><text x="706" y="348" text-anchor="middle" font-family="sans-serif" font-size="17">LP execution</text><line x1="791" y1="331" x2="829" y2="331" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<rect x="843" y="290" width="150" height="82" rx="14" fill="white" stroke="#555" stroke-width="2"/><text x="918" y="326" text-anchor="middle" font-family="sans-serif" font-size="17">Swap fee</text><line x1="1003" y1="331" x2="1041" y2="331" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<rect x="1055" y="290" width="150" height="82" rx="14" fill="white" stroke="#555" stroke-width="2"/><text x="1130" y="326" text-anchor="middle" font-family="sans-serif" font-size="17">Return to</text><text x="1130" y="348" text-anchor="middle" font-family="sans-serif" font-size="17">vault</text>
+<text x="80" y="610" font-family="sans-serif" font-size="14">Analytical diagram — conceptual sequence, not measured flow magnitude.</text>
+</svg>
