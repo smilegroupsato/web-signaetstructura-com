@@ -1,8 +1,8 @@
 {
-  "request_id": "ses-prod-20260901-004",
-  "target_sha": "91c1bbde9dfe7f9cbde4873c10930c02e1a7e100",
+  "request_id": "ses-prod-20260901-005",
+  "target_sha": "8d263d311eec09c39f00ed0f087f7e985598abe5",
   "confirm": "DEPLOY",
-  "approved_at_jst": "2026-09-01 13:53 JST",
+  "approved_at_jst": "2026-09-01 14:24 JST",
   "approved_by": "佐藤",
-  "note": "Publish Japanese public-language consistency update: unify navigation labels, use 方法論 / 編集方針 / 訂正について, simplify reader-facing editorial policy, remove internal Gate terminology from public surfaces, and localize article UI labels. Research conclusions, evidence, figures, and canonical article content remain unchanged."
+  "note": "Publish approved scalable information architecture v0.2 and registry-driven Publication Builder. Generates homepage, JA/EN Research indexes, RSS feeds and sitemap from public registries while preserving the explicit human-approved deploy boundary."
 }
