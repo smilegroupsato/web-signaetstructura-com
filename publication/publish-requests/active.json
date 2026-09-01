@@ -1,8 +1,8 @@
 {
-  "request_id": "ses-prod-20260901-003",
-  "target_sha": "edee9a792d28dc6ccfc7082b03e7ec0feaa193a3",
+  "request_id": "ses-prod-20260901-004",
+  "target_sha": "91c1bbde9dfe7f9cbde4873c10930c02e1a7e100",
   "confirm": "DEPLOY",
-  "approved_at_jst": "2026-09-01 13:23 JST",
+  "approved_at_jst": "2026-09-01 13:53 JST",
   "approved_by": "佐藤",
-  "note": "Publish approved English editions for scmr-20260831-001 and scmr-20260831-002, based on canonical English source commits 0ed30f9 and 04e06b8. Adds English homepage/index links and bilingual sitemap alternate-language mappings."
+  "note": "Publish Japanese public-language consistency update: unify navigation labels, use 方法論 / 編集方針 / 訂正について, simplify reader-facing editorial policy, remove internal Gate terminology from public surfaces, and localize article UI labels. Research conclusions, evidence, figures, and canonical article content remain unchanged."
 }
