@@ -1,7 +1,7 @@
 # SIGNA ET STRUCTURA Site Design System v0.1
 
 ページ作成日時：2026-08-29 09:02 JST  
-最終更新日時：2026-08-29 09:02 JST
+最終更新日時：2026-09-01 13:42 JST
 
 ## 1. Editorial identity
 
@@ -91,6 +91,23 @@ JA / ENで同じinformation architectureを維持する。
 
 language switchは常時発見可能にする。
 
+### 日本語版の公開語彙
+
+日本語版は「日本語で読む媒体」として成立させる。ブランド名、固有名詞、一般に定着した技術語を除き、内部運用語や英語UIラベルをそのまま露出させない。
+
+- `Methods` / `Methodology` → `方法論`
+- `Editorial Policy` → `編集方針`
+- `Corrections` → `訂正について`
+- `Research Index` → `リサーチ一覧`
+- `Publish Gate` → 読者向けには `公開前確認` または具体的な確認内容を書く
+- `Compliance Gate` → 読者向けには `利益相反・表現の確認` 等、意味が分かる表現を書く
+- `Evidence` → 文脈に応じて `根拠` / `根拠資料` / `出典`
+- `Disclosure` → `開示` / `利益相反`
+- `Published` → `公開済み`
+- `Research Review: Pass` 等の内部statusは、そのまま読者へ表示しない
+
+内部の正式status名、Gate名、SHA、receipt、workflow情報は監査用正本に保持し、公開サイトでは読者に必要な情報へ変換する。
+
 ## 8. Responsive
 
 Mobileを縮小desktopとして扱わない。
@@ -114,7 +131,7 @@ Mobileを縮小desktopとして扱わない。
 - provenance
 - correction status
 
-これらは本文末尾へ隠さない。
+これらは本文末尾へ隠さない。ただし日本語版では読者向けの自然な日本語ラベルへ変換し、内部statusやcommit SHAをそのまま見せない。
 
 ## 10. Anti-patterns
 
@@ -126,6 +143,7 @@ Mobileを縮小desktopとして扱わない。
 - clickbait title
 - sourceのない数値card
 - mobileで読めないchart
+- 日本語ページ内で内部運用英語を多用すること
 
 ## 11. Current implementation
 
@@ -142,4 +160,5 @@ Primary files:
 
 ## 更新履歴
 
+- 2026-09-01 13:42 JST：日本語公開版の語彙ルールを追加。内部Gate/status/SHAを読者向け画面へ直接露出させない方針を明記。
 - 2026-08-29 09:02 JST：v0.1作成。editorial identity、page hierarchy、typography、responsive、trust surfaceを固定。
