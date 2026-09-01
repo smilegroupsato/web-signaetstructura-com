@@ -1,0 +1,16 @@
+{
+  "schema_version": "public-series-registry-v0.1",
+  "updated_at_jst": "2026-09-01 23:12 JST",
+  "series": [
+    {
+      "series_id": "base-tokenized-stock-yield-watch",
+      "section": "market-watch",
+      "title_ja": "Base Tokenized Stock Yield Watch",
+      "title_en": "Base Tokenized Stock Yield Watch",
+      "dek_ja": "Base上のトークン化株式利回り市場で、意味のある構造変化だけを記録する継続観測。",
+      "dek_en": "A continuing watch of material structural changes in tokenized-stock yield markets on Base.",
+      "method_ja": "新しいvaultやprotocol、TVLの急変、incentive、APYの利回り原資、担保・LP・structured productとしての新しいcompositionを追う。変化がない日は更新しない。",
+      "method_en": "We track new vaults and protocols, material TVL shifts, incentives, changes in yield composition, and new uses of tokenized stocks as collateral, LP assets or structured products. No material change means no post."
+    }
+  ]
+}
