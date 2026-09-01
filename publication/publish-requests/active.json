@@ -1,8 +1,8 @@
 {
-  "request_id": "ses-prod-20260901-005",
-  "target_sha": "8d263d311eec09c39f00ed0f087f7e985598abe5",
+  "request_id": "ses-prod-20260902-001",
+  "target_sha": "efcc824ed14bd3203406b6aa8168643edf004a1a",
   "confirm": "DEPLOY",
-  "approved_at_jst": "2026-09-01 14:24 JST",
+  "approved_at_jst": "2026-09-02 08:17 JST",
   "approved_by": "佐藤",
-  "note": "Publish approved scalable information architecture v0.2 and registry-driven Publication Builder. Generates homepage, JA/EN Research indexes, RSS feeds and sitemap from public registries while preserving the explicit human-approved deploy boundary."
+  "note": "Publish Market Watch infrastructure and shadow automatic-publication intake. Adds reader-facing Market Watch series for DeFi, abnormal flow, X/SNS, Meme, new DEX/pairs and Base tokenized-stock yield, plus fail-closed receiver/validator. All production_auto_publish flags remain false; this release does not enable unattended production article posting."
 }
