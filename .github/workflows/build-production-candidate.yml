@@ -23,6 +23,8 @@ jobs:
         id: sha
         shell: bash
         run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Build registry-driven production site
+        run: python3 scripts/build_publication_site.py
       - name: Validate production bundle
         shell: bash
         run: |
@@ -30,9 +32,14 @@ jobs:
           test -f site/index.html
           test -f site/ja/index.html
           test -f site/en/index.html
+          test -f site/ja/feed.xml
+          test -f site/en/feed.xml
+          test -f site/feed.xml
+          test -f site/sitemap.xml
           test -f site/assets/site.css
           test -f site/assets/tokens.css
           ! grep -RInE '(BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|api[_-]?key[[:space:]]*[:=]|private[_-]?key[[:space:]]*[:=]|seed phrase)' site
+          ! grep -RIn 'noindex,nofollow' site/ja/index.html site/en/index.html site/ja/research/index.html site/en/research/index.html
       - name: Build manifest
         shell: bash
         run: |
