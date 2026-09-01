@@ -24,51 +24,36 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Read and verify publish request
         id: request
         shell: bash
         run: |
           set -euo pipefail
-          REQUEST='publication/publish-requests/active.json'
-          test -f "$REQUEST"
-
           python3 - <<'PY' > /tmp/publish-request.env
           import json
           from pathlib import Path
-          p = Path('publication/publish-requests/active.json')
-          data = json.loads(p.read_text())
-          required = ['request_id', 'target_sha', 'confirm', 'approved_at_jst', 'approved_by']
-          missing = [k for k in required if not data.get(k)]
-          if missing:
-              raise SystemExit(f'missing fields: {missing}')
-          if data['confirm'] != 'DEPLOY':
-              raise SystemExit('confirm must be DEPLOY')
-          for key in required:
-              print(f"{key.upper()}={data[key]}")
+          data=json.loads(Path('publication/publish-requests/active.json').read_text())
+          required=['request_id','target_sha','confirm','approved_at_jst','approved_by']
+          missing=[k for k in required if not data.get(k)]
+          if missing: raise SystemExit(f'missing fields: {missing}')
+          if data['confirm']!='DEPLOY': raise SystemExit('confirm must be DEPLOY')
+          for key in required: print(f"{key.upper()}={data[key]}")
           PY
-
           cat /tmp/publish-request.env >> "$GITHUB_ENV"
           TARGET_SHA="$(grep '^TARGET_SHA=' /tmp/publish-request.env | cut -d= -f2-)"
-
           git fetch origin main
           git cat-file -e "${TARGET_SHA}^{commit}"
           git merge-base --is-ancestor "$TARGET_SHA" origin/main
-
-          test -f "$(git rev-parse --show-toplevel)/site/index.html"
-          git show "$TARGET_SHA:site/index.html" >/dev/null
-          git show "$TARGET_SHA:site/ja/index.html" >/dev/null
-          git show "$TARGET_SHA:site/en/index.html" >/dev/null
-          git show "$TARGET_SHA:site/assets/site.css" >/dev/null
-
+          git show "$TARGET_SHA:publishing/publications.json" >/dev/null
+          git show "$TARGET_SHA:scripts/build_publication_site.py" >/dev/null
           echo "target_sha=$TARGET_SHA" >> "$GITHUB_OUTPUT"
-
       - name: Checkout approved target SHA
         uses: actions/checkout@v4
         with:
           ref: ${{ steps.request.outputs.target_sha }}
           fetch-depth: 0
-
+      - name: Build exact approved production site
+        run: python3 scripts/build_publication_site.py
       - name: Validate approved production bundle
         shell: bash
         run: |
@@ -76,11 +61,14 @@ jobs:
           test -f site/index.html
           test -f site/ja/index.html
           test -f site/en/index.html
+          test -f site/ja/feed.xml
+          test -f site/en/feed.xml
+          test -f site/feed.xml
+          test -f site/sitemap.xml
           test -f site/assets/site.css
           test -f site/assets/tokens.css
-          test -f site/robots.txt
+          ! grep -RIn 'noindex,nofollow' site/ja/index.html site/en/index.html site/ja/research/index.html site/en/research/index.html
           ! grep -RInE '(BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|api[_-]?key[[:space:]]*[:=]|private[_-]?key[[:space:]]*[:=]|seed phrase)' site
-
       - name: Create deployment manifest
         shell: bash
         run: |
@@ -93,16 +81,15 @@ jobs:
             printf 'approved_by=%s\n' "$APPROVED_BY"
             printf 'approved_at_jst=%s\n' "$APPROVED_AT_JST"
             printf 'triggering_main_sha=%s\n' "${GITHUB_SHA}"
+            printf 'builder=%s\n' 'scripts/build_publication_site.py'
             printf 'server_dir=%s\n' 'signaetstructura.com/'
           } > deploy-meta/deploy.txt
-
       - name: Upload deployment manifest
         uses: actions/upload-artifact@v4
         with:
           name: production-deploy-manifest-${{ env.REQUEST_ID }}
           path: deploy-meta/
           retention-days: 90
-
       - name: Deploy approved SHA by FTPS
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
