@@ -1,8 +1,8 @@
 {
-  "request_id": "ses-prod-20260901-002",
-  "target_sha": "a250a24673ad5ccddd3f317b4fda9ced6ea57200",
+  "request_id": "ses-prod-20260901-003",
+  "target_sha": "edee9a792d28dc6ccfc7082b03e7ec0feaa193a3",
   "confirm": "DEPLOY",
-  "approved_at_jst": "2026-09-01 12:49 JST",
+  "approved_at_jst": "2026-09-01 13:23 JST",
   "approved_by": "佐藤",
-  "note": "Post-publication correction: restore full canonical research copy, reduce article title size, remove reader-facing canonical commit hashes, and add direct homepage links to the two published articles. Research conclusions and evidence unchanged."
+  "note": "Publish approved English editions for scmr-20260831-001 and scmr-20260831-002, based on canonical English source commits 0ed30f9 and 04e06b8. Adds English homepage/index links and bilingual sitemap alternate-language mappings."
 }
