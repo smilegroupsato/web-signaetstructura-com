@@ -24,7 +24,7 @@ jobs:
         shell: bash
         run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - name: Build registry-driven production site
-        run: python3 scripts/build_publication_site.py
+        run: bash scripts/build_site.sh
       - name: Validate production bundle
         shell: bash
         run: |
@@ -36,6 +36,9 @@ jobs:
           test -f site/en/feed.xml
           test -f site/feed.xml
           test -f site/sitemap.xml
+          test -f site/ja/research/tokenized-stocks-become-defi-primitives/index.html
+          test -f site/en/research/tokenized-stocks-become-defi-primitives/index.html
+          test -f site/ja/research/tomb-fork-boom-money-printer-to-graveyard/index.html
           test -f site/assets/site.css
           test -f site/assets/tokens.css
           ! grep -RInE '(BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|api[_-]?key[[:space:]]*[:=]|private[_-]?key[[:space:]]*[:=]|seed phrase)' site
