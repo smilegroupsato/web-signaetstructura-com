@@ -155,8 +155,3 @@ Coinbase Tokenized Stocks may be supplying a large new raw material to that comp
 ## Disclosure
 
 This article examines market structure and does not recommend investment in Coinbase Tokenized Stocks, NVDAc, AAPLc, METAc, GOOGLc, Superform, TAU, Beefy or any related financial product or protocol. The author and publisher have no disclosable conflict of interest relating to the subjects of this article.
-
-## Update history
-
-- 2026-09-01 13:29 JST: English edition synchronized with the Japanese canonical edition after primary-evidence refresh, Figure package creation and falsification / disclosure review; status moved to `ready_for_review`.
-- 2026-09-01 13:29 JST: English edition created from the Japanese canonical draft without shortening the research content.
