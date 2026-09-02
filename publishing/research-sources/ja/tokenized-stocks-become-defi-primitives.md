@@ -161,9 +161,3 @@ Coinbase Tokenized Stocksは、この「組み合わせによる増殖（Composi
 ## Disclosure
 
 本稿は市場構造の研究を目的とするものであり、Coinbase Tokenized Stocks、NVDAc、AAPLc、METAc、GOOGLc、Superform、TAU、Beefyその他の関連商品・プロトコルへの投資を推奨するものではありません。執筆・発行主体に本稿の対象に関する開示すべき利益相反はありません。
-
-## 更新履歴
-
-- 2026-09-01 13:29 JST：Base / Beefy一次資料とPortals最新snapshotを再確認。publication_idを付与し、Figure packageを追加、反証条件・Disclosureを補完して`ready_for_review`へ更新。
-- 2026-09-01 13:29 JST：日本語記事として自然に読めるよう、固有名詞・規格を除いて本文の英語混在を削減。
-- 2026-08-31 07:46 JST：Base Tokenized Stocks公開直後の利回り市場をTheme Watchとして初稿化。
