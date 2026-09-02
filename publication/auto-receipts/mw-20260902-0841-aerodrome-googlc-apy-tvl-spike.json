@@ -2,11 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260902-0841-aerodrome-googlc-apy-tvl-spike",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-base-tsy-20260902-084145-aerodrome-googlc",
+  "source_observation_id": "obs-base-tsy-20260902-084145-aerodrome-googlc-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "f77d9e403d0826f31e9b143d381cec91abb3c29c",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.02_01_base-tokenized-stock-yield-watch_aerodrome-googlc-apy-tvl-spike.json",
+  "source_sha": "68afc50cf0a97cd9605c73ad5b1913c11f75594d",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.02_01_base-tokenized-stock-yield-watch_aerodrome-googlc-apy-tvl-spike_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
-  "production_url": "https://signaetstructura.com/ja/research/aerodrome-googlc-apy-spike-tvl-contraction/"
+  "stale_backfill": true,
+  "production_url": "https://signaetstructura.com/en/research/aerodrome-googlc-apy-spike-tvl-contraction/"
 }
