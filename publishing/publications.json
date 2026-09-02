@@ -523,6 +523,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260902-144429-aerodrome-nvdac-rebound-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260902-1339-base-cstocks-merkl-cashback",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "base-tokenized-stocks-merkl-direct-cashback",
+      "title": "Base Tokenized-Stock Incentives Expand from LP Rewards to Direct Cashback",
+      "summary": "Coinbase Tokenized Stocks on Base are now being incentivized through direct USDC cashback for purchases held through an epoch, without requiring an LP or vault. Merkl listed up to 5% cashback via 1inch and up to 2% through Reserve and Definitive across AAPLc, GOOGLc, NVDAc and METAc opportunities.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-02T13:39:21+09:00",
+      "updated_at": "2026-09-02T13:39:21+09:00",
+      "as_of": "2026-09-02T13:39:21+09:00",
+      "status": "published",
+      "article_path": "site/en/research/base-tokenized-stocks-merkl-direct-cashback/index.html",
+      "url": "https://signaetstructura.com/en/research/base-tokenized-stocks-merkl-direct-cashback/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260902-133921-merkl-cstocks-cashback-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
