@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: market-watch-auto-intake
+  group: market-watch-auto-intake-${{ github.event.client_payload.brief.publication_id }}-${{ github.event.client_payload.brief.language }}
   cancel-in-progress: false
 
 jobs:
@@ -59,6 +59,7 @@ jobs:
         run: |
           set -euo pipefail
           test -f site/ja/market-watch/index.html
+          test -f site/en/market-watch/index.html
           ! grep -RInE '(BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|api[_-]?key[[:space:]]*[:=]|private[_-]?key[[:space:]]*[:=]|seed phrase)' site
       - name: Upload shadow preview
         uses: actions/upload-artifact@v4
