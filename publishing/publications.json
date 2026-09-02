@@ -496,6 +496,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260902-173326-aerodrome-reward-reexpansion-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260902-1444-aerodrome-nvdac-apy-rebound",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-nvdac-apy-rebound-after-unwind",
+      "title": "Aerodrome NVDAc LP Rebounds Above 300% APY After a Sharp Drop",
+      "summary": "Aerodrome Slipstream USDC-NVDAc on Base rebounded from roughly 58% APY in the prior patrol to above 300%. DeFi Terminal showed 351.08% and DefiLlama 314.43%, while TVL fell from about $2.0 million to roughly $1.65-$1.70 million.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-02T14:44:29+09:00",
+      "updated_at": "2026-09-02T14:44:29+09:00",
+      "as_of": "2026-09-02T14:44:29+09:00",
+      "status": "published",
+      "article_path": "site/en/research/aerodrome-nvdac-apy-rebound-after-unwind/index.html",
+      "url": "https://signaetstructura.com/en/research/aerodrome-nvdac-apy-rebound-after-unwind/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260902-144429-aerodrome-nvdac-rebound-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
