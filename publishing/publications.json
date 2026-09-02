@@ -685,6 +685,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260903-004232-stockify-dividend-loop-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260903-0137-long-social-keys-stock-quoted-market",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "long-social-keys-stock-quoted-market-base",
+      "title": "LONG、BaseでCreator Key市場のquote assetとfee settlementにtokenized stockを採用",
+      "summary": "Base上のLONGで、X・GitHub・Twitchの検証済みidentityから作るCreator Keyをtokenized stock建てで取引する市場構成を確認した。公式文書は各Key marketがAAPLc、NVDAc、SPCXcなど13のB20株式トークンからquote assetを選べる設計を示す。独立したGeckoTerminalではkGOLONGFUN/NVDAcのUniswap v4 poolが稼働し、観測時点に取得できたスナップショットで流動性17,009.09ドル、24時間出来高654.38ドル、20 transactions、pool age約5日と表示された。tokenized stockが株価exposureやLP・担保だけでなく、social/creator marketの価格基準とcreator feeのsettlement assetとして使われるcompositionである。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-03T01:37:08+09:00",
+      "updated_at": "2026-09-03T01:37:08+09:00",
+      "as_of": "2026-09-03T01:37:08+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/long-social-keys-stock-quoted-market-base/index.html",
+      "url": "https://signaetstructura.com/ja/research/long-social-keys-stock-quoted-market-base/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260903-013708-long-social-stock-quote-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
