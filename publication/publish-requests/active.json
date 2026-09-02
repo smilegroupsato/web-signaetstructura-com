@@ -1,8 +1,8 @@
 {
-  "request_id": "ses-prod-20260902-002",
-  "target_sha": "6e6693f87bbacd494e15693e77b0ddedf594835a",
+  "request_id": "ses-prod-20260902-003",
+  "target_sha": "7ead50ae305c7deeec6d124355a065d688f51b34",
   "confirm": "DEPLOY",
-  "approved_at_jst": "2026-09-02 12:59 JST",
+  "approved_at_jst": "2026-09-02 18:15 JST",
   "approved_by": "佐藤",
-  "note": "Publish approved SC Markets Research packages: scmr-20260901-005 Japanese/English tokenized-stock DeFi theme analysis and scmr-20260902-001 Japanese Tomb Fork longform Historical Case Study. Conflict-of-interest review: none. Uses source-driven approved-research renderer and canonical SVG figures."
+  "note": "Publish final-approved scmr-20260902-001 Japanese and English Tomb Fork longform editions. Replace the existing Japanese edition with the polished final source, add the synchronized English edition, retain reused Figure provenance from scmr-20260829-001, and use deterministic research-edition overlay sync. Publication and Compliance final gates: pass. Conflict of interest: none."
 }
