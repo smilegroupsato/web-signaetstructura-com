@@ -1,0 +1,187 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Reading the Tomb Fork Boom in Numbers: From Money Printer to Graveyard | SIGNA ET STRUCTURA</title><meta name="description" content="A reconstruction of 177 depeg episodes across Fantom Tomb forks, separating liquidity, selling, share-token behavior and recovery paths to ask why most depegs recovered while a few did not."><link rel="canonical" href="https://signaetstructura.com/en/research/tomb-fork-boom-money-printer-to-graveyard/"><link rel="alternate" hreflang="en" href="https://signaetstructura.com/en/research/tomb-fork-boom-money-printer-to-graveyard/"><link rel="alternate" hreflang="ja" href="https://signaetstructura.com/ja/research/tomb-fork-boom-money-printer-to-graveyard/"><link rel="stylesheet" href="../../../assets/site.css"><style>.article-body{max-width:790px}.article-body h2{margin-top:2.6rem}.article-body h3{margin-top:2rem}.article-body p{font-size:1.04rem;line-height:1.9}.article-body ul{line-height:1.8}.article-body pre{overflow:auto;padding:1rem;border:1px solid var(--rule);background:var(--paper-soft,#f6f4ef)}.table-wrap{overflow-x:auto;margin:1.5rem 0}table{border-collapse:collapse;width:100%;font-family:var(--sans)}th,td{padding:.65rem;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}.research-figure{margin:2.4rem 0;padding-top:1rem;border-top:1px solid var(--ink)}.research-figure img{width:100%;height:auto;display:block}.research-figure figcaption{font-family:var(--sans);font-size:.78rem;line-height:1.5;color:var(--ink-soft);margin-top:.65rem}blockquote{margin:1.5rem 0;padding:.2rem 0 .2rem 1.2rem;border-left:3px solid var(--ink);font-size:1.05rem}</style></head><body><header class="masthead"><div class="wrap"><a class="brand" href="../../../en/">SIGNA ET STRUCTURA</a><div class="strap">Historical Case Study</div></div></header><nav class="wrap nav"><a href="../">Research</a><a href="../../../en/methods/">Methodology</a><span class="nav-spacer"></span><a href="../../../en/">Home</a><a href="../../../ja/research/tomb-fork-boom-money-printer-to-graveyard/">日本語</a></nav><main><article class="article"><header class="article-head"><div class="eyebrow">Historical Case Study</div><h1>Reading the Tomb Fork Boom in Numbers: From Money Printer to Graveyard</h1><p class="dek">A reconstruction of 177 depeg episodes across Fantom Tomb forks, separating liquidity, selling, share-token behavior and recovery paths to ask why most depegs recovered while a few did not.</p><div class="article-meta"><span>Research as of 2026-09-02</span><span>Published 2026-09-02</span></div></header><section class="article-grid"><div class="article-body"><h2>From Money Printer to Graveyard</h2>
+<h2>1. Starting from the Graveyard</h2>
+<p>In crypto market history, the most revealing moment is sometimes not the invention of a mechanism. It is the moment everyone starts copying it.</p>
+<p>From late 2021 into early 2022, a wave of protocols modeled on Tomb Finance spread across Fantom-centered DeFi markets. Scarab Finance, 2omb Finance, 3omb Finance, Based Finance. The names, peg targets, and reward designs differed, but the market experience had a common shape.</p>
+<p>Deposit the cash token into a liquidity pool. Earn the share token. Stake the share token. If the protocol enters expansion, newly issued cash tokens are distributed. Feed those tokens back into liquidity.</p>
+<p>Tomb Finance did not dress up this loop in cautious language. Its own materials used the phrase &quot;money printer.&quot;</p>
+<p>Of course, no wealth was being created from nothing. New capital, token prices, liquidity, emissions, and participant expectations were reinforcing each other. While that reinforcement held, the loop could look like a printer.</p>
+<p>And once one printer appears to work, the next step is easy to imagine. Someone builds a second one. Then a third, then a fourth.</p>
+<p>The market gradually shifted from investing in Tomb Finance itself to searching for the next Tomb Finance.</p>
+<p>This article digs that short-lived boom out of the graveyard. The goal is not to laugh at old high-APR DeFi. The goal is to reconstruct, as numerically as possible, how Tomb Forks appeared, how much capital they attracted, what prices they printed, how often they broke peg, how often they came back, and what ultimately changed.</p>
+<p>The research combines contemporary official materials and community records with on-chain reconstruction on Fantom. We identified the relevant pair contracts and rescanned historical blocks, Sync events, Mint events, Burn events, and Swap events. The 2OMB/WFTM pair alone produced roughly 600,000 Sync events. Across several Tomb Forks, the resulting picture is very different from a simple all-time-high chart.</p>
+<p>The first result was not intuitive.</p>
+<p><strong>Breaking peg was not rare.</strong></p>
+<p>Using end-of-block prices, we extracted 177 depeg episodes across four major protocols. Of those, 122 episodes, or 68.9%, re-pegged within one hour. Within three hours the rate was 77.4%; within six hours, 84.2%; within twenty-four hours, 92.7%.</p>
+<p>Only three episodes failed to re-peg within the study window.</p>
+<p>The key to understanding the Tomb Fork graveyard was not simply when a peg first broke.</p>
+<p><strong>The key was why some breaks recovered, while a few never recovered within the observed window.</strong></p>
+<p>That is where the story should begin.</p>
+<h2>2. The Ancestry: From Basis to Tomb Finance</h2>
+<p>It is too simple to describe Tomb Finance as merely a fork of Basis Cash.</p>
+<p>Its deeper ancestry lies in the Basis idea: using crypto assets to recreate something like central-bank supply adjustment. Basis Cash was one of the better-known DeFi implementations of that idea. Tomb Finance, however, described itself as a three-token protocol influenced not only by the original Basis concept but also by earlier seigniorage-style implementations such as bDollar and soup.</p>
+<p>The basic structure was cash, share, and bond.</p>
+<p>The cash token tries to maintain a peg to a target asset. The share token resembles a claim on issuance benefits during expansion. The bond token is designed to absorb supply when the cash token trades below peg and to offer exposure to a future recovery.</p>
+<p>In theory, this looks like a small monetary experiment.</p>
+<p>Once placed inside a DeFi market, its meaning changed.</p>
+<p>The share token was not only a claim on future issuance. It became a speculative asset tied to extreme APRs. As demand for the cash token increased, the cash token traded above peg, and emissions continued, holders of the share token received newly issued cash tokens.</p>
+<p>The expectation that this loop would continue pushed the share token higher, and a rising share token attracted more participants.</p>
+<p>Tomb Finance connected this structure to FTM. TOMB targeted a peg to FTM, and the economy formed around TOMB-FTM liquidity, TSHARE, and the Masonry. This mattered because the mechanism was layered on top of Fantom&#x27;s own growth narrative.</p>
+<p>Tomb Finance was not just another algorithmic stablecoin experiment. It became a DeFi machine for participating in the growth story of Fantom.</p>
+<h2>3. Tomb Finance Nearly Died Once</h2>
+<p>One failure in Tomb Finance&#x27;s own history is important for understanding the fork culture that followed.</p>
+<p>Tomb Finance was not smooth from the start. In 2021, it suffered a serious crisis and came close to collapse. It was later revived under a rebuilding effort led by investor Harry Yeh.</p>
+<p>According to the protocol&#x27;s own retrospective, TVL then grew from roughly $2.5 million to a peak of about $1.6 billion over roughly four months. That is around 640x on a simple multiple basis.</p>
+<p>This success gave later forks two stories.</p>
+<p>The first was a success story: this mechanism could become huge.</p>
+<p>The second was a recovery story: even a dangerous peg episode did not necessarily mean death.</p>
+<p>In retrospect, the second story may have mattered more. The on-chain reconstruction in this study also shows that a depeg did not automatically mean a protocol was finished. The hard question was where to draw the line between an ordinary temporary depeg and a failure to recover.</p>
+<p>Market participants at the time did not have that boundary.</p>
+<p>Once Tomb Finance became large, attention could no longer remain confined to the original protocol.</p>
+<h2>4. &quot;I Missed Tomb&quot;</h2>
+<p>Community records from December 2021 suggest that demand for later forks existed before many of those forks appeared.</p>
+<p>The sentiment was simple: I missed Tomb Finance; I want the next Tomb Fork for a short-term degen play.</p>
+<p>That matters. If we only look at developers copying code, we cannot explain why so many forks found demand so quickly. The market itself wanted &quot;the next Tomb.&quot;</p>
+<p>Scarab Finance appeared in December 2021. 2omb Finance and 3omb Finance followed in January 2022. Based Finance followed in February.</p>
+<p>When each new fork appeared, participants were not only comparing technical differences with Tomb Finance. A more urgent question was whether they were still early.</p>
+<p>For participants who believed they had missed the early upside in Tomb Finance, each new fork offered a second entry point.</p>
+<p>By then, the Tomb Finance model was no longer only a financial protocol. It had become a reproducible speculative format.</p>
+<h2>5. 8.7x in 22 Days: 2omb Finance</h2>
+<p>2omb Finance is the clearest example of that second-entry-point market becoming real.</p>
+<p>Contemporary sources indicate that 2omb Finance TVL grew from roughly $9.2 million around 2022-01-17 to roughly $80 million around 2022-02-08. That is about 8.7x in 22 days.</p>
+<p>During the same period, Tomb Finance TVL reportedly fell from roughly $830 million to roughly $496 million.</p>
+<p>It is tempting to write that capital moved directly from Tomb Finance to 2omb Finance. The data does not prove that. Fantom-wide TVL was also rising sharply in January 2022, so the parallel movement cannot be treated as direct wallet-level migration.</p>
+<p>In this article, Figure 17 is therefore used only as evidence of simultaneity: Tomb Finance was shrinking while 2omb Finance was expanding rapidly.</p>
+<p>Even with that limitation, the speed of 2omb Finance&#x27;s growth remains striking.</p>
+<p>The on-chain reconstruction also revealed a second issue: the phrase &quot;roughly $80 million TVL&quot; was not a simple fact.</p>
+<p>Around 2022-02-08 11:00 Japan Standard Time, using the launch-era contract structure, we reconstructed roughly $82.54 million in Pool2 value and roughly $160.55 million in 2SHARE staking value. Combined as participant-locked value, the total was roughly $243.09 million.</p>
+<p>$80 million and $243 million.</p>
+<p>The difference is almost threefold.</p>
+<p>That does not mean one number was simply wrong. It means the word TVL was doing too much work.</p>
+<h2>6. TVL Is Not One Number</h2>
+<p>TVL is one of the most convenient and most dangerous numbers in DeFi history.</p>
+<p>It appears as a single line on a chart, which makes it feel as if &quot;the TVL of this protocol&quot; exists somewhere on-chain as a natural value.</p>
+<p>It does not.</p>
+<p>At least for the Tomb Forks examined here, what counted as TVL depended on the adapter code and classification rules used by the aggregator.</p>
+<p>When we traced the launch-era DefiLlama adapter for 2omb Finance through Git history, Pool2 and staking were treated as separate categories. Later, the same adapter incorporated 3omb Finance&#x27;s Genesis Pool.</p>
+<p>In other words, the label &quot;2omb TVL&quot; could refer to different measurement scopes at different points in time.</p>
+<p>Scarab Finance used a different set of contracts. Based Finance separated Pool2, BSHARE staking, and Treasury. The early 3omb Finance adapter was centered on the Genesis Pool.</p>
+<p>If those differences are ignored, a comparison between protocols can confuse differences in measurement code with differences in economic scale.</p>
+<p>For that reason, this study uses a separate comparison metric: participant-locked value. It includes Pool2, staking, and participant deposits, and it excludes Treasury. It is stored separately from contemporary headline TVL.</p>
+<p>Under that harmonized definition, reconstructed peaks were approximately $243.09 million for 2omb Finance, $92.60 million for Based Finance, $18.45 million for Scarab Finance, and $15.39 million for 3omb Finance.</p>
+<p>The important point is not to call this &quot;true TVL.&quot;</p>
+<p>It is a reconstructed metric with a defined measurement scope.</p>
+<p><strong>TVL is not a natural observation. It is a number produced by a measurement method.</strong></p>
+<p>That basic point becomes surprisingly important when reading past DeFi booms in numbers.</p>
+<h2>7. Was the All-Time High Really the High?</h2>
+<p>Prices carry a similar trap.</p>
+<p>In an AMM, if liquidity is extremely thin, a small trade can print an extreme price. If a charting service records that moment, it may survive as an all-time high.</p>
+<p>When we scanned all Sync events for 3OMB/WFTM, the raw peak was roughly 2,437 FTM. Taken literally, that suggests 3OMB briefly traded above 2,000 FTM.</p>
+<p>But the quote-side liquidity at that moment was only about 99 FTM.</p>
+<p>When we applied a pre-defined liquidity filter, the comparable 3OMB peak fell to roughly 44.44 FTM.</p>
+<p>SCARAB showed the same issue. Its raw peak was roughly 27.54 FTM, but its liquidity-qualified peak was roughly 2.77 FTM.</p>
+<p>The raw all-time high should not be deleted. It was observed on-chain.</p>
+<p>But it should not be placed in the same column as a peak observed in a market with meaningful liquidity.</p>
+<p>Figure 05 separates those two concepts.</p>
+<p>Once that distinction is made, the Tomb Fork Boom changes from a list of absurd price prints into a more precise market history.</p>
+<p>How much liquidity was present? How much premium was sustained under that liquidity? Those questions are more useful than the largest raw tick.</p>
+<h2>8. Does Breaking Peg Mean Death?</h2>
+<p>When we began reconstructing Tomb Fork history, the most natural marker seemed to be the first depeg.</p>
+<p>The full Sync-event history showed that this marker was not very useful.</p>
+<p>2OMB traded below 1 FTM on its launch day. Not just once. It broke below peg, recovered, broke again, and later grew substantially.</p>
+<p>For this study, we therefore collapsed multiple Sync events inside the same block into the final end-of-block state for 2omb Finance, 3omb Finance, Scarab Finance, and Based Finance. A depeg episode begins when the end-of-block price moves from <code>&gt;= 1</code> to <code>&lt; 1</code>. It ends when the end-of-block price first returns to <code>&gt;= 1</code>. This avoids counting every tiny event-level crossing as a separate market state.</p>
+<p>The result was 177 depeg episodes.</p>
+<ul><li>2omb Finance: 9</li><li>3omb Finance: 39</li><li>Scarab Finance: 116</li><li>Based Finance: 13</li></ul>
+<p>Of those, 122 episodes, or 68.9%, re-pegged within one hour. Within three hours, 137 episodes, or 77.4%, had re-pegged. Within six hours, 149 episodes, or 84.2%, had re-pegged. Within twenty-four hours, 164 episodes, or 92.7%, had re-pegged.</p>
+<p>Only three episodes failed to re-peg within the study window: one each in 2omb Finance, 3omb Finance, and Scarab Finance. Based Finance had none.</p>
+<p><strong>In Tomb Fork markets, breaking peg was common. Failing to recover was rare.</strong></p>
+<p>The first-depeg-as-death-signal hypothesis was not supported.</p>
+<h2>9. The Same Depeg Did Not Die the Same Way</h2>
+<p>If depeg itself was not a death signal, the next question is what happened after depeg.</p>
+<p>This study compared LP withdrawal, cash-token selling, share-token price movement, and unrecovered duration after depeg.</p>
+<p>The key methodological point is that the 177 episodes cannot be treated as 177 independent observations. A short-lived depeg can be followed almost immediately by another depeg. If we mechanically attach a fixed observation window to each episode, we may attribute a later collapse to an episode that had already recovered.</p>
+<p>To avoid that pseudo-repetition, each decision point keeps only episodes that had not yet re-pegged. We call that set the risk set.</p>
+<p>With this correction, the sample shrinks quickly.</p>
+<ul><li>Still unrecovered after one hour: 55 episodes</li><li>Still unrecovered after three hours: 40 episodes</li><li>Still unrecovered after six hours: 28 episodes</li></ul>
+<p>When restricted to mature markets with sufficient liquidity, only three episodes remain in the six-hour risk set.</p>
+<p>That shrinkage is itself part of the result. Most depegs were absorbed quickly. Only a small subset persisted.</p>
+<p>Did persistent depegs fail in the same way?</p>
+<p>They did not.</p>
+<p>In 2omb Finance and 3omb Finance, LP withdrawals and cash-token selling appeared to intensify over time during terminal episodes. In Scarab Finance, the same indicators did not perform in the same way. Based Finance recovered despite a major decline in its share token.</p>
+<p>Even among Tomb Forks, the failure paths differed.</p>
+<h2>10. Separating LP Exit from Token Selling</h2>
+<p>A single stress number hides too much.</p>
+<p>Was liquidity leaving? Was the cash token being sold? Were both happening? Or was this only a temporary price move?</p>
+<p>We therefore separated Mint, Burn, and Swap events. Mint and Burn events were used to infer LP additions and withdrawals. Swap events were used to infer cash-token buying and selling.</p>
+<p>In the collapse windows for 2omb Finance and 3omb Finance, LP withdrawals and cash-token selling occurred together. This was not merely a price decline. Liquidity was shrinking while sell pressure remained.</p>
+<p>But the data does not prove that selling caused LP withdrawal, or that LP withdrawal caused selling. What the on-chain record shows is that both were observed in the same period, and that in some protocols the combined stress intensified over time.</p>
+<p>Proving causality would require wallet-level behavior, LP holder migration, external news, operator intervention, and other context.</p>
+<p>This article therefore limits the claim to observed simultaneity and sequence.</p>
+<p>Even with that limit, the decomposition matters. TVL alone mixes liquidity withdrawal, price decline, and changes in measurement scope. AMM event decomposition lets us read liquidity contraction and sell pressure separately.</p>
+<h2>11. Could Collapse Have Been Predicted? The Simple Hypotheses Broke</h2>
+<p>At this point, the natural question is whether collapse was predictable.</p>
+<p>We tested several simple hypotheses. Did a decline in the share token lead sustained depeg in the cash token? Did combined stress from LP exit and cash-token selling predict terminal depeg?</p>
+<p>Here, terminal means &quot;did not re-peg within the study window.&quot; It does not mean permanent protocol death.</p>
+<p>At first, one candidate rule looked promising. The rule required an episode to remain unrecovered after six hours, to show increasing combined stress from one hour to three hours to six hours, and to still show net LP withdrawal and net cash-token selling at six hours. That rule captured the terminal cases in 2omb Finance and 3omb Finance.</p>
+<p>Applied to the expanded 177-episode set, however, it was weak as a death predictor.</p>
+<p>The six-hour risk set contained 28 episodes. Eight were candidate positives. Against the terminal label, the result was 2 true positives, 6 false positives, 19 true negatives, and 1 false negative. Precision was 25.0%, recall was 66.7%, and specificity was 76.0%.</p>
+<p>That is not good enough as a death predictor.</p>
+<p>The shape of the failure is more important than the score itself. The rule captured the terminal episodes in 2omb Finance and 3omb Finance, but all six false positives were Scarab Finance episodes. The single Scarab Finance terminal episode was the false negative.</p>
+<p>The &quot;stress intensifies over time&quot; failure path visible in 2omb Finance and 3omb Finance did not transfer cleanly to Scarab Finance.</p>
+<p>The rule was not useless, however. If the target variable is changed from terminal depeg to &quot;failed to re-peg within twenty-four hours,&quot; the result becomes 6 true positives, 2 false positives, 13 true negatives, and 7 false negatives. Precision rises to 75.0%, and specificity to 86.7%.</p>
+<p>The six-hour stress trajectory is therefore better read as a high-precision auxiliary signal for prolonged stress, not as a direct predictor of death.</p>
+<p>The research conclusion is not that we found the predictor.</p>
+<p>It is that several simple predictors were clearly broken.</p>
+<h2>12. Measuring Recovery Capacity</h2>
+<p>If a single death signal does not work, what should we measure?</p>
+<p>The strongest fact in the 177-episode distribution is that most depegs recovered. 68.9% re-pegged within one hour, 84.2% within six hours, and 92.7% within twenty-four hours.</p>
+<p>The task is not to classify every episode as safe or fatal in one step. It is to observe how the market state changes.</p>
+<p>At minimum, this study suggests the following state model:</p>
+<p><code>NORMAL -&gt; STRESS -&gt; unrecovered persistence -&gt; protocol-specific deterioration / recovery</code></p>
+<p>We initially expected to see clear recovery attempts: LP additions and cash-token buying reversing the earlier stress. The Replay challenged that expectation too.</p>
+<p>Among the 174 episodes that re-pegged within the study window, recovery times were widely distributed.</p>
+<ul><li>Within one hour: 122 episodes, median roughly 0.095 hours, or 5.7 minutes</li><li>One to three hours: 15 episodes, median roughly 1.70 hours</li><li>Three to six hours: 12 episodes, median roughly 3.99 hours</li><li>Six to twenty-four hours: 15 episodes, median roughly 8.28 hours</li><li>More than twenty-four hours: 10 episodes, median roughly 48.24 hours</li></ul>
+<p>Ten episodes recovered only after more than twenty-four hours. &quot;No re-peg within twenty-four hours&quot; is therefore not equivalent to death.</p>
+<p>Nor did recovery always show a clean reversal in flows. Defining cumulative absorption as LP additions plus cash-token buying, the median absorption for episodes that recovered after more than twenty-four hours was roughly -9.31%. In many cases, cumulative flow was still stress-directional at the moment of re-peg.</p>
+<p>The six false positives from the six-hour deterioration candidate were all Scarab Finance episodes. Their median recovery time was roughly 31.96 hours. Only two had positive net absorption from six hours after depeg to the re-peg point, and the median was roughly -1.90%.</p>
+<p>In other words, the rule that &quot;recovery must be preceded by clear LP inflow and buyback&quot; was not supported.</p>
+<p>AMM price is set by reserve ratios at a given moment. Cumulative flow is only part of the story. Liquidity size, price elasticity, bond and treasury design, external intervention, and participant composition can all affect recovery.</p>
+<p>The fact that Scarab Finance produced different false positives and false negatives from 2omb Finance and 3omb Finance strongly suggests protocol-specific behavior.</p>
+<p>If we want a recovery signal, we should not rely on one threshold across all Tomb Forks. We need to separate a common observation layer from protocol-specific models.</p>
+<p>The common layer should measure unrecovered duration, net LP withdrawal, net cash-token selling, stress trajectory, share-token movement, and liquidity size.</p>
+<p>Protocol-specific models should then add peg mechanisms, Treasury behavior, Bond design, external intervention, and the structure of major LP holders.</p>
+<p>The 177-episode Replay did not teach us whether the right threshold is six hours or twenty-four hours.</p>
+<p><strong>It taught us that the mechanisms of recovery and failure differ by protocol, even when the depeg looks similar.</strong></p>
+<h2>13. What the Tomb Fork Graveyard Teaches</h2>
+<p>The Tomb Fork Boom can be compressed into one story.</p>
+<p>A successful protocol creates a narrative.</p>
+<p>The narrative is copied.</p>
+<p>Capital that wants to be early moves toward the copy.</p>
+<p>High APRs and rising share tokens increase demand for the cash token and deepen liquidity.</p>
+<p>Liquidity and price appreciation make the APR and the narrative look stronger.</p>
+<p>While that reflexive loop continues, participants see a money printer.</p>
+<p>When the loop weakens, the same design runs in reverse. Expectations for the share token fade. The cash token is sold. LPs withdraw. Selling and withdrawal reduce reserves, worsen price elasticity, and reinforce fear.</p>
+<p>The important finding of this study is that even this final stage was not uniform.</p>
+<p>2omb Finance, 3omb Finance, and Scarab Finance all experienced terminal depeg episodes. But liquidity exited differently, stress trajectories differed, and share-token behavior differed. Based Finance recovered despite a severe share-token decline.</p>
+<p>There is no single template for how a Tomb Fork dies.</p>
+<p>What this market showed instead is that <strong>markets with similar mechanisms, similar narratives, and similar speculators can still have different failure modes</strong>.</p>
+<p>This is not only a story about Fantom in 2022.</p>
+<p>Meme coins, new L1s and L2s, restaking, yield-bearing tokens, and social-media-driven small-cap crypto assets repeatedly produce similar patterns. A successful format appears, copies flood the market, and participants who missed the original search for a second entry point.</p>
+<p>When that happens, the relevant questions are not just the name or the APR.</p>
+<p>What exactly is TVL measuring?</p>
+<p>How much liquidity stood behind the all-time high?</p>
+<p>During stress, who sold, who removed liquidity, and who stayed?</p>
+<p>And where do seemingly similar protocols actually differ?</p>
+<p>The Tomb Fork graveyard is not just a list of failed projects.</p>
+<p>It is a preserved set of specimens showing how imitation, capital inflow, and reflexivity can inflate markets quickly and break them through different paths.</p>
+<p>The money printer was never really printing money.</p>
+<p>It was a machine that worked only while expectations and liquidity amplified each other.</p>
+<p>That becomes clearest after the printer stops.</p>
+<h2>Evidence / Method</h2>
+<p>This article separates contemporary official materials, community records, public TVL references, and on-chain reconstruction on Fantom. Figure 17 uses a historical snapshot explicitly reported in a source published on 2022-02-11. It treats that value as <code>reported</code> and does not interpolate a continuous series from the current DefiLlama API. Figures 18-20 are reconstructed from Fantom historical state and events. The on-chain reconstruction uses Sync, Mint, Burn, and Swap events from major AMM pairs, historical <code>getReserves</code>, and block timestamps. Multiple Sync events inside the same block are collapsed into the final end-of-block state.</p>
+<p>For the 177 depeg episodes, only episodes that remained unrecovered at each decision point were kept in the risk set. Future re-peg outcomes were used only as evaluation labels. This avoids pseudo-repetition from assigning overlapping fixed-length future windows to closely spaced episodes.</p>
+<h2>Limitations / Falsification</h2>
+<p>In this study, terminal means &quot;did not re-peg within the study window.&quot; It does not mean permanent protocol death. The 177 episodes are clustered within protocols and are not 177 independent and identically distributed observations. Only three episodes are terminal, which is not enough to learn a statistically stable death predictor.</p>
+<p>TVL and participant-locked value depend on measurement definitions. The study confirms simultaneity between Tomb Finance contraction and fork growth, but it does not prove direct wallet-level capital migration.</p>
+<p>The study did not optimize thresholds after seeing outcomes for share-token movement, stress, LP exit, or cash-token selling. Hypotheses that failed are left in the article rather than removed.</p>
+<h2>Disclosure</h2>
+<p>This article is a historical case study and does not recommend buying or selling any crypto asset. The author and publisher have no disclosable conflict of interest relating to the subjects of this article.</p><section class="figure-gallery"><h2>Figures</h2><figure class="research-figure"><img src="../../../assets/research/scmr-20260902-001/scmr-20260829-001-fig05.svg" alt="Tomb Fork price peaks and participant-locked value"><figcaption><strong>Tomb Fork price peaks and participant-locked value</strong> · 2022-04-01</figcaption></figure><figure class="research-figure"><img src="../../../assets/research/scmr-20260902-001/scmr-20260829-001-fig15.svg" alt="Failure to recover matters more than the initial depeg"><figcaption><strong>Failure to recover matters more than the initial depeg</strong> · 2022-04-01</figcaption></figure><figure class="research-figure"><img src="../../../assets/research/scmr-20260902-001/scmr-20260829-001-fig17.svg" alt="Tomb Finance contraction and 2omb Finance growth occurred in parallel"><figcaption><strong>Tomb Finance contraction and 2omb Finance growth occurred in parallel</strong> · 2022-02-08</figcaption></figure><figure class="research-figure"><img src="../../../assets/research/scmr-20260902-001/scmr-20260829-001-fig18.svg" alt="2OMB/WFTM reserves and liquidity"><figcaption><strong>2OMB/WFTM reserves and liquidity</strong> · 2022-04-01</figcaption></figure><figure class="research-figure"><img src="../../../assets/research/scmr-20260902-001/scmr-20260829-001-fig19.svg" alt="2SHARE price and 2OMB peg stress"><figcaption><strong>2SHARE price and 2OMB peg stress</strong> · 2022-03-03</figcaption></figure><figure class="research-figure"><img src="../../../assets/research/scmr-20260902-001/scmr-20260829-001-fig20.svg" alt="Tomb Fork build-up and liquidity-collapse speed"><figcaption><strong>Tomb Fork build-up and liquidity-collapse speed</strong> · 2022-04-01</figcaption></figure></section></div></section></article></main><footer class="site-footer"><div class="wrap"><p class="meta">SIGNA ET STRUCTURA · Smile Company LLC</p></div></footer></body></html>

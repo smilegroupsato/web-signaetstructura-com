@@ -1,6 +1,6 @@
 {
   "schema_version": "public-publication-registry-v0.1",
-  "updated_at_jst": "2026-09-02 14:45 JST",
+  "updated_at_jst": "2026-09-02 18:08 JST",
   "publications": [
     {
       "publication_id": "scmr-20260831-001",
@@ -293,8 +293,8 @@
       "language": "ja",
       "edition": "japanese",
       "slug": "tomb-fork-boom-money-printer-to-graveyard",
-      "title": "数字で読むTomb Fork Boom――「Money Printer」が墓場になるまで",
-      "summary": "177回のdepeg episodeとFantom上のLP・Swap・Shareデータを再構築し、Tomb Forkが急成長し、何度もペグを割って戻り、最後に戻れなくなった過程を数字で読む。",
+      "title": "数字で読むTombフォーク・ブーム――「マネー・プリンター」が墓場になるまで",
+      "summary": "177件のペグ割れエピソードとFantom上の流動性・売買・シェアトークンの履歴を再構築し、Tombフォークが急成長し、何度もペグを割って戻り、最後に戻れなくなる過程を数字で読む。",
       "content_type": "historical_case_study",
       "content_type_label": "過去事例研究",
       "themes": [
@@ -303,7 +303,7 @@
         "liquidity"
       ],
       "published_at": "2026-09-02T12:59:00+09:00",
-      "updated_at": "2026-09-02T12:59:00+09:00",
+      "updated_at": "2026-09-02T18:08:00+09:00",
       "as_of": "2026-09-02",
       "status": "published",
       "article_path": "site/ja/research/tomb-fork-boom-money-printer-to-graveyard/index.html",
@@ -378,6 +378,70 @@
       },
       "source_observation_id": "obs-base-tsy-20260902-144429-aerodrome-nvdac-rebound",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260902-1828-o1-bluechip-nvdac-stock-paired-market",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "o1-bluechip-nvdac-stock-paired-market-base",
+      "title": "NVDAc Emerges as a Quote Asset for a Meme Token Market on Base",
+      "summary": "A Uniswap V4 market on Base pairs BLUECHIP directly with NVDAc, Coinbase's tokenized NVIDIA stock. BLUECHIP's official site identifies the BLUECHIP/NVDAc pair on o1 Launchpad, while a nearby GeckoTerminal snapshot showed roughly $476,000 in liquidity and about $1.0 million in 24-hour volume. The structure shows a tokenized equity being used not merely as a stock-linked asset or USDC LP component, but as the quote asset for another speculative token.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-02T18:28:52+09:00",
+      "updated_at": "2026-09-02T18:28:52+09:00",
+      "as_of": "2026-09-02T18:28:52+09:00",
+      "status": "published",
+      "article_path": "site/en/research/o1-bluechip-nvdac-stock-paired-market-base/index.html",
+      "url": "https://signaetstructura.com/en/research/o1-bluechip-nvdac-stock-paired-market-base/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260902-182852-o1-bluechip-nvdac-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "scmr-20260902-001",
+      "language": "en",
+      "edition": "english",
+      "slug": "tomb-fork-boom-money-printer-to-graveyard",
+      "title": "Reading the Tomb Fork Boom in Numbers: From Money Printer to Graveyard",
+      "summary": "A reconstruction of 177 depeg episodes across Fantom Tomb forks, separating liquidity, selling, share-token behavior and recovery paths to ask why most depegs recovered while a few did not.",
+      "content_type": "historical_case_study",
+      "content_type_label": "Historical Case Study",
+      "themes": [
+        "historical-markets",
+        "defi",
+        "liquidity"
+      ],
+      "published_at": "2026-09-02T18:08:00+09:00",
+      "updated_at": "2026-09-02T18:08:00+09:00",
+      "as_of": "2026-09-02",
+      "status": "published",
+      "article_path": "site/en/research/tomb-fork-boom-money-printer-to-graveyard/index.html",
+      "url": "https://signaetstructura.com/en/research/tomb-fork-boom-money-printer-to-graveyard/",
+      "hero_figure": "scmr-20260829-001-fig15",
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 120,
+        "lead_candidate": true
+      },
+      "source_markdown": "publishing/research-sources/en/tomb-fork-boom-money-printer-to-graveyard.md",
+      "figure_gallery": [
+        "scmr-20260829-001-fig05",
+        "scmr-20260829-001-fig15",
+        "scmr-20260829-001-fig17",
+        "scmr-20260829-001-fig18",
+        "scmr-20260829-001-fig19",
+        "scmr-20260829-001-fig20"
+      ]
     }
   ]
 }
