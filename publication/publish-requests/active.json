@@ -1,8 +1,8 @@
 {
-  "request_id": "ses-prod-20260902-001",
-  "target_sha": "efcc824ed14bd3203406b6aa8168643edf004a1a",
+  "request_id": "ses-prod-20260902-002",
+  "target_sha": "6e6693f87bbacd494e15693e77b0ddedf594835a",
   "confirm": "DEPLOY",
-  "approved_at_jst": "2026-09-02 08:17 JST",
+  "approved_at_jst": "2026-09-02 12:59 JST",
   "approved_by": "佐藤",
-  "note": "Publish Market Watch infrastructure and shadow automatic-publication intake. Adds reader-facing Market Watch series for DeFi, abnormal flow, X/SNS, Meme, new DEX/pairs and Base tokenized-stock yield, plus fail-closed receiver/validator. All production_auto_publish flags remain false; this release does not enable unattended production article posting."
+  "note": "Publish approved SC Markets Research packages: scmr-20260901-005 Japanese/English tokenized-stock DeFi theme analysis and scmr-20260902-001 Japanese Tomb Fork longform Historical Case Study. Conflict-of-interest review: none. Uses source-driven approved-research renderer and canonical SVG figures."
 }
