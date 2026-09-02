@@ -712,6 +712,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260903-013708-long-social-stock-quote-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260903-0245-rawr-googlc-stock-quoted-meme-market",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "rawr-googlc-stock-quoted-meme-market-base",
+      "title": "BaseでGOOGLc建てmeme市場が実流動性を伴って拡大",
+      "summary": "Base上のUniswap V4で、meme token RAWRがCoinbaseのtokenized Alphabet stockであるGOOGLcをquote assetとして使う市場が稼働している。RAWR公式はGOOGLc建てを市場設計の中核として明示しており、取得時の外部集計では主力RAWR/GOOGLc市場に約14万ドル規模の流動性と40万〜60万ドル台の24時間出来高が表示された。先に観測されたNVDAc建て市場とは別の株式tokenがquote assetとして使われており、tokenized stockの用途が保有・USDC建てLP・carryだけでなく、crypto-nativeな投機市場の価格基準へ広がっている。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-03T02:45:01+09:00",
+      "updated_at": "2026-09-03T02:45:01+09:00",
+      "as_of": "2026-09-03T02:45:01+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/rawr-googlc-stock-quoted-meme-market-base/index.html",
+      "url": "https://signaetstructura.com/ja/research/rawr-googlc-stock-quoted-meme-market-base/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260903-024501-rawr-googlc-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
