@@ -31,7 +31,7 @@ jobs:
             --shadow \
             --now 2026-09-01T23:55:00+09:00
       - name: Build registry-driven preview
-        run: python3 scripts/build_publication_site.py --preview
+        run: bash scripts/build_site.sh --preview
       - name: Validate required site files
         shell: bash
         run: |
@@ -47,8 +47,13 @@ jobs:
           test -f site/ja/series/base-tokenized-stock-yield-watch/index.html
           test -f site/en/series/base-tokenized-stock-yield-watch/index.html
           test -f site/ja/research/fixture-base-vault-observation/index.html
+          test -f site/ja/research/tokenized-stocks-become-defi-primitives/index.html
+          test -f site/en/research/tokenized-stocks-become-defi-primitives/index.html
+          test -f site/ja/research/tomb-fork-boom-money-printer-to-graveyard/index.html
           test -f publication/auto-receipts/mw-fixture-base-001.json
           grep -F 'noindex,nofollow' site/ja/research/fixture-base-vault-observation/index.html >/dev/null
+          grep -F 'noindex,nofollow' site/ja/research/tokenized-stocks-become-defi-primitives/index.html >/dev/null
+          grep -F 'noindex,nofollow' site/ja/research/tomb-fork-boom-money-printer-to-graveyard/index.html >/dev/null
           test -f site/assets/site.css
           test -f site/assets/tokens.css
           test -f site/robots.txt
