@@ -820,6 +820,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260903-004232-stockify-dividend-loop-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260902-1733-aerodrome-tokenized-stock-reward-reexpansion",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-tokenized-stock-reward-reexpansion-aaplc-metac-googlc",
+      "title": "Aerodromeのtokenized stock LPでAAPLc・METAc・GOOGLcの報酬利回りが再拡大",
+      "summary": "Base上のAerodrome Slipstreamで、tokenized stock/USDCプールの表示利回りが再び拡大している。AAPLcの個別pool表示は375.31%（base 64.96% + AERO reward 310.35%）、TVL約116万ドル。DefiLlamaのRWA集約ではMETAcが657.17%（base 73.96% + reward 583.20%）、TVL約94.6万ドル、GOOGLcが349.84%（base 48.81% + reward 301.03%）、TVL約132万ドルと表示された。前回観測と比べ、TVLが大きく崩れていない一方でreward側が再び拡大している。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-02T17:33:26+09:00",
+      "updated_at": "2026-09-02T17:33:26+09:00",
+      "as_of": "2026-09-02T17:33:26+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/aerodrome-tokenized-stock-reward-reexpansion-aaplc-metac-googlc/index.html",
+      "url": "https://signaetstructura.com/ja/research/aerodrome-tokenized-stock-reward-reexpansion-aaplc-metac-googlc/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260902-173326-aerodrome-reward-reexpansion",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }

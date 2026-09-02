@@ -2,11 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260902-1733-aerodrome-tokenized-stock-reward-reexpansion",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-base-tsy-20260902-173326-aerodrome-reward-reexpansion-en",
+  "source_observation_id": "obs-base-tsy-20260902-173326-aerodrome-reward-reexpansion",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "45fb62565c00fa2ab876ebaefbe58d53918b854b",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.02_06_base-tokenized-stock-yield-watch_aerodrome-reward-reexpansion_en.json",
+  "source_sha": "2510f7e49fe487c35071c3ea16d62211a16a13f5",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.02_06_base-tokenized-stock-yield-watch_aerodrome-reward-reexpansion.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
-  "production_url": "https://signaetstructura.com/en/research/aerodrome-tokenized-stock-reward-reexpansion-aaplc-metac-googlc/"
+  "stale_backfill": true,
+  "production_url": "https://signaetstructura.com/ja/research/aerodrome-tokenized-stock-reward-reexpansion-aaplc-metac-googlc/"
 }
