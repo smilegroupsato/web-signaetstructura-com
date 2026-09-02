@@ -847,6 +847,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260902-173326-aerodrome-reward-reexpansion",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260903-0137-long-social-keys-stock-quoted-market",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "long-social-keys-stock-quoted-market-base",
+      "title": "LONG Uses Tokenized Stocks as Quote and Fee-Settlement Assets for Creator Key Markets on Base",
+      "summary": "LONG on Base lets Creator Keys tied to verified identities trade against tokenized stocks as quote assets. Its docs list 13 B20 stock tokens, including AAPLc, NVDAc and SPCXc. GeckoTerminal showed a kGOLONGFUN/NVDAc Uniswap v4 pool with about $17,009 liquidity and $654 of 24-hour volume, extending tokenized stocks into creator-market pricing and fee settlement.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-03T01:37:08+09:00",
+      "updated_at": "2026-09-03T01:37:08+09:00",
+      "as_of": "2026-09-03T01:37:08+09:00",
+      "status": "published",
+      "article_path": "site/en/research/long-social-keys-stock-quoted-market-base/index.html",
+      "url": "https://signaetstructura.com/en/research/long-social-keys-stock-quoted-market-base/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260903-013708-long-social-stock-quote-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
