@@ -1,0 +1,12 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260902-0926-beefy-googlc-apy",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "base-stock-vault-watch-beefy-googlc-20260902-0926",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "f3d82a814e590388a8102d6d423f512108e3af8e",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.02_01_beefy_googlc_apy_watch_shadow.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "production_url": "https://signaetstructura.com/ja/research/beefy-googlc-apy-47-percent/"
+}
