@@ -46,6 +46,7 @@ jobs:
           git merge-base --is-ancestor "$TARGET_SHA" origin/main
           git show "$TARGET_SHA:publishing/publications.json" >/dev/null
           git show "$TARGET_SHA:scripts/build_publication_site.py" >/dev/null
+          git show "$TARGET_SHA:scripts/render_research_sources.py" >/dev/null
           echo "target_sha=$TARGET_SHA" >> "$GITHUB_OUTPUT"
       - name: Checkout approved target SHA
         uses: actions/checkout@v4
@@ -53,7 +54,7 @@ jobs:
           ref: ${{ steps.request.outputs.target_sha }}
           fetch-depth: 0
       - name: Build exact approved production site
-        run: python3 scripts/build_publication_site.py
+        run: bash scripts/build_site.sh
       - name: Validate approved production bundle
         shell: bash
         run: |
@@ -65,6 +66,9 @@ jobs:
           test -f site/en/feed.xml
           test -f site/feed.xml
           test -f site/sitemap.xml
+          test -f site/ja/research/tokenized-stocks-become-defi-primitives/index.html
+          test -f site/en/research/tokenized-stocks-become-defi-primitives/index.html
+          test -f site/ja/research/tomb-fork-boom-money-printer-to-graveyard/index.html
           test -f site/assets/site.css
           test -f site/assets/tokens.css
           ! grep -RIn 'noindex,nofollow' site/ja/index.html site/en/index.html site/ja/research/index.html site/en/research/index.html
@@ -81,7 +85,7 @@ jobs:
             printf 'approved_by=%s\n' "$APPROVED_BY"
             printf 'approved_at_jst=%s\n' "$APPROVED_AT_JST"
             printf 'triggering_main_sha=%s\n' "${GITHUB_SHA}"
-            printf 'builder=%s\n' 'scripts/build_publication_site.py'
+            printf 'builder=%s\n' 'scripts/build_site.sh'
             printf 'server_dir=%s\n' 'signaetstructura.com/'
           } > deploy-meta/deploy.txt
       - name: Upload deployment manifest

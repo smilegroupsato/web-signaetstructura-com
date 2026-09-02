@@ -53,7 +53,7 @@ jobs:
             --source-sha '${{ github.event.client_payload.source_sha }}' \
             --source-path '${{ github.event.client_payload.source_path }}' \
             --shadow
-          python3 scripts/build_publication_site.py --preview
+          bash scripts/build_site.sh --preview
       - name: Validate shadow site
         shell: bash
         run: |
@@ -99,7 +99,7 @@ jobs:
             --source-repo '${{ github.event.client_payload.source_repo }}' \
             --source-sha '${{ github.event.client_payload.source_sha }}' \
             --source-path '${{ github.event.client_payload.source_path }}'
-          python3 scripts/build_publication_site.py
+          bash scripts/build_site.sh
       - name: Commit public registry, article and receipt
         shell: bash
         run: |
@@ -114,7 +114,7 @@ jobs:
           echo "WEB_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
           echo "PUB_ID=$PUB_ID" >> "$GITHUB_ENV"
       - name: Build exact committed production site
-        run: python3 scripts/build_publication_site.py
+        run: bash scripts/build_site.sh
       - name: Create automatic deployment manifest
         shell: bash
         run: |

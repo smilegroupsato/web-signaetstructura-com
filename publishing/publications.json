@@ -1,234 +1,39 @@
 {
   "schema_version": "public-publication-registry-v0.1",
-  "updated_at_jst": "2026-09-02 12:31 JST",
+  "updated_at_jst": "2026-09-02 12:59 JST",
   "publications": [
     {
-      "publication_id": "scmr-20260831-001",
-      "language": "ja",
-      "edition": "japanese",
-      "slug": "robinhood-chain-capital-parking",
-      "title": "Robinhood ChainのTVL急増は、ユーザー増ではなく「資本の滞留」なのか",
-      "summary": "資本流入と利用者増加の時間差を、TVL、ステーブルコイン、Morpho、アクティブアドレスから検証する。",
-      "content_type": "theme_analysis",
-      "content_type_label": "テーマ分析",
-      "themes": [
-        "market-structure",
-        "stablecoins",
-        "defi"
-      ],
-      "published_at": "2026-09-01T12:26:00+09:00",
-      "updated_at": "2026-09-01T12:26:00+09:00",
-      "as_of": "2026-08-31",
-      "status": "published",
-      "article_path": "site/ja/research/robinhood-chain-capital-parking/index.html",
-      "url": "https://signaetstructura.com/ja/research/robinhood-chain-capital-parking/",
-      "hero_figure": "scmr-20260831-001-fig01",
-      "related_publications": [
-        "scmr-20260831-002"
-      ],
-      "homepage": {
-        "eligible": true,
-        "priority": 100,
-        "lead_candidate": true
-      }
+      "publication_id":"scmr-20260831-001","language":"ja","edition":"japanese","slug":"robinhood-chain-capital-parking","title":"Robinhood ChainのTVL急増は、ユーザー増ではなく「資本の滞留」なのか","summary":"資本流入と利用者増加の時間差を、TVL、ステーブルコイン、Morpho、アクティブアドレスから検証する。","content_type":"theme_analysis","content_type_label":"テーマ分析","themes":["market-structure","stablecoins","defi"],"published_at":"2026-09-01T12:26:00+09:00","updated_at":"2026-09-01T12:26:00+09:00","as_of":"2026-08-31","status":"published","article_path":"site/ja/research/robinhood-chain-capital-parking/index.html","url":"https://signaetstructura.com/ja/research/robinhood-chain-capital-parking/","hero_figure":"scmr-20260831-001-fig01","related_publications":["scmr-20260831-002"],"homepage":{"eligible":true,"priority":100,"lead_candidate":true}
     },
     {
-      "publication_id": "scmr-20260831-001",
-      "language": "en",
-      "edition": "english",
-      "slug": "robinhood-chain-capital-parking",
-      "title": "Is Robinhood Chain’s TVL Surge Really User Growth—or Capital Arriving First?",
-      "summary": "Examining the timing gap between capital formation and user growth through TVL, stablecoins, Morpho and active-address data.",
-      "content_type": "theme_analysis",
-      "content_type_label": "Theme Analysis",
-      "themes": [
-        "market-structure",
-        "stablecoins",
-        "defi"
-      ],
-      "published_at": "2026-09-01T13:23:00+09:00",
-      "updated_at": "2026-09-01T13:23:00+09:00",
-      "as_of": "2026-08-31",
-      "status": "published",
-      "article_path": "site/en/research/robinhood-chain-capital-parking/index.html",
-      "url": "https://signaetstructura.com/en/research/robinhood-chain-capital-parking/",
-      "hero_figure": "scmr-20260831-001-fig01",
-      "related_publications": [
-        "scmr-20260831-002"
-      ],
-      "homepage": {
-        "eligible": true,
-        "priority": 100,
-        "lead_candidate": true
-      }
+      "publication_id":"scmr-20260831-001","language":"en","edition":"english","slug":"robinhood-chain-capital-parking","title":"Is Robinhood Chain’s TVL Surge Really User Growth—or Capital Arriving First?","summary":"Examining the timing gap between capital formation and user growth through TVL, stablecoins, Morpho and active-address data.","content_type":"theme_analysis","content_type_label":"Theme Analysis","themes":["market-structure","stablecoins","defi"],"published_at":"2026-09-01T13:23:00+09:00","updated_at":"2026-09-01T13:23:00+09:00","as_of":"2026-08-31","status":"published","article_path":"site/en/research/robinhood-chain-capital-parking/index.html","url":"https://signaetstructura.com/en/research/robinhood-chain-capital-parking/","hero_figure":"scmr-20260831-001-fig01","related_publications":["scmr-20260831-002"],"homepage":{"eligible":true,"priority":100,"lead_candidate":true}
     },
     {
-      "publication_id": "scmr-20260831-002",
-      "language": "ja",
-      "edition": "japanese",
-      "slug": "twofold-same-dollars-two-jobs",
-      "title": "同じドルを二度働かせるDeFi――TwofoldとDualPool型資本再利用",
-      "summary": "貸出とLPを時間で切り替える資本再利用構造と、未確認の実績、監査上のリスクを分けて読む。",
-      "content_type": "theme_analysis",
-      "content_type_label": "テーマ分析",
-      "themes": [
-        "defi",
-        "market-structure",
-        "stablecoins"
-      ],
-      "published_at": "2026-09-01T12:26:00+09:00",
-      "updated_at": "2026-09-01T12:26:00+09:00",
-      "as_of": "2026-08-31",
-      "status": "published",
-      "article_path": "site/ja/research/twofold-same-dollars-two-jobs/index.html",
-      "url": "https://signaetstructura.com/ja/research/twofold-same-dollars-two-jobs/",
-      "hero_figure": "scmr-20260831-002-fig01",
-      "related_publications": [
-        "scmr-20260831-001"
-      ],
-      "homepage": {
-        "eligible": true,
-        "priority": 80,
-        "lead_candidate": false
-      }
+      "publication_id":"scmr-20260831-002","language":"ja","edition":"japanese","slug":"twofold-same-dollars-two-jobs","title":"同じドルを二度働かせるDeFi――TwofoldとDualPool型資本再利用","summary":"貸出とLPを時間で切り替える資本再利用構造と、未確認の実績、監査上のリスクを分けて読む。","content_type":"theme_analysis","content_type_label":"テーマ分析","themes":["defi","market-structure","stablecoins"],"published_at":"2026-09-01T12:26:00+09:00","updated_at":"2026-09-01T12:26:00+09:00","as_of":"2026-08-31","status":"published","article_path":"site/ja/research/twofold-same-dollars-two-jobs/index.html","url":"https://signaetstructura.com/ja/research/twofold-same-dollars-two-jobs/","hero_figure":"scmr-20260831-002-fig01","related_publications":["scmr-20260831-001"],"homepage":{"eligible":true,"priority":80,"lead_candidate":false}
     },
     {
-      "publication_id": "scmr-20260831-002",
-      "language": "en",
-      "edition": "english",
-      "slug": "twofold-same-dollars-two-jobs",
-      "title": "Making the Same Dollar Work Twice: Twofold and the Rise of Capital-Reuse DeFi",
-      "summary": "Reading DualPool as an early-stage capital-reuse primitive while separating deployment evidence from still-unverified TVL, fee and harvest claims.",
-      "content_type": "theme_analysis",
-      "content_type_label": "Theme Analysis",
-      "themes": [
-        "defi",
-        "market-structure",
-        "stablecoins"
-      ],
-      "published_at": "2026-09-01T13:23:00+09:00",
-      "updated_at": "2026-09-01T13:23:00+09:00",
-      "as_of": "2026-08-31",
-      "status": "published",
-      "article_path": "site/en/research/twofold-same-dollars-two-jobs/index.html",
-      "url": "https://signaetstructura.com/en/research/twofold-same-dollars-two-jobs/",
-      "hero_figure": "scmr-20260831-002-fig01",
-      "related_publications": [
-        "scmr-20260831-001"
-      ],
-      "homepage": {
-        "eligible": true,
-        "priority": 80,
-        "lead_candidate": false
-      }
+      "publication_id":"scmr-20260831-002","language":"en","edition":"english","slug":"twofold-same-dollars-two-jobs","title":"Making the Same Dollar Work Twice: Twofold and the Rise of Capital-Reuse DeFi","summary":"Reading DualPool as an early-stage capital-reuse primitive while separating deployment evidence from still-unverified TVL, fee and harvest claims.","content_type":"theme_analysis","content_type_label":"Theme Analysis","themes":["defi","market-structure","stablecoins"],"published_at":"2026-09-01T13:23:00+09:00","updated_at":"2026-09-01T13:23:00+09:00","as_of":"2026-08-31","status":"published","article_path":"site/en/research/twofold-same-dollars-two-jobs/index.html","url":"https://signaetstructura.com/en/research/twofold-same-dollars-two-jobs/","hero_figure":"scmr-20260831-002-fig01","related_publications":["scmr-20260831-001"],"homepage":{"eligible":true,"priority":80,"lead_candidate":false}
     },
     {
-      "publication_id": "mw-20260902-0926-beefy-googlc-apy",
-      "language": "ja",
-      "edition": "automatic-market-watch",
-      "slug": "beefy-googlc-apy-47-percent",
-      "title": "Beefy USDC–GOOGLc、DefiLlama表示APY 47.09%を観測",
-      "summary": "Base上のBeefy USDC–GOOGLcで、DefiLlama表示APY 47.09%、TVL約28.4万ドルを観測した。利回りはAerodromeの流動性提供に加え、複数のincentiveに依存する。",
-      "content_type": "market_watch",
-      "content_type_label": "市場観測",
-      "themes": [],
-      "series": "base-tokenized-stock-yield-watch",
-      "published_at": "2026-09-02T09:26:00+09:00",
-      "updated_at": "2026-09-02T09:26:00+09:00",
-      "as_of": "2026-09-02T09:26:00+09:00",
-      "status": "published",
-      "article_path": "site/ja/research/beefy-googlc-apy-47-percent/index.html",
-      "url": "https://signaetstructura.com/ja/research/beefy-googlc-apy-47-percent/",
-      "hero_figure": null,
-      "related_publications": [],
-      "homepage": {
-        "eligible": true,
-        "priority": 20,
-        "lead_candidate": false
-      },
-      "source_observation_id": "base-stock-vault-watch-beefy-googlc-20260902-0926",
-      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+      "publication_id":"mw-20260902-0926-beefy-googlc-apy","language":"ja","edition":"automatic-market-watch","slug":"beefy-googlc-apy-47-percent","title":"Beefy USDC–GOOGLc、DefiLlama表示APY 47.09%を観測","summary":"Base上のBeefy USDC–GOOGLcで、DefiLlama表示APY 47.09%、TVL約28.4万ドルを観測した。利回りはAerodromeの流動性提供に加え、複数のincentiveに依存する。","content_type":"market_watch","content_type_label":"市場観測","themes":[],"series":"base-tokenized-stock-yield-watch","published_at":"2026-09-02T09:26:00+09:00","updated_at":"2026-09-02T09:26:00+09:00","as_of":"2026-09-02T09:26:00+09:00","status":"published","article_path":"site/ja/research/beefy-googlc-apy-47-percent/index.html","url":"https://signaetstructura.com/ja/research/beefy-googlc-apy-47-percent/","hero_figure":null,"related_publications":[],"homepage":{"eligible":true,"priority":20,"lead_candidate":false},"source_observation_id":"base-stock-vault-watch-beefy-googlc-20260902-0926","auto_publish_profile":"base-tokenized-stock-yield-watch-v0.1"
     },
     {
-      "publication_id": "mw-20260902-1136-aerodrome-tokenized-stock-reward-unwind",
-      "language": "ja",
-      "edition": "automatic-market-watch",
-      "slug": "aerodrome-tokenized-stock-reward-spike-unwinds",
-      "title": "Aerodromeのtokenized stock LP、4桁APY表示が急速に剥落",
-      "summary": "Base上のAerodrome Slipstreamで前回観測されたAAPLc・NVDAc・GOOGLcの極端な高APYが、より新しい集計では大幅に低下している。RenditeMonitorの更新値ではAAPLc/USDCが164.55%、NVDAc/USDCが467.69%、GOOGLc/USDCが140.25%。一方、DefiLlamaの検索結果ではNVDAc/USDCが314.43%とさらに低く、同じDefiLlamaの個別poolページには前回の1374.37%表示が残るなど、データ提供面の時間差も大きい。",
-      "content_type": "market_watch",
-      "content_type_label": "市場観測",
-      "themes": [],
-      "series": "base-tokenized-stock-yield-watch",
-      "published_at": "2026-09-02T11:36:42+09:00",
-      "updated_at": "2026-09-02T11:36:42+09:00",
-      "as_of": "2026-09-02T11:36:42+09:00",
-      "status": "published",
-      "article_path": "site/ja/research/aerodrome-tokenized-stock-reward-spike-unwinds/index.html",
-      "url": "https://signaetstructura.com/ja/research/aerodrome-tokenized-stock-reward-spike-unwinds/",
-      "hero_figure": null,
-      "related_publications": [],
-      "homepage": {
-        "eligible": true,
-        "priority": 20,
-        "lead_candidate": false
-      },
-      "source_observation_id": "obs-base-tsy-20260902-113642-aerodrome-reward-unwind",
-      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+      "publication_id":"mw-20260902-1136-aerodrome-tokenized-stock-reward-unwind","language":"ja","edition":"automatic-market-watch","slug":"aerodrome-tokenized-stock-reward-spike-unwinds","title":"Aerodromeのtokenized stock LP、4桁APY表示が急速に剥落","summary":"Base上のAerodrome Slipstreamで前回観測されたAAPLc・NVDAc・GOOGLcの極端な高APYが、より新しい集計では大幅に低下している。RenditeMonitorの更新値ではAAPLc/USDCが164.55%、NVDAc/USDCが467.69%、GOOGLc/USDCが140.25%。一方、DefiLlamaの検索結果ではNVDAc/USDCが314.43%とさらに低く、同じDefiLlamaの個別poolページには前回の1374.37%表示が残るなど、データ提供面の時間差も大きい。","content_type":"market_watch","content_type_label":"市場観測","themes":[],"series":"base-tokenized-stock-yield-watch","published_at":"2026-09-02T11:36:42+09:00","updated_at":"2026-09-02T11:36:42+09:00","as_of":"2026-09-02T11:36:42+09:00","status":"published","article_path":"site/ja/research/aerodrome-tokenized-stock-reward-spike-unwinds/index.html","url":"https://signaetstructura.com/ja/research/aerodrome-tokenized-stock-reward-spike-unwinds/","hero_figure":null,"related_publications":[],"homepage":{"eligible":true,"priority":20,"lead_candidate":false},"source_observation_id":"obs-base-tsy-20260902-113642-aerodrome-reward-unwind","auto_publish_profile":"base-tokenized-stock-yield-watch-v0.1"
     },
     {
-      "publication_id": "mw-20260902-1036-aerodrome-tokenized-stock-reward-spike",
-      "language": "ja",
-      "edition": "automatic-market-watch",
-      "slug": "aerodrome-tokenized-stock-reward-spike-aaplc-nvdac-googlc",
-      "title": "Aerodromeのtokenized stock LPでAAPLc・NVDAcが4桁APY、GOOGLcも再加速",
-      "summary": "Base上のAerodrome Slipstreamでtokenized stock/USDCプールの表示利回りが再び急上昇した。DefiLlamaの個別poolページではAAPLc/USDCが1450.92%、NVDAc/USDCが1374.37%、GOOGLc/USDCが954.33%。いずれもAERO rewardが利回りの大半を占める。GOOGLcは前回観測412.17%から954.33%へ上昇し、TVLも約15.7万ドルから約72.3万ドルへ回復した。",
-      "content_type": "market_watch",
-      "content_type_label": "市場観測",
-      "themes": [],
-      "series": "base-tokenized-stock-yield-watch",
-      "published_at": "2026-09-02T10:36:13+09:00",
-      "updated_at": "2026-09-02T10:36:13+09:00",
-      "as_of": "2026-09-02T10:36:13+09:00",
-      "status": "published",
-      "article_path": "site/ja/research/aerodrome-tokenized-stock-reward-spike-aaplc-nvdac-googlc/index.html",
-      "url": "https://signaetstructura.com/ja/research/aerodrome-tokenized-stock-reward-spike-aaplc-nvdac-googlc/",
-      "hero_figure": null,
-      "related_publications": [],
-      "homepage": {
-        "eligible": true,
-        "priority": 20,
-        "lead_candidate": false
-      },
-      "source_observation_id": "obs-base-tsy-20260902-103613-aerodrome-multipool",
-      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+      "publication_id":"mw-20260902-1036-aerodrome-tokenized-stock-reward-spike","language":"ja","edition":"automatic-market-watch","slug":"aerodrome-tokenized-stock-reward-spike-aaplc-nvdac-googlc","title":"Aerodromeのtokenized stock LPでAAPLc・NVDAcが4桁APY、GOOGLcも再加速","summary":"Base上のAerodrome Slipstreamでtokenized stock/USDCプールの表示利回りが再び急上昇した。DefiLlamaの個別poolページではAAPLc/USDCが1450.92%、NVDAc/USDCが1374.37%、GOOGLc/USDCが954.33%。いずれもAERO rewardが利回りの大半を占める。GOOGLcは前回観測412.17%から954.33%へ上昇し、TVLも約15.7万ドルから約72.3万ドルへ回復した。","content_type":"market_watch","content_type_label":"市場観測","themes":[],"series":"base-tokenized-stock-yield-watch","published_at":"2026-09-02T10:36:13+09:00","updated_at":"2026-09-02T10:36:13+09:00","as_of":"2026-09-02T10:36:13+09:00","status":"published","article_path":"site/ja/research/aerodrome-tokenized-stock-reward-spike-aaplc-nvdac-googlc/index.html","url":"https://signaetstructura.com/ja/research/aerodrome-tokenized-stock-reward-spike-aaplc-nvdac-googlc/","hero_figure":null,"related_publications":[],"homepage":{"eligible":true,"priority":20,"lead_candidate":false},"source_observation_id":"obs-base-tsy-20260902-103613-aerodrome-multipool","auto_publish_profile":"base-tokenized-stock-yield-watch-v0.1"
     },
     {
-      "publication_id": "mw-20260902-0841-aerodrome-googlc-apy-tvl-spike",
-      "language": "ja",
-      "edition": "automatic-market-watch",
-      "slug": "aerodrome-googlc-apy-spike-tvl-contraction",
-      "title": "AerodromeのGOOGLc/USDCでAPY急騰、TVLは前回観測比約89%減",
-      "summary": "Base上のAerodrome Slipstream GOOGLc/USDCで、表示APYが前回観測96.60%から412.17%へ上昇する一方、TVLは約140万ドルから15.7万ドルへ縮小した。現在の内訳はbase 105.56%、reward 306.61%で、利回り上昇は取引手数料由来のbase yield上昇とAERO系reward incentiveの濃縮を同時に伴っている。",
-      "content_type": "market_watch",
-      "content_type_label": "市場観測",
-      "themes": [],
-      "series": "base-tokenized-stock-yield-watch",
-      "published_at": "2026-09-02T08:41:45+09:00",
-      "updated_at": "2026-09-02T08:41:45+09:00",
-      "as_of": "2026-09-02T08:41:45+09:00",
-      "status": "published",
-      "article_path": "site/ja/research/aerodrome-googlc-apy-spike-tvl-contraction/index.html",
-      "url": "https://signaetstructura.com/ja/research/aerodrome-googlc-apy-spike-tvl-contraction/",
-      "hero_figure": null,
-      "related_publications": [],
-      "homepage": {
-        "eligible": true,
-        "priority": 20,
-        "lead_candidate": false
-      },
-      "source_observation_id": "obs-base-tsy-20260902-084145-aerodrome-googlc",
-      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+      "publication_id":"mw-20260902-0841-aerodrome-googlc-apy-tvl-spike","language":"ja","edition":"automatic-market-watch","slug":"aerodrome-googlc-apy-spike-tvl-contraction","title":"AerodromeのGOOGLc/USDCでAPY急騰、TVLは前回観測比約89%減","summary":"Base上のAerodrome Slipstream GOOGLc/USDCで、表示APYが前回観測96.60%から412.17%へ上昇する一方、TVLは約140万ドルから15.7万ドルへ縮小した。現在の内訳はbase 105.56%、reward 306.61%で、利回り上昇は取引手数料由来のbase yield上昇とAERO系reward incentiveの濃縮を同時に伴っている。","content_type":"market_watch","content_type_label":"市場観測","themes":[],"series":"base-tokenized-stock-yield-watch","published_at":"2026-09-02T08:41:45+09:00","updated_at":"2026-09-02T08:41:45+09:00","as_of":"2026-09-02T08:41:45+09:00","status":"published","article_path":"site/ja/research/aerodrome-googlc-apy-spike-tvl-contraction/index.html","url":"https://signaetstructura.com/ja/research/aerodrome-googlc-apy-spike-tvl-contraction/","hero_figure":null,"related_publications":[],"homepage":{"eligible":true,"priority":20,"lead_candidate":false},"source_observation_id":"obs-base-tsy-20260902-084145-aerodrome-googlc","auto_publish_profile":"base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id":"scmr-20260901-005","language":"ja","edition":"japanese","slug":"tokenized-stocks-become-defi-primitives","title":"株は「保有する資産」からDeFiの部品へ――Baseで始まったトークン化株式の利回り市場","summary":"Coinbase Tokenized Stocksの公開直後に、担保・貸出・金利差運用・LP・Vaultが立ち上がった。高APYではなく、株式がDeFiの金融部品へ変わる市場構造を読む。","content_type":"theme_analysis","content_type_label":"テーマ分析","themes":["market-structure","defi"],"published_at":"2026-09-02T12:59:00+09:00","updated_at":"2026-09-02T12:59:00+09:00","as_of":"2026-09-01","status":"published","article_path":"site/ja/research/tokenized-stocks-become-defi-primitives/index.html","url":"https://signaetstructura.com/ja/research/tokenized-stocks-become-defi-primitives/","hero_figure":"scmr-20260901-005-fig01","related_publications":[],"homepage":{"eligible":true,"priority":90,"lead_candidate":false},"source_markdown":"publishing/research-sources/ja/tokenized-stocks-become-defi-primitives.md","figure_gallery":[]
+    },
+    {
+      "publication_id":"scmr-20260901-005","language":"en","edition":"english","slug":"tokenized-stocks-become-defi-primitives","title":"From Asset to DeFi Primitive: The Tokenized-Stock Yield Market Emerging on Base","summary":"Tokenized equities on Base are rapidly becoming collateral, LP inventory, carry inputs and vault components. The structural change matters more than the headline APYs.","content_type":"theme_analysis","content_type_label":"Theme Analysis","themes":["market-structure","defi"],"published_at":"2026-09-02T12:59:00+09:00","updated_at":"2026-09-02T12:59:00+09:00","as_of":"2026-09-01","status":"published","article_path":"site/en/research/tokenized-stocks-become-defi-primitives/index.html","url":"https://signaetstructura.com/en/research/tokenized-stocks-become-defi-primitives/","hero_figure":"scmr-20260901-005-fig01","related_publications":[],"homepage":{"eligible":true,"priority":90,"lead_candidate":false},"source_markdown":"publishing/research-sources/en/tokenized-stocks-become-defi-primitives.md","figure_gallery":[]
+    },
+    {
+      "publication_id":"scmr-20260902-001","language":"ja","edition":"japanese","slug":"tomb-fork-boom-money-printer-to-graveyard","title":"数字で読むTomb Fork Boom――「Money Printer」が墓場になるまで","summary":"177回のdepeg episodeとFantom上のLP・Swap・Shareデータを再構築し、Tomb Forkが急成長し、何度もペグを割って戻り、最後に戻れなくなった過程を数字で読む。","content_type":"historical_case_study","content_type_label":"過去事例研究","themes":["historical-markets","defi","liquidity"],"published_at":"2026-09-02T12:59:00+09:00","updated_at":"2026-09-02T12:59:00+09:00","as_of":"2026-09-02","status":"published","article_path":"site/ja/research/tomb-fork-boom-money-printer-to-graveyard/index.html","url":"https://signaetstructura.com/ja/research/tomb-fork-boom-money-printer-to-graveyard/","hero_figure":"scmr-20260829-001-fig15","related_publications":[],"homepage":{"eligible":true,"priority":120,"lead_candidate":true},"source_markdown":"publishing/research-sources/ja/tomb-fork-boom-money-printer-to-graveyard.md","figure_gallery":["scmr-20260829-001-fig05","scmr-20260829-001-fig15","scmr-20260829-001-fig17","scmr-20260829-001-fig18","scmr-20260829-001-fig19","scmr-20260829-001-fig20"]
     }
   ]
 }
