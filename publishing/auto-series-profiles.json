@@ -1,13 +1,13 @@
 {
   "schema_version": "signa-auto-series-profile-registry-v0.1",
-  "updated_at_jst": "2026-09-02 08:17 JST",
+  "updated_at_jst": "2026-09-02 11:56 JST",
   "global_kill_switch": false,
   "profiles": [
     {
       "profile_id": "base-tokenized-stock-yield-watch-v0.1",
       "series_id": "base-tokenized-stock-yield-watch",
       "enabled": true,
-      "production_auto_publish": false,
+      "production_auto_publish": true,
       "languages": ["ja"],
       "max_age_minutes": 360,
       "min_evidence_items": 1,
