@@ -1,0 +1,64 @@
+{
+  "schema_version": "research-edition-overlay-v0.1",
+  "updated_at_jst": "2026-09-02 18:08 JST",
+  "publications": [
+    {
+      "publication_id": "scmr-20260902-001",
+      "language": "ja",
+      "edition": "japanese",
+      "slug": "tomb-fork-boom-money-printer-to-graveyard",
+      "title": "数字で読むTombフォーク・ブーム――「マネー・プリンター」が墓場になるまで",
+      "summary": "177件のペグ割れエピソードとFantom上の流動性・売買・シェアトークンの履歴を再構築し、Tombフォークが急成長し、何度もペグを割って戻り、最後に戻れなくなる過程を数字で読む。",
+      "content_type": "historical_case_study",
+      "content_type_label": "過去事例研究",
+      "themes": ["historical-markets", "defi", "liquidity"],
+      "published_at": "2026-09-02T12:59:00+09:00",
+      "updated_at": "2026-09-02T18:08:00+09:00",
+      "as_of": "2026-09-02",
+      "status": "published",
+      "article_path": "site/ja/research/tomb-fork-boom-money-printer-to-graveyard/index.html",
+      "url": "https://signaetstructura.com/ja/research/tomb-fork-boom-money-printer-to-graveyard/",
+      "hero_figure": "scmr-20260829-001-fig15",
+      "related_publications": [],
+      "homepage": {"eligible": true, "priority": 120, "lead_candidate": true},
+      "source_markdown": "publishing/research-sources/ja/tomb-fork-boom-money-printer-to-graveyard.md",
+      "figure_gallery": [
+        "scmr-20260829-001-fig05",
+        "scmr-20260829-001-fig15",
+        "scmr-20260829-001-fig17",
+        "scmr-20260829-001-fig18",
+        "scmr-20260829-001-fig19",
+        "scmr-20260829-001-fig20"
+      ]
+    },
+    {
+      "publication_id": "scmr-20260902-001",
+      "language": "en",
+      "edition": "english",
+      "slug": "tomb-fork-boom-money-printer-to-graveyard",
+      "title": "Reading the Tomb Fork Boom in Numbers: From Money Printer to Graveyard",
+      "summary": "A reconstruction of 177 depeg episodes across Fantom Tomb forks, separating liquidity, selling, share-token behavior and recovery paths to ask why most depegs recovered while a few did not.",
+      "content_type": "historical_case_study",
+      "content_type_label": "Historical Case Study",
+      "themes": ["historical-markets", "defi", "liquidity"],
+      "published_at": "2026-09-02T18:08:00+09:00",
+      "updated_at": "2026-09-02T18:08:00+09:00",
+      "as_of": "2026-09-02",
+      "status": "published",
+      "article_path": "site/en/research/tomb-fork-boom-money-printer-to-graveyard/index.html",
+      "url": "https://signaetstructura.com/en/research/tomb-fork-boom-money-printer-to-graveyard/",
+      "hero_figure": "scmr-20260829-001-fig15",
+      "related_publications": [],
+      "homepage": {"eligible": true, "priority": 120, "lead_candidate": true},
+      "source_markdown": "publishing/research-sources/en/tomb-fork-boom-money-printer-to-graveyard.md",
+      "figure_gallery": [
+        "scmr-20260829-001-fig05",
+        "scmr-20260829-001-fig15",
+        "scmr-20260829-001-fig17",
+        "scmr-20260829-001-fig18",
+        "scmr-20260829-001-fig19",
+        "scmr-20260829-001-fig20"
+      ]
+    }
+  ]
+}
