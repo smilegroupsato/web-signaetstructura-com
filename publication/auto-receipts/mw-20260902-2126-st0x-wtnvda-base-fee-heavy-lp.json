@@ -2,11 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260902-2126-st0x-wtnvda-base-fee-heavy-lp",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-base-tsy-20260902-212621-st0x-wtnvda-ja",
+  "source_observation_id": "obs-base-tsy-20260902-212621-st0x-wtnvda-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "f1b5feb47af2162266151e7d4ce815805aeacc44",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.02_09_base-tokenized-stock-yield-watch_st0x-wtnvda-aerodrome-fee-heavy-lp.json",
+  "source_sha": "444b44b8b9cf9844cedbe49abcc405621adfd6d7",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.02_09_base-tokenized-stock-yield-watch_st0x-wtnvda-aerodrome-fee-heavy-lp_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
-  "production_url": "https://signaetstructura.com/ja/research/st0x-wtnvda-aerodrome-fee-heavy-lp-base/"
+  "stale_backfill": true,
+  "production_url": "https://signaetstructura.com/en/research/st0x-wtnvda-aerodrome-fee-heavy-lp-base/"
 }
