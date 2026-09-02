@@ -442,6 +442,33 @@
         "scmr-20260829-001-fig19",
         "scmr-20260829-001-fig20"
       ]
+    },
+    {
+      "publication_id": "mw-20260902-2126-st0x-wtnvda-base-fee-heavy-lp",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "st0x-wtnvda-aerodrome-fee-heavy-lp-base",
+      "title": "BaseでST0x版NVIDIA株トークンwtNVDAの手数料主導LPを新規捕捉",
+      "summary": "Base上のtokenized stock yieldを追う中で、これまで重点観測していたCoinbase B20のNVDAcとは別に、ST0xのNVIDIA連動トークンwtNVDAを使うAerodrome SlipstreamのUSDC/wtNVDA LPを新規捕捉した。観測時に近いDeFi Terminal表示はAPY 86.26%、内訳はbase 57.65%とreward 28.61%、TVLは約3.18万ドルだった。一方、DefiLlamaのwtNVDA RWA画面はAPY 131.37%、base 95.24%とreward 36.13%、TVL約2.86万ドルを示しており、更新時刻または集計キャッシュによる大きな表示差がある。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-02T21:26:21+09:00",
+      "updated_at": "2026-09-02T21:26:21+09:00",
+      "as_of": "2026-09-02T21:26:21+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/st0x-wtnvda-aerodrome-fee-heavy-lp-base/index.html",
+      "url": "https://signaetstructura.com/ja/research/st0x-wtnvda-aerodrome-fee-heavy-lp-base/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260902-212621-st0x-wtnvda-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
