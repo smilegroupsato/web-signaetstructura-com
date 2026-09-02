@@ -1,0 +1,12 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260902-1036-aerodrome-tokenized-stock-reward-spike",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-tsy-20260902-103613-aerodrome-multipool",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "825845d608e1b57203eefe72dbad88c50e983d59",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.02_02_base-tokenized-stock-yield-watch_aerodrome-multipool-reward-spike.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "production_url": "https://signaetstructura.com/ja/research/aerodrome-tokenized-stock-reward-spike-aaplc-nvdac-googlc/"
+}

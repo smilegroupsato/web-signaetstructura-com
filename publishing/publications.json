@@ -1,6 +1,6 @@
 {
   "schema_version": "public-publication-registry-v0.1",
-  "updated_at_jst": "2026-09-02 12:29 JST",
+  "updated_at_jst": "2026-09-02 12:31 JST",
   "publications": [
     {
       "publication_id": "scmr-20260831-001",
@@ -174,6 +174,33 @@
         "lead_candidate": false
       },
       "source_observation_id": "obs-base-tsy-20260902-113642-aerodrome-reward-unwind",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260902-1036-aerodrome-tokenized-stock-reward-spike",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-tokenized-stock-reward-spike-aaplc-nvdac-googlc",
+      "title": "Aerodromeのtokenized stock LPでAAPLc・NVDAcが4桁APY、GOOGLcも再加速",
+      "summary": "Base上のAerodrome Slipstreamでtokenized stock/USDCプールの表示利回りが再び急上昇した。DefiLlamaの個別poolページではAAPLc/USDCが1450.92%、NVDAc/USDCが1374.37%、GOOGLc/USDCが954.33%。いずれもAERO rewardが利回りの大半を占める。GOOGLcは前回観測412.17%から954.33%へ上昇し、TVLも約15.7万ドルから約72.3万ドルへ回復した。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-02T10:36:13+09:00",
+      "updated_at": "2026-09-02T10:36:13+09:00",
+      "as_of": "2026-09-02T10:36:13+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/aerodrome-tokenized-stock-reward-spike-aaplc-nvdac-googlc/index.html",
+      "url": "https://signaetstructura.com/ja/research/aerodrome-tokenized-stock-reward-spike-aaplc-nvdac-googlc/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260902-103613-aerodrome-multipool",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
