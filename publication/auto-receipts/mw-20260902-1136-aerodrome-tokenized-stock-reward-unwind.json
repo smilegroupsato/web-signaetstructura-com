@@ -1,0 +1,12 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260902-1136-aerodrome-tokenized-stock-reward-unwind",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-tsy-20260902-113642-aerodrome-reward-unwind",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "fae4bd96c6e86d99cd14d4d80fe5a367b6b9941b",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.02_03_base-tokenized-stock-yield-watch_aerodrome-reward-spike-unwind.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "production_url": "https://signaetstructura.com/ja/research/aerodrome-tokenized-stock-reward-spike-unwinds/"
+}
