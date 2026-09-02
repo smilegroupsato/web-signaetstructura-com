@@ -1,0 +1,12 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260902-1339-base-cstocks-merkl-cashback",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-tsy-20260902-133921-merkl-cstocks-cashback",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "7f2308c54eb0ec631396a9c1ee7bd2a8b6d5a035",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.02_04_base-tokenized-stock-yield-watch_merkl-direct-cashback.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "production_url": "https://signaetstructura.com/ja/research/base-tokenized-stocks-merkl-direct-cashback/"
+}

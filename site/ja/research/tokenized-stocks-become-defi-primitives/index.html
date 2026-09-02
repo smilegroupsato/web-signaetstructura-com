@@ -1,0 +1,69 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>株は「保有する資産」からDeFiの部品へ――Baseで始まったトークン化株式の利回り市場 | SIGNA ET STRUCTURA</title><meta name="description" content="Coinbase Tokenized Stocksの公開直後に、担保・貸出・金利差運用・LP・Vaultが立ち上がった。高APYではなく、株式がDeFiの金融部品へ変わる市場構造を読む。"><link rel="canonical" href="https://signaetstructura.com/ja/research/tokenized-stocks-become-defi-primitives/"><link rel="alternate" hreflang="ja" href="https://signaetstructura.com/ja/research/tokenized-stocks-become-defi-primitives/"><link rel="alternate" hreflang="en" href="https://signaetstructura.com/en/research/tokenized-stocks-become-defi-primitives/"><link rel="stylesheet" href="../../../assets/site.css"><style>.article-body{max-width:790px}.article-body h2{margin-top:2.6rem}.article-body h3{margin-top:2rem}.article-body p{font-size:1.04rem;line-height:1.9}.article-body ul{line-height:1.8}.article-body pre{overflow:auto;padding:1rem;border:1px solid var(--rule);background:var(--paper-soft,#f6f4ef)}.table-wrap{overflow-x:auto;margin:1.5rem 0}table{border-collapse:collapse;width:100%;font-family:var(--sans)}th,td{padding:.65rem;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}.research-figure{margin:2.4rem 0;padding-top:1rem;border-top:1px solid var(--ink)}.research-figure img{width:100%;height:auto;display:block}.research-figure figcaption{font-family:var(--sans);font-size:.78rem;line-height:1.5;color:var(--ink-soft);margin-top:.65rem}blockquote{margin:1.5rem 0;padding:.2rem 0 .2rem 1.2rem;border-left:3px solid var(--ink);font-size:1.05rem}</style></head><body><header class="masthead"><div class="wrap"><a class="brand" href="../../../ja/">SIGNA ET STRUCTURA</a><div class="strap">テーマ分析</div></div></header><nav class="wrap nav"><a href="../">リサーチ</a><a href="../../../ja/methods/">方法論</a><span class="nav-spacer"></span><a href="../../../ja/">トップ</a><a href="../../../en/research/tokenized-stocks-become-defi-primitives/">English</a></nav><main><article class="article"><header class="article-head"><div class="eyebrow">テーマ分析</div><h1>株は「保有する資産」からDeFiの部品へ――Baseで始まったトークン化株式の利回り市場</h1><p class="dek">Coinbase Tokenized Stocksの公開直後に、担保・貸出・金利差運用・LP・Vaultが立ち上がった。高APYではなく、株式がDeFiの金融部品へ変わる市場構造を読む。</p><div class="article-meta"><span>調査時点 2026-09-01</span><span>公開 2026-09-02</span></div></header><section class="article-grid"><div class="article-body"><h2>要約</h2>
+<p>2026-08-24、Coinbase Tokenized StocksがBase上で稼働を始めた。重要なのは、NVIDIAやAppleなどの株式を表すトークンが24時間売買できるようになったことだけではない。</p>
+<p>公開直後から、それらを担保、貸出、LP、金利差取引、複合運用Vaultへ組み込む商品が立ち上がっている。Base公式はAerodrome、Aave、Morpho、Euler、Beefy、Superformなどを対応先として列挙し、株式トークンを「保有する資産」ではなくDeFiで再利用できる金融部品として位置づけている。</p>
+<p>2026-09-01に取得したPortals Explorerの表示では、NVDA SuperVaultはAPY 32.87%、TVL約$122.9K。TAUのGOOGLc / AAPLc / METAc / NVDAc運用Vaultは各10.00%で、TVLは約$7.1K〜$14.7K。Beefyの株式トークン–USDC LPには29.71%〜44.90%の表示APYが並ぶ。</p>
+<p>ただし、これを「NVIDIAを持つだけで30%」と読むのは誤りである。</p>
+<p>現在起きているのは株式の配当利回り上昇ではない。<strong>株式を、DeFiで再利用できる資本の部品へ変える実験</strong>である。</p>
+<figure class="research-figure"><img src="../../../assets/research/scmr-20260901-005/scmr-20260901-005-fig01.svg" alt="トークン化株式は、公開直後から金融部品として再利用され始めた"><figcaption><strong>トークン化株式は、公開直後から金融部品として再利用され始めた</strong> · 2026-09-01</figcaption></figure>
+<h2>1. トークン化株式は、24時間売買できる株で終わらない</h2>
+<p>Base公式によれば、Coinbase Tokenized Stocksは実際の株式を1対1で裏付けとし、規制下の保管機関に倒産隔離された形で保管する。保有者はその株式に対する受益権を表すB20トークンを持つ。</p>
+<p>対象は米国外の適格地域に限定されるが、発行後のB20トークンは自己管理型ウォレットへ移動でき、DeFiへ組み込める。Base公式の対応先一覧には、Aerodrome、Aave、Morpho、Euler、Beefy、Superformなどが含まれている。</p>
+<p>ここで従来の証券口座との違いが生まれる。</p>
+<p>証券口座のNVIDIA株は、基本的には「保有する・売る・証券会社を通じて貸す」資産である。</p>
+<p>一方、オンチェーンのNVDAcは、</p>
+<pre><code>NVDAc
+→ 担保
+→ ステーブルコインを借りる
+→ 金利差を取る運用
+→ 流動性供給
+→ 複合運用Vault</code></pre>
+<p>と、別の金融契約へ連続的に組み込める。</p>
+<p>トークン化の本番は発行そのものではなく、発行後にその資産が何へ使われるかで始まる。</p>
+<h2>2. 最初の実験：NVDA SuperVault</h2>
+<p>SuperformのNVDA SuperVaultは、その最初期の事例の一つである。</p>
+<p>2026-09-01取得のPortals ExplorerではAPY 32.87%、TVL約$122.9K。数日前の観測でも30%台後半のAPYと約$100K規模のTVLが報告されており、開始直後から数値は大きく動いている。</p>
+<p>Superformが説明する初期戦略は、トークン化されたNVDAを使ったUSDCの金利差運用である。NVDAcを担保として利用し、USDCを借り、借入コストを差し引いても収益が残る局面で資金を運用する。株価変動に応じてLTVを管理し、必要に応じて債務を減らす。</p>
+<p>つまり表示APYは、NVIDIAの配当から生まれているわけではない。</p>
+<p>少なくとも、</p>
+<ul><li>貸出と借入の金利差</li><li>レバレッジ</li><li>開始直後の利用促進報酬</li><li>USDC報酬</li><li>UP / sUP報酬</li></ul>
+<p>を分けて見る必要がある。</p>
+<p>現在の30%超という数字を、長期的に続く株式利回りとして外挿することはできない。</p>
+<h2>3. さらに小さい市場がすでに生まれている</h2>
+<p>2026-09-01のPortals Explorerでは、TAUのGOOGLc / AAPLc / METAc / NVDAc運用Vaultがいずれも10.00% APYを表示している。TVLはGOOGLc約$10.3K、AAPLc約$11.6K、METAc約$7.1K、NVDAc約$14.7Kで、まだ極めて小さい。</p>
+<p>TAUはCoinbase Tokenized Stocksの開始日に、IPOR Fusion上でこれら4銘柄のCarry Vaultを公開したと説明している。</p>
+<p>一方、BeefyはAerodromeの株式トークン–USDCプールを使う集中流動性管理Vaultを開始した。Beefy自身の説明によれば、開始期にはAerodromeの報酬、CoinbaseからMerkl経由で提供されるUSDC報酬、Beefy独自の報酬という三層の利用促進策が重ねられている。</p>
+<p>Portals Explorerでは2026-09-01時点で、BeefyのUSDC-METAcが44.90%、USDC-AAPLcが41.51%、USDC-GOOGLcが29.79%、USDC-NVDAcが29.71%の表示APYだった。</p>
+<figure class="research-figure"><img src="../../../assets/research/scmr-20260901-005/scmr-20260901-005-fig02.svg" alt="同じ『株式利回り』でも、初期商品の規模と表示APYは大きく異なる"><figcaption><strong>同じ『株式利回り』でも、初期商品の規模と表示APYは大きく異なる</strong> · 2026-09-01</figcaption></figure>
+<p>これらはまだ「成熟した利回り市場」と呼べる規模ではない。むしろ重要なのは、株式トークンが公開されて数日のうちに、現物取引だけでなく貸出、担保、金利差運用、LP、Vaultまで金融市場の階層が作られ始めたことである。</p>
+<h2>4. 株を買わず、株を担保に借りる人へ貸す</h2>
+<p>もう一つ重要なのがUSDC側である。</p>
+<p>SuperformのStocks USDC SuperVaultは、トークン化株式を担保とする市場へUSDCを供給し、借り手が支払う金利を受け取る設計を掲げている。Superformの公開説明では最大8%という案内がある一方、2026-09-01取得のPortals Explorerでは表示APYは3.76%、TVL約$1.47Kだった。</p>
+<p>この差自体が、初期市場の表示利回りを固定値として扱えないことを示している。</p>
+<p>これはNVIDIA株そのものを買う投資とは異なる。</p>
+<pre><code>NVDAの値上がりを取る</code></pre>
+<p>のではなく、</p>
+<pre><code>NVDA等を担保に資金を借りたい需要
+→ USDCを貸す
+→ 金利を受け取る</code></pre>
+<p>という投資になる。</p>
+<p>今後トークン化株式市場が拡大した場合、株価そのものとは別に「株式担保の信用市場」が独立した市場になる可能性がある。</p>
+<h2>5. 高APYより重要な問い</h2>
+<p>初期市場では派手なAPYが最も目につく。</p>
+<p>しかし本当に見るべきなのは数字の大きさではない。</p>
+<ul><li>APYの何%が借り手の金利か</li><li>何%が取引手数料か</li><li>何%が期限付きの利用促進報酬か</li><li>どれだけレバレッジがかかっているか</li><li>どこまで価格が下がると清算されるか</li><li>Vaultの運用者が何を変更できるか</li><li>退出までどれだけ時間がかかるか</li><li>報酬が終わったあと何%の利回りが残るか</li></ul>
+<p>である。</p>
+<p>特にBeefyの開始期は、公式説明だけでも三層の報酬が存在する。表示APYの高さは、株式そのものの収益力ではなく、市場形成のために投入された補助金を相当程度含む可能性がある。</p>
+<p>トークン化株式の利回り市場の面白さは「株なのに高利回り」ではない。</p>
+<p><strong>株式がプログラム可能な担保になり、その上へ新しい金融商品を高速で積み上げられるようになったこと</strong>にある。</p>
+<p>2021–2022年のDeFiでは、成功したプロトコルのforkが大量に発生した。</p>
+<p>2026年に見えているのは、成熟したプロトコル、トークン化された実物資産、価格情報、貸出市場、DEX、Vaultを部品として組み合わせ、新しい金融商品を作る動きである。</p>
+<p>Coinbase Tokenized Stocksは、この「組み合わせによる増殖（Composition Boom）」へ新しい大きな原材料を供給し始めた可能性がある。</p>
+<h2>Evidence / Sources</h2>
+<ul><li>Base, <code>Stocks just got updated</code>, 2026-09-01取得：Coinbase Tokenized StocksのB20構造、1:1の実株裏付け、規制下・倒産隔離保管、自己管理、DeFi利用を説明。</li><li>Base, Stocks registry / ecosystem listing, 2026-09-01取得：NVDAc / METAc / AAPLc / GOOGLcと、Aerodrome、Aave、Morpho、Euler、Beefy、Superform等の対応先を掲載。</li><li>Beefy, <code>Coinbase Tokenized Stocks: As Markets Converge</code>, 2026-08-24：Aerodrome CLM、Coinbase USDC incentives、Beefy boostsの三層報酬を説明。</li><li>Portals Explorer, Base Stocks, 2026-09-01取得：NVDA SuperVault 32.87% / 約$122.9K、TAU各Vault 10.00%、Stocks USDC SuperVault 3.76%、Beefy株式LPの表示APYを取得。</li><li>Superform / SuperStocks public materials：NVDA SuperVaultのUSDC金利差運用、Stocks USDC SuperVaultの株式担保貸出を説明。</li><li>TAU Labs / IPOR Fusion public materials：GOOGLc / AAPLc / METAc / NVDAc Carry Vaultを開始日から展開。</li></ul>
+<h2>Figure</h2>
+<p>- <code>scmr-20260901-005-fig01</code> — B20株式トークンがDEX・貸出・金利差運用・LP・Vaultへ接続される構造図。Analytical Diagram。 - <code>scmr-20260901-005-fig02</code> — 2026-09-01時点の代表的な初期商品の表示APY比較。Data Figure。</p>
+<ul><li><code>publication/sc-markets-research/figures/scmr-20260901-005/</code></li><li>Figure Contract / Design System v0.1準拠。Figure 02のsource dataはCSVとして保存。</li></ul>
+<h2>前提・限界・反証条件</h2>
+<ul><li>APY / TVLは2026-09-01前後の短期的な観測値であり、恒久的な利回りを示さない。</li><li>Portals Explorerは集約サービスであり、各商品の最終的な投資条件はprotocol自身の画面・contractで再確認する必要がある。</li><li>APYの算出方法と報奨金の含め方は商品ごとに異なるため、Figure 02は同質な収益率のランキングではない。</li><li>Beefyの開始期APYにはAerodrome、Coinbase、Beefyの利用促進報酬が重なる。</li><li>トークン化株式の利用可能地域は商品・取引場所ごとに異なる。Base公式は米国外の適格地域向けと説明する。</li><li>発行体・保管・法的リスクと、その上に構築されたDeFiプロトコルのリスクは別々に存在する。</li><li>報酬終了後にTVL・取引・貸出需要が大幅に縮小する場合、「新しい持続的市場形成」という仮説は弱まる。</li><li>逆に、報酬縮小後も担保利用・借入・LP・Vault利用が残り、新商品が継続的に増えるなら、株式がDeFiの基礎部品になりつつあるという説明は強まる。</li></ul>
+<h2>Disclosure</h2>
+<p>本稿は市場構造の研究を目的とするものであり、Coinbase Tokenized Stocks、NVDAc、AAPLc、METAc、GOOGLc、Superform、TAU、Beefyその他の関連商品・プロトコルへの投資を推奨するものではありません。執筆・発行主体に本稿の対象に関する開示すべき利益相反はありません。</p></div></section></article></main><footer class="site-footer"><div class="wrap"><p class="meta">SIGNA ET STRUCTURA · Smile Company LLC</p></div></footer></body></html>
