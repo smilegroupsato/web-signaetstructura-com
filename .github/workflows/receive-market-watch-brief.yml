@@ -4,6 +4,7 @@ on:
   repository_dispatch:
     types:
       - market_watch_brief
+      - market_watch_backfill
 
 permissions:
   contents: write
@@ -32,7 +33,12 @@ jobs:
           printf '%s' "$BRIEF_JSON" > /tmp/signa-intake/brief.json
           python3 -m json.tool /tmp/signa-intake/brief.json >/dev/null
       - name: Validate automatic brief
-        run: python3 scripts/validate_auto_brief.py /tmp/signa-intake/brief.json
+        shell: bash
+        run: |
+          set -euo pipefail
+          EXTRA=()
+          if [ '${{ github.event.action }}' = 'market_watch_backfill' ]; then EXTRA+=(--allow-stale-backfill); fi
+          python3 scripts/validate_auto_brief.py /tmp/signa-intake/brief.json "${EXTRA[@]}"
       - name: Read production profile mode
         id: profile
         shell: bash
@@ -48,11 +54,14 @@ jobs:
       - name: Render shadow article and projections
         shell: bash
         run: |
+          set -euo pipefail
+          EXTRA=()
+          if [ '${{ github.event.action }}' = 'market_watch_backfill' ]; then EXTRA+=(--allow-stale-backfill); fi
           python3 scripts/ingest_auto_brief.py /tmp/signa-intake/brief.json \
             --source-repo '${{ github.event.client_payload.source_repo }}' \
             --source-sha '${{ github.event.client_payload.source_sha }}' \
             --source-path '${{ github.event.client_payload.source_path }}' \
-            --shadow
+            --shadow "${EXTRA[@]}"
           bash scripts/build_site.sh --preview
       - name: Validate shadow site
         shell: bash
@@ -92,14 +101,23 @@ jobs:
           mkdir -p /tmp/signa-intake
           printf '%s' "$BRIEF_JSON" > /tmp/signa-intake/brief.json
       - name: Revalidate exact brief
-        run: python3 scripts/validate_auto_brief.py /tmp/signa-intake/brief.json
+        shell: bash
+        run: |
+          set -euo pipefail
+          EXTRA=()
+          if [ '${{ github.event.action }}' = 'market_watch_backfill' ]; then EXTRA+=(--allow-stale-backfill); fi
+          python3 scripts/validate_auto_brief.py /tmp/signa-intake/brief.json "${EXTRA[@]}"
       - name: Ingest production brief
         shell: bash
         run: |
+          set -euo pipefail
+          EXTRA=()
+          if [ '${{ github.event.action }}' = 'market_watch_backfill' ]; then EXTRA+=(--allow-stale-backfill); fi
           python3 scripts/ingest_auto_brief.py /tmp/signa-intake/brief.json \
             --source-repo '${{ github.event.client_payload.source_repo }}' \
             --source-sha '${{ github.event.client_payload.source_sha }}' \
-            --source-path '${{ github.event.client_payload.source_path }}'
+            --source-path '${{ github.event.client_payload.source_path }}' \
+            "${EXTRA[@]}"
           bash scripts/build_site.sh
       - name: Commit public registry, article and receipt
         shell: bash
@@ -127,6 +145,7 @@ jobs:
             printf 'source_repo=%s\n' '${{ github.event.client_payload.source_repo }}'
             printf 'source_sha=%s\n' '${{ github.event.client_payload.source_sha }}'
             printf 'auto_lane=true\n'
+            printf 'backfill=%s\n' '${{ github.event.action == 'market_watch_backfill' }}'
           } > deploy-meta/deploy.txt
       - name: Upload automatic deployment manifest
         uses: actions/upload-artifact@v4

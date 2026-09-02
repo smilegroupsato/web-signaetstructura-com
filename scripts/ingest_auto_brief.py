@@ -22,10 +22,12 @@ def main():
     ap.add_argument('--source-path',required=True)
     ap.add_argument('--shadow',action='store_true')
     ap.add_argument('--now',help='override validation clock for deterministic tests only')
+    ap.add_argument('--allow-stale-backfill',action='store_true')
     args=ap.parse_args()
 
     validate_cmd=['python3',str(ROOT/'scripts/validate_auto_brief.py'),args.brief]
     if args.now: validate_cmd += ['--now',args.now]
+    if args.allow_stale_backfill: validate_cmd += ['--allow-stale-backfill']
     subprocess.run(validate_cmd,check=True)
     brief=load(args.brief)
     pubsdoc=load(PUBS); pubs=pubsdoc['publications']
@@ -52,8 +54,8 @@ def main():
     PUBS.write_text(json.dumps(pubsdoc,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
     RECEIPTS.mkdir(parents=True,exist_ok=True)
-    receipt={'schema_version':'signa-auto-publication-receipt-v0.1','publication_id':brief['publication_id'],'series_id':brief['series_id'],'source_observation_id':brief['source_observation_id'],'source_repo':args.source_repo,'source_sha':args.source_sha,'source_path':args.source_path,'validation_profile':brief['auto_publish_profile'],'shadow':bool(args.shadow),'production_url':entry['url'] if not args.shadow else None}
+    receipt={'schema_version':'signa-auto-publication-receipt-v0.1','publication_id':brief['publication_id'],'series_id':brief['series_id'],'source_observation_id':brief['source_observation_id'],'source_repo':args.source_repo,'source_sha':args.source_sha,'source_path':args.source_path,'validation_profile':brief['auto_publish_profile'],'shadow':bool(args.shadow),'stale_backfill':bool(args.allow_stale_backfill),'production_url':entry['url'] if not args.shadow else None}
     (RECEIPTS/f"{brief['publication_id']}.json").write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(json.dumps({'publication_id':brief['publication_id'],'article_path':entry['article_path'],'shadow':args.shadow},ensure_ascii=False))
+    print(json.dumps({'publication_id':brief['publication_id'],'article_path':entry['article_path'],'shadow':args.shadow,'stale_backfill':bool(args.allow_stale_backfill)},ensure_ascii=False))
 
 if __name__=='__main__': main()

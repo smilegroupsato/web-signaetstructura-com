@@ -30,7 +30,7 @@ def all_text(o):
     elif isinstance(o,str): out.append(o)
     return out
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('brief'); ap.add_argument('--now'); args=ap.parse_args(); brief=load(Path(args.brief)); pd=load(PROFILES); sd=load(SERIES); errors=[]
+    ap=argparse.ArgumentParser(); ap.add_argument('brief'); ap.add_argument('--now'); ap.add_argument('--allow-stale-backfill',action='store_true'); args=ap.parse_args(); brief=load(Path(args.brief)); pd=load(PROFILES); sd=load(SERIES); errors=[]
     req=['schema_version','publication_id','series_id','observed_at','as_of','language','slug','title','summary','what_changed','why_it_matters','evidence','limitations','disclosure','auto_publish_profile','claim_type','source_observation_id']
     for k in req:
         if k not in brief or brief[k] in (None,'',[]): errors.append(f'missing required field: {k}')
@@ -57,7 +57,7 @@ def main():
     try:
         observed=parse_iso(brief.get('observed_at',''),'observed_at'); asof=parse_iso(brief.get('as_of',''),'as_of'); now=parse_iso(args.now,'now') if args.now else datetime.now(timezone.utc)
         if asof>now or observed>now: errors.append('future timestamps are not allowed')
-        if p:
+        if p and not args.allow_stale_backfill:
             age=(now-observed.astimezone(timezone.utc)).total_seconds()/60
             if age<0 or age>p.get('max_age_minutes',0): errors.append('brief exceeds profile freshness window')
     except ValueError as e: errors.append(str(e))
@@ -79,5 +79,5 @@ def main():
     if pd.get('global_kill_switch'): errors.append('global auto-publication kill switch is active')
     if errors:
         print('AUTO BRIEF REJECTED'); [print(f'- {e}') for e in sorted(set(errors))]; raise SystemExit(1)
-    print('AUTO BRIEF VALID'); print(json.dumps({'publication_id':brief['publication_id'],'series_id':brief['series_id'],'profile_id':brief['auto_publish_profile'],'production_auto_publish':bool(p.get('production_auto_publish'))},ensure_ascii=False))
+    print('AUTO BRIEF VALID'); print(json.dumps({'publication_id':brief['publication_id'],'series_id':brief['series_id'],'profile_id':brief['auto_publish_profile'],'production_auto_publish':bool(p.get('production_auto_publish')),'stale_backfill':bool(args.allow_stale_backfill)},ensure_ascii=False))
 if __name__=='__main__': main()
