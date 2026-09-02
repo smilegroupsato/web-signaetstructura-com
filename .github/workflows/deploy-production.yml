@@ -42,6 +42,8 @@ jobs:
           test "$APPROVED" = "${{ inputs.approved_sha }}" || test "$(git rev-parse ${{ inputs.approved_sha }})" = "$APPROVED"
           git merge-base --is-ancestor "$APPROVED" "$MAIN"
           echo "sha=$APPROVED" >> "$GITHUB_OUTPUT"
+      - name: Build exact approved site
+        run: bash scripts/build_site.sh
       - name: Validate production bundle
         shell: bash
         run: |
@@ -49,6 +51,9 @@ jobs:
           test -f site/index.html
           test -f site/ja/index.html
           test -f site/en/index.html
+          test -f site/ja/research/tokenized-stocks-become-defi-primitives/index.html
+          test -f site/en/research/tokenized-stocks-become-defi-primitives/index.html
+          test -f site/ja/research/tomb-fork-boom-money-printer-to-graveyard/index.html
           test -f site/assets/site.css
           test -f site/assets/tokens.css
           test -f site/robots.txt
@@ -77,6 +82,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ needs.verify.outputs.sha }}
+      - name: Build exact approved site
+        run: bash scripts/build_site.sh
       - name: Deploy by FTPS
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
