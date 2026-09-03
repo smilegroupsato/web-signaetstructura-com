@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260904-0541-clearstar-successor-incentive-visible",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-tsy-20260904-054148-clearstar-successor-incentive-visible-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "eddd9531ae1956ecb064e58c078e6575335e2b0a",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.04_0541_base-tokenized-stock-yield-watch_clearstar-successor-incentive-visible.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/clearstar-successor-incentive-visible/"
+}
