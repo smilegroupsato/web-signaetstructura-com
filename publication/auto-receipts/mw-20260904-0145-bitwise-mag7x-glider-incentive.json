@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260904-0145-bitwise-mag7x-glider-incentive",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-tsy-20260904-014524-bitwise-mag7x-glider-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "91852662ca4213cec9d67dbab82d624d94e18806",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.04_0145_base-tokenized-stock-yield-watch_bitwise-mag7x-glider-incentive.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/bitwise-mag7x-glider-10pct-incentive/"
+}
