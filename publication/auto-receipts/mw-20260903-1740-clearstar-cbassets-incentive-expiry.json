@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260903-1740-clearstar-cbassets-incentive-expiry",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-tsy-20260903-174048-clearstar-cbassets-incentive-expiry-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "778c8891b3674bcb55e3c19ac2468e0686fd13e3",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.03_09_base-tokenized-stock-yield-watch_clearstar-cbassets-incentive-expiry.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/clearstar-cbassets-incentive-expiry/"
+}
