@@ -1036,6 +1036,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260903-122644-aerodrome-metac-apy-dislocation-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260903-1642-aerodrome-nvdac-apy-data-dislocation",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-nvdac-apy-data-dislocation",
+      "title": "Aerodrome NVDAc LP、同一観測窓でAPY表示が180%から1,374%まで分岐",
+      "summary": "Base上のAerodrome Slipstream USDC-NVDAcについて、同一観測窓の公開データ面でheadline APYとTVLが大きく分岐した。DeFi Terminalの個別poolページはAPY 180.16%（base 38.49% + reward 141.67%）、TVL 95.89万ドルを表示する一方、同サイトのUSDC opportunity一覧は447.04%、DefiLlamaの個別poolページは1,374.37%（base 241.11% + AERO reward 1,133.26%）、TVL 110万ドル、Yieldexは521.57%、TVL 138万ドルを表示している。Dromos Kitchenの2026-09-03 snapshotではNVDAcのAerodrome流動性を184万ドル、24時間出来高を646万ドルとしており、取引市場自体の活動は続いているが、単一のAPY/TVL値を現在値として確定できない状態である。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-03T16:42:06+09:00",
+      "updated_at": "2026-09-03T16:42:06+09:00",
+      "as_of": "2026-09-03T16:42:06+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/aerodrome-nvdac-apy-data-dislocation/index.html",
+      "url": "https://signaetstructura.com/ja/research/aerodrome-nvdac-apy-data-dislocation/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260903-164206-aerodrome-nvdac-apy-data-dislocation-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
