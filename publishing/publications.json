@@ -1117,6 +1117,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260903-213343-clearstar-cbassets-successor-incentive-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260903-2329-mag7-index-lp-emissions",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "mag7-index-lp-emissions",
+      "title": "MAG7、Base上の株式トークンbasketをAerodrome LPとAERO emissionsへ接続",
+      "summary": "ReserveのMAG7は、Coinbase Tokenized Stocksをbasket化したBase上のDTFをMAG7/USDCとしてAerodrome Slipstreamへ接続し、AERO emissionsを受ける構成を稼働させている。今回のMarket Watchで未捕捉だったcompositionとして新規確認した。GeckoTerminalの観測値は流動性約43.48万ドル、24時間出来高約3.13万ドル、42 transactions、58 holders。MAG7自体にはBase/Merkl提供の最大2% cashbackも案内されているが、LP参加者が同じcashbackを受け取れるかは確認できていない。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-03T23:29:22+09:00",
+      "updated_at": "2026-09-03T23:29:22+09:00",
+      "as_of": "2026-09-03T23:29:22+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/mag7-index-lp-emissions/index.html",
+      "url": "https://signaetstructura.com/ja/research/mag7-index-lp-emissions/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260903-232922-mag7-index-lp-emissions-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
