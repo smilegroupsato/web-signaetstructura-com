@@ -1225,6 +1225,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260904-033120-clearstar-successor-incentive-unconfirmed-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260904-0431-aerodrome-nvdac-apy-dislocation-expands",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-nvdac-apy-dislocation-expands",
+      "title": "Aerodrome NVDAc/USDC、表示APYが5,084%へ跳ねる一方でデータ乖離が拡大",
+      "summary": "Base上のAerodrome Slipstream USDC-NVDAcについて、DeFi Terminalの個別poolページが観測時点で総APY 5,084.39%（base 146.47% + reward 4,937.91%）、TVL約170万ドルを表示した。headline APYの約97%がreward成分である。一方、Yieldexは同poolをAPY 521.57%、TVL 138万ドルとしており、DefiLlama系の別取得面も300%台を示す。したがって5,084%を持続的・実現可能な利回りとして確定することはできず、現在の主要な観測事実はreward表示の急拡大とデータ提供面間の乖離である。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-04T04:31:50+09:00",
+      "updated_at": "2026-09-04T04:31:50+09:00",
+      "as_of": "2026-09-04T04:31:50+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/aerodrome-nvdac-apy-dislocation-expands/index.html",
+      "url": "https://signaetstructura.com/ja/research/aerodrome-nvdac-apy-dislocation-expands/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260904-043150-aerodrome-nvdac-apy-dislocation-expands-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
