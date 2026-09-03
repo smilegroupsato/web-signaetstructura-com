@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260903-2133-clearstar-cbassets-successor-incentive",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-tsy-20260903-213343-clearstar-cbassets-successor-incentive-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "b46999e1328cc1e48cf673b36506777dffa36c93",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.03_10_base-tokenized-stock-yield-watch_clearstar-cbassets-successor-incentive.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/clearstar-cbassets-successor-incentive/"
+}

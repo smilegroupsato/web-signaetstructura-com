@@ -1090,6 +1090,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260903-174048-clearstar-cbassets-incentive-expiry-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260903-2133-clearstar-cbassets-successor-incentive",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "clearstar-cbassets-successor-incentive",
+      "title": "Clearstar cbAssets、終了予定の2%報酬に後続キャンペーンが出現",
+      "summary": "Base上のMorpho Clearstar cbAssets V2では、2026-09-05に終了予定だったMerklのUSDC報酬について、公式Merkl opportunity画面に後続キャンペーンが表示された。現在は総APR 5.93%、protocol APR 3.93%、Merkl APR 2%、TVL約3,158万ドルで、現行キャンペーンは残り2日。これとは別に48,758 USDCのupcoming rewardが『Starts in 1d』として表示されている。Merklの一覧画面は同機会を総APR 5.92%、うち2% Merkl、TVL約3,157万ドル、残り29日として表示しており、報酬終了後もインセンティブが継続する可能性が高まった。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-03T21:33:43+09:00",
+      "updated_at": "2026-09-03T21:33:43+09:00",
+      "as_of": "2026-09-03T21:33:43+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/clearstar-cbassets-successor-incentive/index.html",
+      "url": "https://signaetstructura.com/ja/research/clearstar-cbassets-successor-incentive/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260903-213343-clearstar-cbassets-successor-incentive-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
