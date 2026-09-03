@@ -1198,6 +1198,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260904-014524-bitwise-mag7x-glider-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260904-0331-clearstar-successor-incentive-unconfirmed",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "clearstar-successor-incentive-unconfirmed",
+      "title": "Clearstar cbAssets、後続インセンティブが現在の取得面では確認できず",
+      "summary": "Base上のMorpho Clearstar cbAssets V2について、前回観測でMerklの新UIに表示されていた48,758 USDCの後続キャンペーンは、今回取得できたMerkl legacy画面では確認できず、同画面は『1 active / 0 upcoming』を表示している。現行の2% USDC報酬自体は継続しており、Merkl legacyは総APR 5.91%、protocol APR 3.91%、Merkl APR 2%、TVL約3,161万ドルを表示。Morphoのcampaign一覧は総APR 5.92%、うち2% Merkl、TVL約3,038万ドルを表示している。後続報酬が取り消されたと断定はできず、provider/UI間の更新差として扱う必要がある。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-04T03:31:20+09:00",
+      "updated_at": "2026-09-04T03:31:20+09:00",
+      "as_of": "2026-09-04T03:31:20+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/clearstar-successor-incentive-unconfirmed/index.html",
+      "url": "https://signaetstructura.com/ja/research/clearstar-successor-incentive-unconfirmed/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260904-033120-clearstar-successor-incentive-unconfirmed-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
