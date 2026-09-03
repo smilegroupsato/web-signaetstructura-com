@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260903-0831-aerodrome-metac-reward-spike",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-base-tsy-20260903-083132-aerodrome-metac-reward-spike-ja",
+  "source_observation_id": "obs-base-tsy-20260903-083132-aerodrome-metac-reward-spike-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "613a15363193eb2482b7f57e4b70226eb9944598",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.03_05_base-tokenized-stock-yield-watch_aerodrome-metac-reward-spike.json",
+  "source_sha": "311224a011003425a1230e62697abd8403fdf5a8",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.03_05_base-tokenized-stock-yield-watch_aerodrome-metac-reward-spike_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/aerodrome-metac-reward-spike-base/"
+  "production_url": "https://signaetstructura.com/en/research/aerodrome-metac-reward-spike-base/"
 }

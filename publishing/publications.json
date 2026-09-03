@@ -982,6 +982,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260903-083132-aerodrome-metac-reward-spike-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260903-0831-aerodrome-metac-reward-spike",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-metac-reward-spike-base",
+      "title": "Reward-driven APY on Aerodrome METAc/USDC re-expands to 826%",
+      "summary": "Aerodrome Slipstream METAc/USDC on Base showed 826.43% APY on DeFi Terminal, split into 66.24% base and 760.20% rewards, with about $927,400 TVL. DefiLlama's METAc RWA view still showed 657.17% APY and $945,928 TVL during the same observation window, highlighting a large update-timing gap even across views using the same underlying data.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-03T08:31:32+09:00",
+      "updated_at": "2026-09-03T08:31:32+09:00",
+      "as_of": "2026-09-03T08:31:32+09:00",
+      "status": "published",
+      "article_path": "site/en/research/aerodrome-metac-reward-spike-base/index.html",
+      "url": "https://signaetstructura.com/en/research/aerodrome-metac-reward-spike-base/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260903-083132-aerodrome-metac-reward-spike-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
