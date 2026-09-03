@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260903-1226-aerodrome-metac-apy-dislocation",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-tsy-20260903-122644-aerodrome-metac-apy-dislocation-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "5fba0beb6cb4693fdab1a340f6325e69d0291822",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.03_06_base-tokenized-stock-yield-watch_aerodrome-metac-apy-dislocation.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/aerodrome-metac-apy-dislocation-base/"
+}
