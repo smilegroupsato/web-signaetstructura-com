@@ -1468,6 +1468,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260905-034303-second-wave-aerodrome-stock-pools-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260905-0343-second-wave-aerodrome-stock-pools",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "second-wave-aerodrome-stock-usdc-pools-base",
+      "title": "Base Expands Tokenized Stocks to Ten as a Second Wave of Aerodrome USDC Pools Forms",
+      "summary": "Base's official Coinbase Tokenized Stocks list has expanded from the original NVDAc, METAc, AAPLc and GOOGLc cohort to ten names, adding AMZNc, MSFTc, MSTRc, SNDKc, SPCXc and TSLAc. This observation also found live Aerodrome Slipstream 3 USDC pools with trading activity for AMZNc, MSTRc and SPCXc. The new pools remain thin, and no reliable public APY or independently confirmed AERO, Merkl or Beefy incentive for the second-wave names was identified at the observation time.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-05T03:43:03+09:00",
+      "updated_at": "2026-09-05T03:43:03+09:00",
+      "as_of": "2026-09-05T03:43:03+09:00",
+      "status": "published",
+      "article_path": "site/en/research/second-wave-aerodrome-stock-usdc-pools-base/index.html",
+      "url": "https://signaetstructura.com/en/research/second-wave-aerodrome-stock-usdc-pools-base/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260905-034303-second-wave-aerodrome-stock-pools-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }

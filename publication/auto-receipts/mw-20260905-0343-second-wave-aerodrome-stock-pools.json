@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260905-0343-second-wave-aerodrome-stock-pools",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-base-tsy-20260905-034303-second-wave-aerodrome-stock-pools-ja",
+  "source_observation_id": "obs-base-tsy-20260905-034303-second-wave-aerodrome-stock-pools-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "6c66803728ceac2366c8659b6029bb2dd6d92b73",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.05_0343_base-tokenized-stock-yield-watch_second-wave-aerodrome-stock-usdc-pools.json",
+  "source_sha": "71dff8eca48eb50b9f6c3a8ffec817cfb3ddd7e0",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.05_0343_base-tokenized-stock-yield-watch_second-wave-aerodrome-stock-usdc-pools_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/second-wave-aerodrome-stock-usdc-pools-base/"
+  "production_url": "https://signaetstructura.com/en/research/second-wave-aerodrome-stock-usdc-pools-base/"
 }
