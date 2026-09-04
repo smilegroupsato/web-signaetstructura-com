@@ -1333,6 +1333,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260904-112641-aerodrome-metac-reward-dislocation-expands-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260904-2132-aerodrome-metac-rwa-reward-reexpansion",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-metac-rwa-reward-reexpansion",
+      "title": "AerodromeのMETAc/USDCでAERO報酬年率表示が再拡大",
+      "summary": "DefiLlamaのMETAc RWA集約面で、Base上のAerodrome Slipstream USDC-METAcがAPY 2,696.82%、TVL 709,974ドルと表示された。APY内訳は基礎利回り111.41%、AERO報酬2,585.41%で、2026-09-04 11:26 JSTに確認した個別pool面の603.88%から2,092.94ポイント拡大している。一方、DeFi Terminalは同poolを1,838.00%、TVL約702,300ドルと表示しており、データ面間の乖離が続いている。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-04T21:32:43+09:00",
+      "updated_at": "2026-09-04T21:32:43+09:00",
+      "as_of": "2026-09-04T21:32:43+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/aerodrome-metac-rwa-reward-reexpansion/index.html",
+      "url": "https://signaetstructura.com/ja/research/aerodrome-metac-rwa-reward-reexpansion/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260904-213243-aerodrome-metac-rwa-reward-reexpansion-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
