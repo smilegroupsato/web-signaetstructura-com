@@ -1387,6 +1387,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260904-213243-aerodrome-metac-rwa-reward-reexpansion-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260904-2340-b420-stock-reward-staking",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "b420-stock-reward-staking-base",
+      "title": "B420、launch feeを4銘柄のtokenized stockへ変換してstakerへstreamする構造を展開",
+      "summary": "Base上のB420で、B20 launchの取引手数料をNVDAc、AAPLc、GOOGLc、METAcへ変換し、B420 stakerへstreamするprotocol-level reward構造を確認した。通常のstock/USDC LPやcarry vaultではなく、meme-token launchpadのfee flowをtokenized stock basketでsettleするcompositionである。一方、公開Rewards画面ではAPR、total staked、累計支払額が動的表示のまま取得できず、比較可能なlive APY/TVLは観測時点で確定できない。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-04T23:40:31+09:00",
+      "updated_at": "2026-09-04T23:40:31+09:00",
+      "as_of": "2026-09-04T23:40:31+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/b420-stock-reward-staking-base/index.html",
+      "url": "https://signaetstructura.com/ja/research/b420-stock-reward-staking-base/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260904-234031-b420-stock-reward-staking-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
