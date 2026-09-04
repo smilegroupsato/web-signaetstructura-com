@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260905-0110-starloop-spacex-collateral-yield-vault",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-tsy-20260905-011052-starloop-spacex-collateral-yield-vault-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "24a9e3395506a7424c7da4d0bc99b8057120698a",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.05_0110_base-tokenized-stock-yield-watch_starloop-spacex-collateral-yield-vault.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/starloop-spacex-collateral-yield-vault-base/"
+}
