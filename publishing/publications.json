@@ -1549,6 +1549,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260905-185653-aerodrome-metac-reward-normalization-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260905-1856-aerodrome-metac-reward-normalization",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-metac-reward-normalization",
+      "title": "Aerodrome METAc/USDC Display APY Falls to 582% as the AERO Reward Spike Normalizes",
+      "summary": "On Base, DeFi Terminal now shows Aerodrome Slipstream USDC-METAc at 581.51% APY, composed of 79.29% base yield and 502.22% reward yield, with roughly $857.6K in TVL. That is 1,256.49 percentage points below the 1,838.00% reading observed on the same surface on 2026-09-04 at 11:26 JST, with most of the move coming from the AERO reward component. The current reading is close to the page's 30-day average of 594.14%.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-05T18:56:53+09:00",
+      "updated_at": "2026-09-05T18:56:53+09:00",
+      "as_of": "2026-09-05T18:56:53+09:00",
+      "status": "published",
+      "article_path": "site/en/research/aerodrome-metac-reward-normalization/index.html",
+      "url": "https://signaetstructura.com/en/research/aerodrome-metac-reward-normalization/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260905-185653-aerodrome-metac-reward-normalization-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
