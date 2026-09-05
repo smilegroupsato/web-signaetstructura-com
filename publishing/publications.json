@@ -1495,6 +1495,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260905-034303-second-wave-aerodrome-stock-pools-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260905-1323-clearstar-apr-surface-divergence",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "clearstar-apr-surface-divergence",
+      "title": "Clearstar cbAssets、Morpho内のAPR表示が5.84〜7.13%へ分岐",
+      "summary": "Base上のClearstar cbAssets V2で、同一Morphoキャンペーンの公開取得面に大きな表示差が生じている。campaign metrics面は総APR 7.13%（protocol 5.13% + Merkl 2.00%）、TVL 3,121万ドルを表示する一方、Base一覧はAPR 5.93%（Merkl 1.92%を含む）、TVL 3,156万ドル、別のopportunities一覧はAPR 5.84%（Merkl 1.84%を含む）、TVL 3,284万ドルを表示した。前回2026-09-04 05:41 JSTの公開観測では約6.1%・TVL約3,021万ドルだったため、今回は単純なAPR上昇ではなく、campaign rolloverまたはsnapshot/cache差を含む可能性がある表示分岐として記録する。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-05T13:23:14+09:00",
+      "updated_at": "2026-09-05T13:23:14+09:00",
+      "as_of": "2026-09-05T13:23:14+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/clearstar-apr-surface-divergence/index.html",
+      "url": "https://signaetstructura.com/ja/research/clearstar-apr-surface-divergence/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260905-132314-clearstar-apr-surface-divergence-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
