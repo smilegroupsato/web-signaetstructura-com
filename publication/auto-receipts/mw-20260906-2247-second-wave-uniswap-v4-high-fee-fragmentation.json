@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260906-2247-second-wave-uniswap-v4-high-fee-fragmentation",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-tsy-20260906-224706-second-wave-uniswap-v4-high-fee-fragmentation-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "5908e00dd6592e048b3e20dc33bcc81ee5a3ecba",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.06_2247_base-tokenized-stock-yield-watch_second-wave-uniswap-v4-high-fee-fragmentation.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/second-wave-uniswap-v4-high-fee-fragmentation/"
+}

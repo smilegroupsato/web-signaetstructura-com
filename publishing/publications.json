@@ -1954,6 +1954,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260906-172838-clearstar-dual-incentive-rolloff-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260906-2247-second-wave-uniswap-v4-high-fee-fragmentation",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "second-wave-uniswap-v4-high-fee-fragmentation",
+      "title": "Baseの第2波tokenized stockでUniswap V4高fee LPが分岐、TSLAc/USDCは3% fee",
+      "summary": "BaseのCoinbase Tokenized Stocks第2波で、Aerodrome/USDC以外にUniswap V4の高fee LP群が形成されていることを新たに確認した。TSLAc/USDCの3% fee poolは流動性21,856.87ドル、24時間volume 141.7Kドル、pool age 23時間。MSFTcでもUSDCとの4.333% fee poolが流動性11,877.49ドル・volume 64,415.85ドル、3% fee poolが流動性4,905.59ドル・volume 35,239.04ドルと表示される。さらにTSLAcにはETH建て8% feeのUniswap V4 poolも表示されている。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-06T22:47:06+09:00",
+      "updated_at": "2026-09-06T22:47:06+09:00",
+      "as_of": "2026-09-06T22:47:06+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/second-wave-uniswap-v4-high-fee-fragmentation/index.html",
+      "url": "https://signaetstructura.com/ja/research/second-wave-uniswap-v4-high-fee-fragmentation/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260906-224706-second-wave-uniswap-v4-high-fee-fragmentation-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
