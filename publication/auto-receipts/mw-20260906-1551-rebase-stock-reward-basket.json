@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260906-1551-rebase-stock-reward-basket",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-base-tsy-20260906-155105-rebase-stock-reward-basket-ja",
+  "source_observation_id": "obs-base-tsy-20260906-155105-rebase-stock-reward-basket-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "8c05aec5695f9e596bde15d24becf87276915741",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.06_1551_base-tokenized-stock-yield-watch_rebase-stock-reward-basket.json",
+  "source_sha": "03e7eb9ec8afc3bdb16d672a43bb7c49f042b6a8",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.06_1551_base-tokenized-stock-yield-watch_rebase-stock-reward-basket_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/rebase-stock-reward-basket-base/"
+  "production_url": "https://signaetstructura.com/en/research/rebase-stock-reward-basket-base/"
 }
