@@ -1927,6 +1927,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260906-163504-clearstar-tvl-surge-incentive-dilution-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260906-1728-clearstar-dual-incentive-rolloff",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "clearstar-dual-incentive-rolloff",
+      "title": "Clearstar cbAssets V2の二重incentive表示が解消、総APRは5.79%へ低下",
+      "summary": "Base上のMorpho Clearstar cbAssets V2で、最新のopportunity面が1 active / 0 upcoming / 5 pastを表示し、総APRは5.79%（protocol 3.93% + Merkl 1.86%）、日次報酬は約1,740ドル、TVLは3,413万ドルとなった。2026-09-06 16:35 JSTの観測では2 active、総APR 7.33%、Merkl APR 3.42%、日次報酬約3,400ドル、TVL 3,630万ドルだったため、二重incentiveの重複表示は解消され、単一campaignの報酬構造へ戻ったことが確認できる。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-06T17:28:38+09:00",
+      "updated_at": "2026-09-06T17:28:38+09:00",
+      "as_of": "2026-09-06T17:28:38+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/clearstar-dual-incentive-rolloff/index.html",
+      "url": "https://signaetstructura.com/ja/research/clearstar-dual-incentive-rolloff/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260906-172838-clearstar-dual-incentive-rolloff-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
