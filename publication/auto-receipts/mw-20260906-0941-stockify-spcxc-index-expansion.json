@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260906-0941-stockify-spcxc-index-expansion",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-base-tsy-20260906-094114-stockify-spcxc-index-expansion-ja",
+  "source_observation_id": "obs-base-tsy-20260906-094114-stockify-spcxc-index-expansion-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "f459817ceda89027d9aaf597b9ddcf3d8bf6de81",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.06_0941_base-tokenized-stock-yield-watch_stockify-spcxc-index-expansion.json",
+  "source_sha": "9fd1dd0fcd3e6aa544cd9cfbcc1590de5321e9bc",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.06_0941_base-tokenized-stock-yield-watch_stockify-spcxc-index-expansion_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/stockify-spcxc-index-expansion-base/"
+  "production_url": "https://signaetstructura.com/en/research/stockify-spcxc-index-expansion-base/"
 }
