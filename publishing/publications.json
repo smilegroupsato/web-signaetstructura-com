@@ -1900,6 +1900,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260906-163504-clearstar-tvl-surge-incentive-dilution-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260906-1635-clearstar-tvl-surge-incentive-dilution",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "clearstar-tvl-surge-incentive-dilution",
+      "title": "Clearstar cbAssets TVL rises to $36.3M as USDC incentive APR falls to 3.42%",
+      "summary": "On Base, the latest Morpho campaign detail surface for Clearstar cbAssets V2 shows $36.3M TVL, 7.33% total APR (3.91% protocol + 3.42% Merkl), about $3.4K in daily rewards, and 2 active / 0 upcoming campaigns. Versus the immediately prior patrol reading of $33.67M TVL, 7.61% total APR and 3.69% Merkl APR, displayed TVL is higher by about $2.63M or 7.8%, while total APR is lower by 0.28 percentage points and the Merkl component by 0.27 points. Displayed daily rewards remain about $3.4K.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-06T16:35:04+09:00",
+      "updated_at": "2026-09-06T16:35:04+09:00",
+      "as_of": "2026-09-06T16:35:04+09:00",
+      "status": "published",
+      "article_path": "site/en/research/clearstar-tvl-surge-incentive-dilution/index.html",
+      "url": "https://signaetstructura.com/en/research/clearstar-tvl-surge-incentive-dilution/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260906-163504-clearstar-tvl-surge-incentive-dilution-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
