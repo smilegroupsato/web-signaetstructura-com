@@ -2035,6 +2035,33 @@
       },
       "source_observation_id": "obs-20260906-2351-aerodrome-stock-weth-pairs-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260907-0701-wtcoin-aerodrome-fee-spike",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "wtcoin-aerodrome-fee-spike",
+      "title": "AerodromeのwtCOIN/USDCで年率表示が2,194%へ急伸",
+      "summary": "Base上のST0x wtCOIN/USDC Aerodrome Slipstreamプールで、DeFiLlamaの表示APYが2,194.44%まで上昇した。内訳は取引手数料由来のbase APY 2,064.98%とAERO報酬129.46%で、TVLは約4.33万ドル。確認可能な直近のRenditeMonitor表示ではAPY 583.22%、TVL約4.9万ドルだったため、年率表示は大きく上振れている。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-07T07:01:05+09:00",
+      "updated_at": "2026-09-07T07:01:05+09:00",
+      "as_of": "2026-09-07T07:01:05+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/wtcoin-aerodrome-fee-spike/index.html",
+      "url": "https://signaetstructura.com/ja/research/wtcoin-aerodrome-fee-spike/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260907-070105-wtcoin-aerodrome-fee-spike-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
