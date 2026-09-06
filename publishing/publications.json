@@ -1819,6 +1819,33 @@
       },
       "source_observation_id": "obs-base-tsy-20260906-141011-o1-second-wave-stock-quoted-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260906-1551-rebase-stock-reward-basket",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "rebase-stock-reward-basket-base",
+      "title": "BaseのREBASE、取引税をtokenized stockを含む10資産バスケットへ自動分配",
+      "summary": "Base上のREBASEは、各取引に5%の税を課し、そのうち3%を10資産のバスケットへオンチェーンで変換して保有者へ自動分配する構造を公開している。観測時のバスケットは10枠中6枠がST0xの株式・ETF系tokenで、wtNVDA、wtIAU、wtCOIN、wtDRAM、wtQQQM、wtSPCXが各10%。公開画面は累計分配約7.4千ドル、24時間出来高約1.8千ドル、時価総額約5.09万ドル、保有者281、流動性約2.17万ドルを表示している。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-06T15:51:05+09:00",
+      "updated_at": "2026-09-06T15:51:05+09:00",
+      "as_of": "2026-09-06T15:51:05+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/rebase-stock-reward-basket-base/index.html",
+      "url": "https://signaetstructura.com/ja/research/rebase-stock-reward-basket-base/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tsy-20260906-155105-rebase-stock-reward-basket-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
