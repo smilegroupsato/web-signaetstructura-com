@@ -2143,6 +2143,33 @@
       },
       "source_observation_id": "obs-20260907-1047-googlc-weth-apy-reexpansion-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260907-1302-googlc-weth-apy-compression",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "googlc-weth-apy-compression",
+      "title": "Aerodrome GOOGLc/WETH、表示APYが約2時間で196%から124%へ圧縮",
+      "summary": "Base上のAerodrome Slipstream GOOGLc/WETHで、DefiLlamaの表示APYが2026-09-07 10:47 JSTの195.80%から13:02 JSTの124.39%へ低下した。TVLは151,089ドルから148,422ドルへ約1.8%の減少にとどまる一方、表示内訳はbase 92.24%から66.35%、AERO reward 103.56%から58.04%へともに低下している。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-07T13:02:01+09:00",
+      "updated_at": "2026-09-07T13:02:01+09:00",
+      "as_of": "2026-09-07T13:02:01+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/googlc-weth-apy-compression/index.html",
+      "url": "https://signaetstructura.com/ja/research/googlc-weth-apy-compression/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-20260907-1302-googlc-weth-apy-compression-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
