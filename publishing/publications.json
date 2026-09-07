@@ -2359,6 +2359,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-20260908-0605-euler-v2-b20-footprint-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260908-0605-euler-v2-b20-footprint",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "euler-v2-b20-footprint",
+      "title": "Euler V2 balances observed across four Coinbase B20 stocks on Base",
+      "summary": "DefiLlama asset pages for Coinbase Tokenized Stocks on Base show Euler V2 DeFi Active TVL of $1,236 for NVDAc, $936 for METAc, $863 for GOOGLc, and $738 for AAPLc, or about $3,773 combined. Base's official stock ecosystem page describes Euler as modular lending and borrowing for tokenized stocks. The footprint remains very small, and the exact vault configuration, utilization, supply/borrow APYs, and any B20-specific incentives were not independently verified.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-08T06:05:01+09:00",
+      "updated_at": "2026-09-08T06:05:01+09:00",
+      "as_of": "2026-09-08T06:05:01+09:00",
+      "status": "published",
+      "article_path": "site/en/research/euler-v2-b20-footprint/index.html",
+      "url": "https://signaetstructura.com/en/research/euler-v2-b20-footprint/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-20260908-0605-euler-v2-b20-footprint-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }

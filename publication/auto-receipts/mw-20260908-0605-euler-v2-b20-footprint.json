@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260908-0605-euler-v2-b20-footprint",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-tokenized-stock-yield-20260908-0605-euler-v2-b20-footprint-ja",
+  "source_observation_id": "base-tokenized-stock-yield-20260908-0605-euler-v2-b20-footprint-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
   "source_sha": "32247feee17387f38840106874de88757b4fab7d",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.08_0605_base-tokenized-stock-yield-watch_euler-v2-b20-footprint.json",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.08_0605_base-tokenized-stock-yield-watch_euler-v2-b20-footprint_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/euler-v2-b20-footprint/"
+  "production_url": "https://signaetstructura.com/en/research/euler-v2-b20-footprint/"
 }
