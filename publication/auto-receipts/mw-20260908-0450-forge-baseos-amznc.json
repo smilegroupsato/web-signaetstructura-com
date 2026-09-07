@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260908-0450-forge-baseos-amznc",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-tokenized-stock-yield-20260908-0450-forge-baseos-amznc-ja",
+  "source_observation_id": "base-tokenized-stock-yield-20260908-0450-forge-baseos-amznc-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "99ac5b4441d848b7a4c4289bc9e6ed0670647a44",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.08_0450_base-tokenized-stock-yield-watch_forge-baseos-amznc.json",
+  "source_sha": "2d0620ac00c783f826454f65755e5de84e6c2905",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.08_0450_base-tokenized-stock-yield-watch_forge-baseos-amznc_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/forge-baseos-amznc/"
+  "production_url": "https://signaetstructura.com/en/research/forge-baseos-amznc/"
 }

@@ -2305,6 +2305,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-20260908-0450-forge-baseos-amznc-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260908-0450-forge-baseos-amznc",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "forge-baseos-amznc",
+      "title": "Forge adds 10 Base stock tokens as pair assets as BASEOS/AMZNc goes live",
+      "summary": "Forge Launchpad says AMZNc, TSLAc, GOOGLc, SNDKc, MSTRc, NVDAc, SPCXc, METAc, MSFTc and AAPLc are now available as Base pair assets with dividend capabilities. A live BASEOS/AMZNc Uniswap V4 pool is also visible, with roughly $4.27K of liquidity and about $520 of 24-hour volume at observation time. The setup extends tokenized stocks beyond standalone holdings, collateral and conventional LP legs into quote assets for third-party tokens and holder-reward designs.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-08T04:50:27+09:00",
+      "updated_at": "2026-09-08T04:50:27+09:00",
+      "as_of": "2026-09-08T04:50:27+09:00",
+      "status": "published",
+      "article_path": "site/en/research/forge-baseos-amznc/index.html",
+      "url": "https://signaetstructura.com/en/research/forge-baseos-amznc/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-20260908-0450-forge-baseos-amznc-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
