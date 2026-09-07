@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260907-1912-harvest-stock-wrapper-apy-gap",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "base-tokenized-stock-yield-20260907-1912-harvest-stock-wrapper-apy-gap-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "cc305a44d0a47870b8059203e564751002e30aaa",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.07_1912_base-tokenized-stock-yield-watch_harvest-stock-wrapper-apy-gap.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/harvest-stock-wrapper-apy-gap/"
+}
