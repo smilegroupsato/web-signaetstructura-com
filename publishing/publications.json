@@ -2089,6 +2089,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260907-070105-wtcoin-aerodrome-fee-spike-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260907-1047-googlc-weth-apy-reexpansion",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "googlc-weth-apy-reexpansion",
+      "title": "Aerodrome GOOGLc/WETH、TVL横ばいのまま表示APYが97%から196%へ再拡大",
+      "summary": "Base上のAerodrome Slipstream GOOGLc/WETHで、DefiLlamaのRWA面がTVL 151,089ドル、APY 195.80%（base 92.24% + AERO reward 103.56%）を表示した。2026-09-06 23:51:27 JSTの観測ではTVL 148,085ドル、APY 97.01%（base 38.80% + reward 58.21%）だったため、TVLが約2%の増加にとどまる一方、表示APYは98.79ポイント上昇して約2倍になった。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-07T10:47:27+09:00",
+      "updated_at": "2026-09-07T10:47:27+09:00",
+      "as_of": "2026-09-07T10:47:27+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/googlc-weth-apy-reexpansion/index.html",
+      "url": "https://signaetstructura.com/ja/research/googlc-weth-apy-reexpansion/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-20260907-1047-googlc-weth-apy-reexpansion-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
