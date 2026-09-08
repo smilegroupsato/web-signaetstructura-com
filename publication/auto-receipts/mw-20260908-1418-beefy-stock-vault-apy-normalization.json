@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260908-1418-beefy-stock-vault-apy-normalization",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-tokenized-stock-yield-watch-20260908T141817JST-beefy-normalization-ja",
+  "source_observation_id": "base-tokenized-stock-yield-watch-20260908T141817JST-beefy-normalization-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "279858fdb44ddef1e6aefb6b1bc2b34bf39a9c2c",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.08_1418_beefy-stock-vault-apy-normalization.json",
+  "source_sha": "1f98eb9da1efcc3d937614dacd907f5ada2d3559",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.08_1418_beefy-stock-vault-apy-normalization_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/beefy-stock-vault-apy-normalization/"
+  "production_url": "https://signaetstructura.com/en/research/beefy-stock-vault-apy-normalization/"
 }
