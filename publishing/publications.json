@@ -2548,6 +2548,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260909-0511-aerodrome-nvdac-provider-divergence-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260909-0511-aerodrome-nvdac-provider-divergence",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-nvdac-provider-divergence",
+      "title": "Aerodrome NVDAc/USDC displayed APY diverges sharply between 2,293% and 165%",
+      "summary": "For Aerodrome Slipstream USDC-NVDAc on Base, DefiLlama's live pool page displayed 2,293.52% APY, split into 81.30% base and 2,212.22% AERO rewards, with about $2.04M TVL. DeFi Terminal displayed the same pool at 164.68% APY, split into 34.11% base and 130.57% rewards, with about $2.4M TVL. GeckoTerminal showed roughly $2.03M of liquidity and $8.36M of 24-hour volume for the same pool address, placing its liquidity reading closer to DefiLlama's live page.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-09T05:11:02+09:00",
+      "updated_at": "2026-09-09T05:11:02+09:00",
+      "as_of": "2026-09-09T05:11:02+09:00",
+      "status": "published",
+      "article_path": "site/en/research/aerodrome-nvdac-provider-divergence/index.html",
+      "url": "https://signaetstructura.com/en/research/aerodrome-nvdac-provider-divergence/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260909-0511-aerodrome-nvdac-provider-divergence-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
