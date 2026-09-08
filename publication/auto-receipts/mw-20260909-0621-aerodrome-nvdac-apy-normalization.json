@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260909-0621-aerodrome-nvdac-apy-normalization",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-stock-watch-20260909T062151+0900-aerodrome-nvdac-ja",
+  "source_observation_id": "base-stock-watch-20260909T062151+0900-aerodrome-nvdac-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "cc09cb560d265bd9b9cba44b801b0e2fec39cd25",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.09_0621_aerodrome-nvdac-apy-normalization.json",
+  "source_sha": "d70813a7ef98a91a6620f5d04ec0e5b42d77b7f0",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.09_0621_aerodrome-nvdac-apy-normalization_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/aerodrome-nvdac-apy-normalization/"
+  "production_url": "https://signaetstructura.com/en/research/aerodrome-nvdac-apy-normalization/"
 }
