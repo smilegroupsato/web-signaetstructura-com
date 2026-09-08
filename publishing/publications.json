@@ -2521,6 +2521,33 @@
       },
       "source_observation_id": "obs-base-tokenized-stock-yield-20260908-2312-beefy-msftc-sndkc-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260909-0511-aerodrome-nvdac-provider-divergence",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-nvdac-provider-divergence",
+      "title": "Aerodrome NVDAc/USDC、同一プールの表示APYが2,293%と165%に大きく分岐",
+      "summary": "Base上のAerodrome Slipstream USDC-NVDAcで、DefiLlamaの個別プールlive面がAPY 2,293.52%（base 81.30% + AERO reward 2,212.22%）、TVL約204万ドルを表示した一方、DeFi Terminalは同プールを164.68%（base 34.11% + reward 130.57%）、TVL約240万ドルと表示した。GeckoTerminalは同一プールアドレスの流動性を約203万ドル、24時間出来高を約835万ドルとしており、流動性規模はDefiLlama live面に近い。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-09T05:11:02+09:00",
+      "updated_at": "2026-09-09T05:11:02+09:00",
+      "as_of": "2026-09-09T05:11:02+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/aerodrome-nvdac-provider-divergence/index.html",
+      "url": "https://signaetstructura.com/ja/research/aerodrome-nvdac-provider-divergence/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260909-0511-aerodrome-nvdac-provider-divergence-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
