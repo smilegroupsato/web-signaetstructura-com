@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260909-1146-beefy-msftc-tvl-doubles",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-stock-yield-20260909-1146-beefy-msftc-ja",
+  "source_observation_id": "base-stock-yield-20260909-1146-beefy-msftc-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "5938553310ed84c7101dd2081f292d302ae5d8e0",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.09_1146_beefy_msftc_tvl_doubles.json",
+  "source_sha": "225003ca9b3bb0cbb9120047f154983ac3ced0c1",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.09_1146_beefy_msftc_tvl_doubles_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/beefy-msftc-vault-tvl-doubles/"
+  "production_url": "https://signaetstructura.com/en/research/beefy-msftc-vault-tvl-doubles/"
 }
