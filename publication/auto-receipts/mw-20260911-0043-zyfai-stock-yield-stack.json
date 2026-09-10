@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260911-0043-zyfai-stock-yield-stack",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-base-tsy-20260911-004330-zyfai-ja",
+  "source_observation_id": "obs-base-tsy-20260911-004330-zyfai-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "0f20903ae60cb37718d8db7e01dcb986fff8bd9b",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.11_01_base-tokenized-stock-yield-watch_zyfai-stock-yield-stack.json",
+  "source_sha": "b1d13e01376eaa7bcd82c39ef075b51f03d89729",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.11_01_base-tokenized-stock-yield-watch_zyfai-stock-yield-stack_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/zyfai-stock-yield-stack/"
+  "production_url": "https://signaetstructura.com/en/research/zyfai-stock-yield-stack/"
 }
