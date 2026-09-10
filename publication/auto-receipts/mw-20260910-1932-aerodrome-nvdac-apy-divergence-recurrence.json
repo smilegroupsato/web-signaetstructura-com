@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260910-1932-aerodrome-nvdac-apy-divergence-recurrence",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-stock-watch-20260910T193244+0900-aerodrome-nvdac-divergence-ja",
+  "source_observation_id": "base-stock-watch-20260910T193244+0900-aerodrome-nvdac-divergence-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "7f0c99d60c794e6bb7e5e6b9da9602ff786e958c",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.10_1932_aerodrome-nvdac-apy-divergence-recurrence.json",
+  "source_sha": "4dda900e9a895099069a47e38c6c9ff150354b64",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.10_1932_aerodrome-nvdac-apy-divergence-recurrence_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/aerodrome-nvdac-apy-divergence-recurrence/"
+  "production_url": "https://signaetstructura.com/en/research/aerodrome-nvdac-apy-divergence-recurrence/"
 }
