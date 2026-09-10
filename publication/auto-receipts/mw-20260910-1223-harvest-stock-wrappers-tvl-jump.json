@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260910-1223-harvest-stock-wrappers-tvl-jump",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-stock-20260910-122349-harvest-wrapper-tvl-jump-ja",
+  "source_observation_id": "base-stock-20260910-122349-harvest-wrapper-tvl-jump-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "4acaf983c80622e9141ed074c4ffe37a41a13974",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.10_1223_harvest-stock-wrappers-tvl-jump.json",
+  "source_sha": "df495c372a186d3629059fad5208bcd288692999",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.10_1223_harvest-stock-wrappers-tvl-jump_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/harvest-stock-wrappers-tvl-jump/"
+  "production_url": "https://signaetstructura.com/en/research/harvest-stock-wrappers-tvl-jump/"
 }
