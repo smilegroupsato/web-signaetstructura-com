@@ -3007,6 +3007,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260911-2116-feel-ipod-aaplc-holder-rewards-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260912-0027-tau-aaplc-tvl-inflow",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "tau-aaplc-carry-vault-tvl-inflow",
+      "title": "TAU AAPLc Carry Vault、1日で約4,554ドル純流入しTVLが約1.79万ドルへ",
+      "summary": "Base上のTAU AAPLc Carry Vaultで、Portals ExplorerはTVL 17,909.95ドル、1日入金4,986.78ドル、出金432.68ドルを表示している。差し引き約4,554.10ドルの純流入で、現在TVLから逆算した1日前の規模約13,355.85ドルに対して約34.1%の増加に相当する。表示APYは10.00%で変わらず、Portals上ではbase APY 0.00%、reward APY 10.00%となっている。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-12T00:27:38+09:00",
+      "updated_at": "2026-09-12T00:27:38+09:00",
+      "as_of": "2026-09-12T00:27:38+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/tau-aaplc-carry-vault-tvl-inflow/index.html",
+      "url": "https://signaetstructura.com/ja/research/tau-aaplc-carry-vault-tvl-inflow/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-20260912-0027-tau-aaplc-tvl-inflow-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
