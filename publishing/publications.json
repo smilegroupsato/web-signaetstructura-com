@@ -3088,6 +3088,33 @@
       },
       "source_observation_id": "obs-base-tau-aaplc-portals-20260912-0353-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260912-0353-tau-aaplc-tvl-acceleration",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "tau-aaplc-tvl-acceleration-2026-09-12",
+      "title": "TAU AAPLc Carry Vault TVL rises 57.6% in roughly three and a half hours",
+      "summary": "Portals Explorer showed TAU AAPLc Carry Vault TVL rising from $17,909.95 at 00:27 JST on 2026-09-12 to $28,228.37 at 03:53 JST. That is an increase of $10,318.42, or 57.6%, while the displayed APY remained unchanged at 10.00%. The move therefore appeared as a rapid capital inflow rather than a repricing of the headline yield.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-12T03:53:37+09:00",
+      "updated_at": "2026-09-12T03:53:37+09:00",
+      "as_of": "2026-09-12T03:53:37+09:00",
+      "status": "published",
+      "article_path": "site/en/research/tau-aaplc-tvl-acceleration-2026-09-12/index.html",
+      "url": "https://signaetstructura.com/en/research/tau-aaplc-tvl-acceleration-2026-09-12/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tau-aaplc-portals-20260912-0353-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
