@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260912-0027-tau-aaplc-tvl-inflow",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-20260912-0027-tau-aaplc-tvl-inflow-ja",
+  "source_observation_id": "obs-20260912-0027-tau-aaplc-tvl-inflow-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "069567c390d92f1148f5fb5ae6295502411203b0",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.12_01_base-tokenized-stock-yield-watch_tau-aaplc-tvl-inflow.json",
+  "source_sha": "18f6bdafe1f883fcb717b646250598efdc11e52a",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.12_01_base-tokenized-stock-yield-watch_tau-aaplc-tvl-inflow_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/tau-aaplc-carry-vault-tvl-inflow/"
+  "production_url": "https://signaetstructura.com/en/research/tau-aaplc-carry-vault-tvl-inflow/"
 }
