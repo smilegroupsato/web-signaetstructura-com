@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260912-0353-tau-aaplc-tvl-acceleration",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-tau-aaplc-portals-20260912-0353-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "9219faf6e263f1879bb3e623f2e7cfc62cc2ce37",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.12_0353_base-tokenized-stock-yield-watch_tau-aaplc-tvl-acceleration.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/tau-aaplc-tvl-acceleration-2026-09-12/"
+}
