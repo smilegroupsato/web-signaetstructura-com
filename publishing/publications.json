@@ -2980,6 +2980,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260911-2116-feel-ipod-aaplc-holder-rewards-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260911-2116-feel-ipod-aaplc-holder-rewards",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "feel-ipod-aaplc-holder-rewards",
+      "title": "Feel.cash Adds Daily AAPLc Rewards for IPOD Holders",
+      "summary": "Feel.cash has introduced daily Apple stock-token rewards for holders of IPOD, an IPOD/AAPLc market on Base, and says the first $2.28K has already been distributed. No staking or claim step is required, adding a direct stock-token holder incentive on top of an existing stock-paired liquidity structure.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-11T21:16:09+09:00",
+      "updated_at": "2026-09-11T21:16:09+09:00",
+      "as_of": "2026-09-11T21:16:09+09:00",
+      "status": "published",
+      "article_path": "site/en/research/feel-ipod-aaplc-holder-rewards/index.html",
+      "url": "https://signaetstructura.com/en/research/feel-ipod-aaplc-holder-rewards/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260911-2116-feel-ipod-aaplc-holder-rewards-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
