@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260912-1945-laptop-aaplc-apy-rebound",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "base-tokenized-stock-yield-watch-20260912T194501+0900-laptop-aaplc-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "b3765775887e9ca04d82cfe6561da329d445369e",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.12_1945_laptop-aaplc-apy-rebound.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/laptop-aaplc-apy-rebound/"
+}
