@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260912-2127-laptop-aaplc-apy-whipsaw-down",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-tokenized-stock-yield-watch-20260912T212748+0900-laptop-aaplc-ja",
+  "source_observation_id": "base-tokenized-stock-yield-watch-20260912T212748+0900-laptop-aaplc-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "09b447e2f9a3d8ac622297d3abbfd08c3b391852",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.12_2127_laptop-aaplc-apy-whipsaw-down.json",
+  "source_sha": "7eeea8f3a6aaf932ad0d73166f3f35571fb73be1",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.12_2127_laptop-aaplc-apy-whipsaw-down_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/laptop-aaplc-apy-whipsaw-down/"
+  "production_url": "https://signaetstructura.com/en/research/laptop-aaplc-apy-whipsaw-down/"
 }
