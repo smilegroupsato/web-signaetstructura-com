@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260912-1330-laptop-aaplc-apy-compression",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-base-tsy-20260912-133020-laptop-aaplc-apy-compression-ja",
+  "source_observation_id": "obs-base-tsy-20260912-133020-laptop-aaplc-apy-compression-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "d396fede27f130ad7fdf5864e611a3c32de62223",
-  "source_path": "publication/sc-markets-research/auto-intake/mw-20260912-1330-laptop-aaplc-apy-compression.json",
+  "source_sha": "24ab7e8a344c69d535e5d34ae4f2bb3208dab02f",
+  "source_path": "publication/sc-markets-research/auto-intake/mw-20260912-1330-laptop-aaplc-apy-compression_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/laptop-aaplc-apy-compression/"
+  "production_url": "https://signaetstructura.com/en/research/laptop-aaplc-apy-compression/"
 }
