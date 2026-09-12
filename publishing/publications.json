@@ -3277,6 +3277,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260912T212748+0900-laptop-aaplc-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260913-0427-cstocks-epoch2-expanded-cashback",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "base-cstocks-epoch2-expanded-cashback",
+      "title": "Base tokenized-stock cashback enters Epoch 2 with 10 assets and 4% on KyberSwap",
+      "summary": "The direct cashback program for Coinbase Tokenized Stocks on Base has entered Epoch 2. On the KyberSwap route, terms expanded from four assets, up to 2% cashback and a 10 USDC per-address cap in Epoch 1 to ten assets, up to 4% and a 20 USDC cap. TSLAc, SPCXc, SNDKc, MSTRc, MSFTc and AMZNc were added, and Epoch 2 runs through September 21, 2026. Merkl describes the broader program as offering up to 5% USDC cashback.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-13T04:27:50+09:00",
+      "updated_at": "2026-09-13T04:27:50+09:00",
+      "as_of": "2026-09-13T04:27:50+09:00",
+      "status": "published",
+      "article_path": "site/en/research/base-cstocks-epoch2-expanded-cashback/index.html",
+      "url": "https://signaetstructura.com/en/research/base-cstocks-epoch2-expanded-cashback/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260913-042750-cstocks-epoch2-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
