@@ -3304,6 +3304,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260913-042750-cstocks-epoch2-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260913-1314-base-tokenized-stock-dex-volume-nvdac-fee-apy",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "base-tokenized-stock-dex-volume-record-nvdac-fee-apy",
+      "title": "Base tokenized-stock DEX volume is reported at a $100M daily record as NVDAc LP fee APY rebounds",
+      "summary": "At the 2026-09-13 13:14 JST observation, Aerodrome Slipstream USDC/NVDAc on Base showed about $2.65M TVL, 90.04% total APY, 40.67% base APY, and 49.37% AERO reward APY. Versus the 06:12 JST observation, TVL rose only about 0.8%, while total APY increased about 55.4%, base APY about 172.3%, and AERO reward APY about 14.8%. The latest rebound is driven more by the fee-derived base component than by rewards.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-13T13:14:46+09:00",
+      "updated_at": "2026-09-13T13:14:46+09:00",
+      "as_of": "2026-09-13T13:14:46+09:00",
+      "status": "published",
+      "article_path": "site/en/research/base-tokenized-stock-dex-volume-record-nvdac-fee-apy/index.html",
+      "url": "https://signaetstructura.com/en/research/base-tokenized-stock-dex-volume-record-nvdac-fee-apy/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260913T131446JST-obs-001-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }

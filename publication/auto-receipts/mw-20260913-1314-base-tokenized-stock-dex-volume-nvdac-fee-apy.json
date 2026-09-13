@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260913-1314-base-tokenized-stock-dex-volume-nvdac-fee-apy",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "base-tokenized-stock-yield-watch-20260913T131446JST-obs-001-en",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "3416c1787c35ddf1e2270984704b6caf672392a7",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.13_1314_base-tokenized-stock-dex-volume-nvdac-fee-apy_en.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/en/research/base-tokenized-stock-dex-volume-record-nvdac-fee-apy/"
+}
