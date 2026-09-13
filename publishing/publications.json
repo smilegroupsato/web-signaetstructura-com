@@ -3331,6 +3331,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260913T131446JST-obs-001-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260913-1314-base-tokenized-stock-dex-volume-nvdac-fee-apy",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "base-tokenized-stock-dex-volume-record-nvdac-fee-apy",
+      "title": "Baseのtokenized stock DEX出来高が日次$100Mと報じられ、NVDAc LPのfee APYも再上昇",
+      "summary": "Base上のAerodrome Slipstream USDC/NVDAcは、2026-09-13 13:14 JST観測でTVL約$2.65M、総APY 90.04%、base APY 40.67%、AERO reward APY 49.37%を表示した。06:12 JSTの観測値と比べ、TVLは約0.8%増にとどまる一方、総APYは約55.4%、base APYは約172.3%、AERO reward APYは約14.8%上昇した。今回の反発は報酬部分よりfee由来のbase APY上昇が大きい。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-13T13:14:46+09:00",
+      "updated_at": "2026-09-13T13:14:46+09:00",
+      "as_of": "2026-09-13T13:14:46+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/base-tokenized-stock-dex-volume-record-nvdac-fee-apy/index.html",
+      "url": "https://signaetstructura.com/ja/research/base-tokenized-stock-dex-volume-record-nvdac-fee-apy/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260913T131446JST-obs-001-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
