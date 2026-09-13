@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260913-1604-nvdac-yield-mix-reverts-to-aero",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-tokenized-stock-yield-watch-20260913-1604-nvdac-yield-mix-en",
+  "source_observation_id": "base-tokenized-stock-yield-watch-20260913-1604-nvdac-yield-mix-ja",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "5fe92324e4f7ae2db641687329bb220d10423e7e",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.13_1604_aerodrome-nvdac-yield-mix-reverts-to-aero_en.json",
+  "source_sha": "409c421cef9196d535d4cd6d85506ad5d687ce92",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.13_1604_aerodrome-nvdac-yield-mix-reverts-to-aero.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/en/research/aerodrome-nvdac-yield-mix-reverts-to-aero/"
+  "production_url": "https://signaetstructura.com/ja/research/aerodrome-nvdac-yield-mix-reverts-to-aero/"
 }

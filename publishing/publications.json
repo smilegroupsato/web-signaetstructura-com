@@ -3385,6 +3385,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260913-1604-nvdac-yield-mix-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260913-1604-nvdac-yield-mix-reverts-to-aero",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-nvdac-yield-mix-reverts-to-aero",
+      "title": "Aerodrome NVDAc、総APYは約95%でも利回り構成が再びAERO報酬寄りへ",
+      "summary": "Base上のAerodrome Slipstream USDC/NVDAcは、前回観測からTVLが小幅減にとどまり総APYも約95%を維持した一方、fee由来のbase APYが大きく低下し、AERO報酬が総APYの約84.6%を占める構成へ戻った。headline APYが近い水準でも、利回り原資は短時間で大きく変わり得る。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-13T16:04:07+09:00",
+      "updated_at": "2026-09-13T16:04:07+09:00",
+      "as_of": "2026-09-13T16:04:07+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/aerodrome-nvdac-yield-mix-reverts-to-aero/index.html",
+      "url": "https://signaetstructura.com/ja/research/aerodrome-nvdac-yield-mix-reverts-to-aero/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260913-1604-nvdac-yield-mix-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
