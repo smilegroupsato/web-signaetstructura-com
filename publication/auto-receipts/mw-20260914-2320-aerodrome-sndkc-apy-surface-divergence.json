@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260914-2320-aerodrome-sndkc-apy-surface-divergence",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "base-tokenized-stock-yield-watch-20260914-232048-aerodrome-sndkc-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "c9a62a14cd6f6d3f35820572ba78e8095905865b",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.14_2320_base-tokenized-stock-yield-watch_aerodrome-sndkc-apy-surface-divergence.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/aerodrome-sndkc-apy-surface-divergence/"
+}
