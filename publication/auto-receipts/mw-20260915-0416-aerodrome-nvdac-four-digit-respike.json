@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260915-0416-aerodrome-nvdac-four-digit-respike",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "base-stock-watch-20260915-041606-aerodrome-nvdac-respike-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "60d91e20f13ce8ffbd657cc8777e2c1afdab06fa",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.15_0416_base-tokenized-stock-yield-watch_aerodrome-nvdac-four-digit-respike.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/aerodrome-nvdac-four-digit-respike/"
+}
