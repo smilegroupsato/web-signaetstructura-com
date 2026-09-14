@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260915-0058-supernvda-deposit-burst-provider-gap",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-tokenized-stock-yield-watch-20260915-005810-supernvda-ja",
+  "source_observation_id": "base-tokenized-stock-yield-watch-20260915-005810-supernvda-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "06cf2d52116901319deed9475826c166cda3a1ee",
-  "source_path": "publication/sc-markets-research/auto-intake/mw-20260915-0058-supernvda-deposit-burst-provider-gap.json",
+  "source_sha": "66422ace300ab491caf61c0eaa38d96b768507c2",
+  "source_path": "publication/sc-markets-research/auto-intake/mw-20260915-0058-supernvda-deposit-burst-provider-gap_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/supernvda-deposit-burst-provider-gap/"
+  "production_url": "https://signaetstructura.com/en/research/supernvda-deposit-burst-provider-gap/"
 }

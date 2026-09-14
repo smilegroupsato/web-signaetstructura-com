@@ -3628,6 +3628,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260915-005810-supernvda-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260915-0058-supernvda-deposit-burst-provider-gap",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "supernvda-deposit-burst-provider-gap",
+      "title": "superNVDA sees a large deposit burst as TVL and APY diverge across data providers",
+      "summary": "On Base, Superform's NVDA SuperVault (superNVDA) showed about $190.59K of one-day deposits, $155 of withdrawals, and roughly $189.26K of current TVL on Portals. During the same observation window, DefiLlama showed about $116.26K of TVL, a gap of roughly $73.00K. Both sources reported zero base yield and reward-driven APY, but Portals showed 27.61% while DefiLlama showed 35.97%, an 8.36 percentage-point difference.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-15T00:58:10+09:00",
+      "updated_at": "2026-09-15T00:58:10+09:00",
+      "as_of": "2026-09-15T00:58:10+09:00",
+      "status": "published",
+      "article_path": "site/en/research/supernvda-deposit-burst-provider-gap/index.html",
+      "url": "https://signaetstructura.com/en/research/supernvda-deposit-burst-provider-gap/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260915-005810-supernvda-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
