@@ -3520,6 +3520,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260914-1752-basedpair-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260914-2024-aerodrome-nvdac-apy-reacceleration-provider-divergence",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-nvdac-apy-reacceleration-provider-divergence",
+      "title": "Aerodrome NVDAc/USDC、表示APYが再加速する一方で提供面の乖離が再拡大",
+      "summary": "Base上のAerodrome Slipstream USDC/NVDAcで、DefiLlama個別pool面の表示APYが前回観測の95.26%から216.97%へ再上昇した。TVLは約254万ドルから約228万ドルへ減少し、base fee由来APYとAERO reward APYの双方が上昇した一方、同時刻帯の公開面では同一poolが約83%から351%まで大きく異なる表示となった。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-14T20:24:35+09:00",
+      "updated_at": "2026-09-14T20:24:35+09:00",
+      "as_of": "2026-09-14T20:24:35+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/aerodrome-nvdac-apy-reacceleration-provider-divergence/index.html",
+      "url": "https://signaetstructura.com/ja/research/aerodrome-nvdac-apy-reacceleration-provider-divergence/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-nvdac-20260914-202435-jst-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
