@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260914-1229-beefy-sndkc-apy-reexpansion",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "base-stock-watch-20260914-122953-beefy-sndkc-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "e230368dbe5df25ddc83a3d7e00d0a2ff7c66413",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.14_1229_beefy-sndkc-apy-reexpansion.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/beefy-sndkc-apy-reexpansion/"
+}
