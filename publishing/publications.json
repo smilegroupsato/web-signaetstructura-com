@@ -3601,6 +3601,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260914-232048-aerodrome-sndkc-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260915-0058-supernvda-deposit-burst-provider-gap",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "supernvda-deposit-burst-provider-gap",
+      "title": "superNVDAで大口入金フロー、TVLとAPYはデータ提供元で大きく乖離",
+      "summary": "Base上のSuperform NVDA SuperVault（superNVDA）で、Portalsは1日入金額約19.06万ドル、出金額155ドル、現在TVL約18.93万ドルを表示した。同時刻帯のDefiLlamaはTVL約11.63万ドルを表示しており、TVLには約7.30万ドルの差がある。利回りは両者とも基礎利回り0%・報酬由来だが、Portals 27.61%、DefiLlama 35.97%と8.36ポイント乖離している。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-15T00:58:10+09:00",
+      "updated_at": "2026-09-15T00:58:10+09:00",
+      "as_of": "2026-09-15T00:58:10+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/supernvda-deposit-burst-provider-gap/index.html",
+      "url": "https://signaetstructura.com/ja/research/supernvda-deposit-burst-provider-gap/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260915-005810-supernvda-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
