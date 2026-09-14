@@ -3709,6 +3709,33 @@
       },
       "source_observation_id": "obs-20260915-0823-base-nvdac-yield-normalization-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260915-0823-aerodrome-nvdac-four-digit-spike-normalizes",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-nvdac-four-digit-spike-normalizes",
+      "title": "Aerodrome USDC/NVDAc Four-Digit APY Display Contracts Back to the 80% Range",
+      "summary": "On Base, Aerodrome Slipstream USDC/NVDAc had displayed 1,396.25% APY on the DefiLlama individual-pool surface at 2026-09-15 04:16 JST. At 08:23 JST, a DeFi Terminal surface sourced from DefiLlama displayed 83.29% APY, with about $2.7M TVL, 36.69% base APY, and 46.60% reward APY. The observation strongly suggests that the four-digit print was not a persistent yield level.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-15T08:23:05+09:00",
+      "updated_at": "2026-09-15T08:23:05+09:00",
+      "as_of": "2026-09-15T08:23:05+09:00",
+      "status": "published",
+      "article_path": "site/en/research/aerodrome-nvdac-four-digit-spike-normalizes/index.html",
+      "url": "https://signaetstructura.com/en/research/aerodrome-nvdac-four-digit-spike-normalizes/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-20260915-0823-base-nvdac-yield-normalization-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
