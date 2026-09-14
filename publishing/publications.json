@@ -3493,6 +3493,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260914-1752-basedpair-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260914-1752-basedpair-tokenized-stock-launch-markets",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "basedpair-tokenized-stock-launch-markets",
+      "title": "BasedPair turns tokenized stocks into launch-market pair assets on Base",
+      "summary": "BasedPair on Base now exposes a mechanism for launching a fixed-supply token across as many as five markets paired with Coinbase tokenized stocks, ETH, and wrapped assets. Its live interface cites examples including AAPLc and NVDAc and displays a 1.00% LP swap fee, a 70% creator share, and permanent LP custody. The composition uses tokenized stocks as liquidity and price-formation assets for launch markets rather than as a source of equity carry.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-14T17:52:00+09:00",
+      "updated_at": "2026-09-14T17:52:00+09:00",
+      "as_of": "2026-09-14T17:52:00+09:00",
+      "status": "published",
+      "article_path": "site/en/research/basedpair-tokenized-stock-launch-markets/index.html",
+      "url": "https://signaetstructura.com/en/research/basedpair-tokenized-stock-launch-markets/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260914-1752-basedpair-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
