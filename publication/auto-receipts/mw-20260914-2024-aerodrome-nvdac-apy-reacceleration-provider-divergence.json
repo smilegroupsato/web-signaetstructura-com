@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260914-2024-aerodrome-nvdac-apy-reacceleration-provider-divergence",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-base-nvdac-20260914-202435-jst-ja",
+  "source_observation_id": "obs-base-nvdac-20260914-202435-jst-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "c6311990d102bdcd956cc829eca30e97cc3e24ca",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.14_20_base-nvdac-apy-reacceleration-provider-divergence.json",
+  "source_sha": "8019e8a6506e17b99bd6182b9b2ae1220e456659",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.14_20_base-nvdac-apy-reacceleration-provider-divergence_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/aerodrome-nvdac-apy-reacceleration-provider-divergence/"
+  "production_url": "https://signaetstructura.com/en/research/aerodrome-nvdac-apy-reacceleration-provider-divergence/"
 }
