@@ -3925,6 +3925,33 @@
       },
       "source_observation_id": "base-stock-watch-20260916-0417-msftc-divergence-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260916-0832-beefy-mstrc-provider-divergence",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "beefy-mstrc-provider-divergence",
+      "title": "BaseのBeefy MSTRc戦略でAPY・TVLのデータ提供元乖離が急拡大",
+      "summary": "Base上のUSDC-MSTRc Beefy戦略で、DefiLlamaとPortalsの表示が大きく分岐した。Moo戦略はDefiLlama 29.07%に対してPortals 285.46%と約9.8倍差。Reward戦略はAPY約149.36%で一致する一方、TVLはDefiLlama約$28.59kに対してPortals約$233.18kと約8.2倍乖離している。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-16T08:32:21+09:00",
+      "updated_at": "2026-09-16T08:32:21+09:00",
+      "as_of": "2026-09-16T08:32:21+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/beefy-mstrc-provider-divergence/index.html",
+      "url": "https://signaetstructura.com/ja/research/beefy-mstrc-provider-divergence/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "mw-20260916-0832-beefy-mstrc-provider-divergence-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
