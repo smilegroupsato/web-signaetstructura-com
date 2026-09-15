@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260916-0832-beefy-mstrc-provider-divergence",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "mw-20260916-0832-beefy-mstrc-provider-divergence-ja",
+  "source_observation_id": "mw-20260916-0832-beefy-mstrc-provider-divergence-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "ac207dd010d908172b261c433ae9bca4bf0906de",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.16_0832_base-tokenized-stock-yield-watch_beefy-mstrc-provider-divergence.json",
+  "source_sha": "2ccd0bba3760334d4b9ddae784cd4e692616523f",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.16_0832_base-tokenized-stock-yield-watch_beefy-mstrc-provider-divergence_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/beefy-mstrc-provider-divergence/"
+  "production_url": "https://signaetstructura.com/en/research/beefy-mstrc-provider-divergence/"
 }
