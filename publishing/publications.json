@@ -3898,6 +3898,33 @@
       },
       "source_observation_id": "base-stock-watch-20260916-0417-msftc-divergence-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260916-0417-aerodrome-msftc-apy-surface-divergence",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-msftc-apy-surface-divergence",
+      "title": "Aerodrome USDC/MSFTc shows 946.76% APY on the pool page while other surfaces show 144%–239%",
+      "summary": "On Base, DefiLlama's individual Aerodrome Slipstream USDC/MSFTc pool page displayed $822,690 in TVL and 946.76% Supply APY, split into 102.45% base APY and 844.31% AERO rewards. About 89.2% of the displayed yield therefore came from AERO incentives. At the same observation, DefiLlama's MSFTc aggregate surface displayed $876,204 in TVL and 238.56% APY (85.91% base + 152.65% rewards), while DeFi Terminal displayed roughly $950,000 in TVL and 143.72% APY for the same market.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-16T04:17:52+09:00",
+      "updated_at": "2026-09-16T04:17:52+09:00",
+      "as_of": "2026-09-16T04:17:52+09:00",
+      "status": "published",
+      "article_path": "site/en/research/aerodrome-msftc-apy-surface-divergence/index.html",
+      "url": "https://signaetstructura.com/en/research/aerodrome-msftc-apy-surface-divergence/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-stock-watch-20260916-0417-msftc-divergence-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }

@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260916-0417-aerodrome-msftc-apy-surface-divergence",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-stock-watch-20260916-0417-msftc-divergence-ja",
+  "source_observation_id": "base-stock-watch-20260916-0417-msftc-divergence-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "fd999f01419fde74c285ab3d87018296670842e8",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.16_0417_aerodrome-msftc-apy-surface-divergence.json",
+  "source_sha": "43405219283bfc7684bee89e9edb974e5c820e0e",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.16_0417_aerodrome-msftc-apy-surface-divergence_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/aerodrome-msftc-apy-surface-divergence/"
+  "production_url": "https://signaetstructura.com/en/research/aerodrome-msftc-apy-surface-divergence/"
 }
