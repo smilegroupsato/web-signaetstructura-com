@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260915-1408-spcxc-aero-reward-spike-beefy-pass-through",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-20260915-1408-base-spcxc-aero-beefy-ja",
+  "source_observation_id": "obs-20260915-1408-base-spcxc-aero-beefy-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "45a562c44cbe04d520045234cb62f79d864eb951",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.15_1408_base_spcxc_aero_reward_spike.json",
+  "source_sha": "45a38ddd6373b31c9d737940887b2b6acd873440",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.15_1408_base_spcxc_aero_reward_spike_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/spcxc-aerodrome-reward-spike-beefy-pass-through/"
+  "production_url": "https://signaetstructura.com/en/research/spcxc-aerodrome-reward-spike-beefy-pass-through/"
 }
