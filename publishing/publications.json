@@ -3871,6 +3871,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260915-1631-arcadia-margin-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260916-0417-aerodrome-msftc-apy-surface-divergence",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-msftc-apy-surface-divergence",
+      "title": "Aerodrome USDC/MSFTc、個別プールAPY 946.76%に対し他面は144〜239%",
+      "summary": "Base上のAerodrome Slipstream USDC/MSFTcで、DefiLlama個別プール面がTVL 822,690ドル、Supply APY 946.76%を表示した。内訳はbase 102.45%、AERO reward 844.31%で、表示利回りの約89.2%をAERO報酬が占める。一方、同じDefiLlamaのMSFTc集約面はTVL 876,204ドル、APY 238.56%（base 85.91% + reward 152.65%）、DeFi Terminalは同市場をTVL約950,000ドル、APY 143.72%と表示している。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-16T04:17:52+09:00",
+      "updated_at": "2026-09-16T04:17:52+09:00",
+      "as_of": "2026-09-16T04:17:52+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/aerodrome-msftc-apy-surface-divergence/index.html",
+      "url": "https://signaetstructura.com/ja/research/aerodrome-msftc-apy-surface-divergence/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-stock-watch-20260916-0417-msftc-divergence-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
