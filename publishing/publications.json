@@ -4195,6 +4195,33 @@
       },
       "source_observation_id": "base-stock-20260916-1622-beefy-msftc-direct-apy-reexpansion-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260916-1902-beefy-msftc-direct-apy-normalization",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "beefy-msftc-direct-apy-normalization",
+      "title": "Beefy USDC-MSFTcの直接ページAPYが91.86%へ低下、データ提供面が約0.5ptに収束",
+      "summary": "Base上のBeefy Moo USDC-MSFTcは、Portalsの直接ページで表示APYが2026-09-16 16:22 JSTの141.68%から19:02 JSTの91.86%へ49.82ポイント低下した。現在はPortals一覧91.47%、DeFi Terminal 91.94%とほぼ一致し、同一市場の表示レンジは約0.47ポイントまで縮小した。TVLは約17.0万ドルで大きく動いていない。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-16T19:02:32+09:00",
+      "updated_at": "2026-09-16T19:02:32+09:00",
+      "as_of": "2026-09-16T19:02:32+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/beefy-msftc-direct-apy-normalization/index.html",
+      "url": "https://signaetstructura.com/ja/research/beefy-msftc-direct-apy-normalization/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-stock-yield-20260916-1902-beefy-msftc-direct-apy-normalization-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
