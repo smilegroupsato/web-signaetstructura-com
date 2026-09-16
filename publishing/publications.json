@@ -3979,6 +3979,33 @@
       },
       "source_observation_id": "mw-20260916-0832-beefy-mstrc-provider-divergence-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260916-0926-curated-tau-stock-vault-incentive",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "curated-tau-stock-vault-incentive",
+      "title": "CURATEDがTAUのtokenized stock Carry Vaultに追加USDCインセンティブを導入",
+      "summary": "Base上のTAU Labs / IPOR FusionによるNVDAc、AAPLc、GOOGLc、METAc Carry VaultがCURATED by IMPOSSIBLE経由でも提供され、CURATED経由限定の追加施策としてUSDC 10% APRとFusion Points 20%増量が案内された。既存vaultの利回りに対する追加配布条件であり、開始直後の総実効APY、報酬予算、期間、上限は公開情報から確定できない。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-16T09:26:41+09:00",
+      "updated_at": "2026-09-16T09:26:41+09:00",
+      "as_of": "2026-09-16T09:26:41+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/curated-tau-stock-vault-incentive/index.html",
+      "url": "https://signaetstructura.com/ja/research/curated-tau-stock-vault-incentive/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-20260916-0926-curated-tau-stock-vault-incentive-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
