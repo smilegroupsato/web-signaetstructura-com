@@ -4168,6 +4168,33 @@
       },
       "source_observation_id": "base-stock-20260916-1622-beefy-msftc-direct-apy-reexpansion-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260916-1622-beefy-msftc-direct-apy-reexpansion",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "beefy-msftc-direct-apy-reexpansion",
+      "title": "Beefy USDC-MSFTc direct-page APY rebounds to 141.68% while aggregate surfaces remain near 91%",
+      "summary": "On Base, Portals' direct vault page for Beefy USDC-MSFTc shows 141.68% APY and roughly $169.0K TVL, while the Portals Base Stocks list shows 91.47% and DeFi Terminal's USDC page shows 91.94%. Versus the immediately prior 91.90% observation, the direct-page APY is higher by about 49.78 percentage points while TVL is essentially flat, extending the divergence between data surfaces.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-16T16:22:55+09:00",
+      "updated_at": "2026-09-16T16:22:55+09:00",
+      "as_of": "2026-09-16T16:22:55+09:00",
+      "status": "published",
+      "article_path": "site/en/research/beefy-msftc-direct-apy-reexpansion/index.html",
+      "url": "https://signaetstructura.com/en/research/beefy-msftc-direct-apy-reexpansion/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-stock-20260916-1622-beefy-msftc-direct-apy-reexpansion-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
