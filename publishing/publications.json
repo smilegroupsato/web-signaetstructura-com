@@ -4249,6 +4249,33 @@
       },
       "source_observation_id": "base-stock-yield-20260916-1902-beefy-msftc-direct-apy-normalization-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260917-0714-tau-stock-carry-morpho-activation",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "tau-stock-carry-morpho-activation",
+      "title": "TAU Stock Carry Vaults、Morpho/Steakhouse経由のcarryを稼働",
+      "summary": "TAU LabsはBase上のStock Carry Vaultsについて、Coinbase Tokenized Stocksを担保にSteakhouseFiがcurateするMorpho市場でUSDCを借りるcarry戦略が稼働したと公表した。DefiLlamaではAAPLCTがTVL $38,186、APY 10.27%（base 0.27% + reward 10.00%）を表示している。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-17T07:14:17+09:00",
+      "updated_at": "2026-09-17T07:14:17+09:00",
+      "as_of": "2026-09-17T07:14:17+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/tau-stock-carry-morpho-activation/index.html",
+      "url": "https://signaetstructura.com/ja/research/tau-stock-carry-morpho-activation/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260917-0714-tau-morpho-activation-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
