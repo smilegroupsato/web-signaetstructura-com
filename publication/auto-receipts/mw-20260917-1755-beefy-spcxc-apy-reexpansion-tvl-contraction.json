@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260917-1755-beefy-spcxc-apy-reexpansion-tvl-contraction",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-tokenized-stock-yield-watch-20260917-1755-beefy-spcxc-apy-reexpansion-tvl-contraction-ja",
+  "source_observation_id": "base-tokenized-stock-yield-watch-20260917-1755-beefy-spcxc-apy-reexpansion-tvl-contraction-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "73d4849fd5aa56b542f3d25878fb7ee9d127e46c",
-  "source_path": "publication/sc-markets-research/auto-intake/2026-09-17-005-beefy-spcxc-apy-reexpansion-tvl-contraction.json",
+  "source_sha": "5cb8958027a25bb4117a82e53d3b5f45f4ab85d9",
+  "source_path": "publication/sc-markets-research/auto-intake/2026-09-17-005-beefy-spcxc-apy-reexpansion-tvl-contraction_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/beefy-spcxc-apy-reexpansion-tvl-contraction/"
+  "production_url": "https://signaetstructura.com/en/research/beefy-spcxc-apy-reexpansion-tvl-contraction/"
 }
