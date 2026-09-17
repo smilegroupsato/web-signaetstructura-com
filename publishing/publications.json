@@ -4438,6 +4438,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260917-1308-beefy-spcxc-provider-divergence-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260917-1308-beefy-spcxc-provider-divergence",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "beefy-spcxc-provider-divergence",
+      "title": "Beefy USDC-SPCXc APY diverges again: Portals shows 236% while DefiLlama RWA shows 136%",
+      "summary": "For Beefy Moo USDC-SPCXc on Base, Portals Base Stocks shows 235.84% APY with roughly $152.9K TVL, while DefiLlama's SPCXc RWA view shows 136.13% APY with $145,870 TVL. TVL is broadly similar, but headline APY differs by 99.71 percentage points, or about 1.73x. The associated Reward Pool also diverges: Portals shows 134.08% APY and about $174.49K TVL, while DefiLlama shows 95.05% APY and $68,395 TVL.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-17T13:08:28+09:00",
+      "updated_at": "2026-09-17T13:08:28+09:00",
+      "as_of": "2026-09-17T13:08:28+09:00",
+      "status": "published",
+      "article_path": "site/en/research/beefy-spcxc-provider-divergence/index.html",
+      "url": "https://signaetstructura.com/en/research/beefy-spcxc-provider-divergence/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260917-1308-beefy-spcxc-provider-divergence-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
