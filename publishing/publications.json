@@ -4384,6 +4384,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260917-1223-beefy-spcxc-apy-reexpansion-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260917-1223-beefy-spcxc-apy-reexpansion",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "beefy-spcxc-apy-reexpansion",
+      "title": "Beefy USDC-SPCXc displayed APY re-expands to roughly 193%-235% across data surfaces",
+      "summary": "Displayed yield on Beefy's Base USDC-SPCXc strategy has re-expanded since the prior observation. The Portals direct page shows 192.76% APY with $152.11K TVL, DefiLlama shows 202.80% with $144.24K, and DeFi Terminal shows 234.80% with $153.1K. The related Beefy CLM Reward Pool also reads 118.87% on Portals and 122.60% on DefiLlama, indicating that the move is not confined to a single data surface, although Reward Pool TVL differs materially between providers.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-17T12:23:42+09:00",
+      "updated_at": "2026-09-17T12:23:42+09:00",
+      "as_of": "2026-09-17T12:23:42+09:00",
+      "status": "published",
+      "article_path": "site/en/research/beefy-spcxc-apy-reexpansion/index.html",
+      "url": "https://signaetstructura.com/en/research/beefy-spcxc-apy-reexpansion/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260917-1223-beefy-spcxc-apy-reexpansion-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
