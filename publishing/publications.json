@@ -4303,6 +4303,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260917-0714-tau-morpho-activation-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260917-1126-spectra-tokenized-stock-yield-markets",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "spectra-tokenized-stock-yield-markets",
+      "title": "Spectra、BaseのCoinbase Tokenized StocksでPT/YT金利市場を稼働",
+      "summary": "SpectraはBase上のAAPLc、NVDAc、METAc、GOOGLcについて、TAUのStock Carry Vaultsで生じる利回りをPrincipal Token（PT）とYield Token（YT）に分離する固定満期市場を提供している。Portalsの専用市場面では2026-09-30満期のAAPLc、NVDAc、METAc市場がTVL約$4.77K〜$5.75K、表示APY 12.48%〜15.86%となっている。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-17T11:26:26+09:00",
+      "updated_at": "2026-09-17T11:26:26+09:00",
+      "as_of": "2026-09-17T11:26:26+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/spectra-tokenized-stock-yield-markets/index.html",
+      "url": "https://signaetstructura.com/ja/research/spectra-tokenized-stock-yield-markets/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260917-1126-spectra-stock-rate-markets-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
