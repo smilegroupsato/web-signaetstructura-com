@@ -4411,6 +4411,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260917-1223-beefy-spcxc-apy-reexpansion-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260917-1308-beefy-spcxc-provider-divergence",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "beefy-spcxc-provider-divergence",
+      "title": "Beefy USDC-SPCXcのAPY提供面が再び分岐、Portals 236%に対しDefiLlama RWA 136%",
+      "summary": "Base上のBeefy Moo USDC-SPCXcで、Portals Base StocksはAPY 235.84%・TVL約$152.9Kを表示する一方、DefiLlamaのSPCXc RWA面はAPY 136.13%・TVL $145,870を表示している。TVLは近いがheadline APYは約99.71ポイント、約1.73倍に分岐した。対応するReward PoolもPortals 134.08%に対しDefiLlama 95.05%で、TVLは約$174.49K対$68.40Kと大きく異なる。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-17T13:08:28+09:00",
+      "updated_at": "2026-09-17T13:08:28+09:00",
+      "as_of": "2026-09-17T13:08:28+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/beefy-spcxc-provider-divergence/index.html",
+      "url": "https://signaetstructura.com/ja/research/beefy-spcxc-provider-divergence/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260917-1308-beefy-spcxc-provider-divergence-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
