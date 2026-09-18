@@ -4681,6 +4681,33 @@
       },
       "source_observation_id": "obs-base-tokenized-stock-yield-20260919-0016-morpho-market-rates-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260919-0312-supernvda-400k-tvl-inflow",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "supernvda-crosses-400k-tvl-with-fresh-inflow",
+      "title": "superNVDAのTVLが40万ドルを突破、1日で約8万ドル流入する一方APYは17.08%へ低下",
+      "summary": "Base上のSuperform NVDA SuperVault（superNVDA）は、PortalsでTVL 400.44Kドル、1日フロー +79,630.62ドル、表示APY 17.08%となった。2026-09-15の公開観測ではPortals TVL 305.4Kドル、APY 19.84%だったため、TVLは約31.1%増え、APYは2.76ポイント低下した。資金流入が続く一方、表示利回りは希薄化している。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-19T03:12:11+09:00",
+      "updated_at": "2026-09-19T03:12:11+09:00",
+      "as_of": "2026-09-19T03:12:11+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/supernvda-crosses-400k-tvl-with-fresh-inflow/index.html",
+      "url": "https://signaetstructura.com/ja/research/supernvda-crosses-400k-tvl-with-fresh-inflow/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260919-0312-supernvda-400k-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
