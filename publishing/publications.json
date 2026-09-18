@@ -4654,6 +4654,33 @@
       },
       "source_observation_id": "obs-base-tokenized-stock-yield-20260919-0016-morpho-market-rates-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260919-0016-morpho-tokenized-stock-market-rates",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "morpho-tokenized-stock-market-rates",
+      "title": "Meta-backed USDC rates on Morpho rise toward 17% while three peer stock markets sit near 5%",
+      "summary": "Market-level pricing has become visible for Morpho's USDC markets backed by Coinbase Tokenized Stocks on Base. Apple, Alphabet and Nvidia were reported near 90% utilization with roughly 5.06% lender APY and 5.62% borrower APY, while Meta reached about 97% utilization with 16.98% lender APY and 17.52% borrower APY. No new external incentive was identified; lender yield is funded by USDC interest paid by borrowers.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-19T00:16:50+09:00",
+      "updated_at": "2026-09-19T00:16:50+09:00",
+      "as_of": "2026-09-19T00:16:50+09:00",
+      "status": "published",
+      "article_path": "site/en/research/morpho-tokenized-stock-market-rates/index.html",
+      "url": "https://signaetstructura.com/en/research/morpho-tokenized-stock-market-rates/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tokenized-stock-yield-20260919-0016-morpho-market-rates-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
