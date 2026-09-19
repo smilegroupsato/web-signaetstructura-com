@@ -4735,6 +4735,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260919-0312-supernvda-400k-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260920-0105-mag7x-crosses-1m",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "bitwise-mag7x-crosses-1m",
+      "title": "Bitwise Mag7Xが100万ドル規模へ、Merkl対象TVLは9月4日比約94%増",
+      "summary": "Base上のBitwise Mag7X Automated Token Portfolioで資金規模が100万ドルを超えた。Gliderは2026-09-18時点で1,585人・1,020,271ドルと公表し、現在のMerkl画面は10% APR、対象TVL 983.64Kドル、日次報酬269.558 USDCを表示している。2026-09-04の公開観測ではMerkl対象TVLは507.76Kドル、日次報酬139.147 USDCだったため、対象TVLと日次報酬はいずれも約93.7%増えた一方、incentive rateは10%のまま変わっていない。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-20T01:05:28+09:00",
+      "updated_at": "2026-09-20T01:05:28+09:00",
+      "as_of": "2026-09-20T01:05:28+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/bitwise-mag7x-crosses-1m/index.html",
+      "url": "https://signaetstructura.com/ja/research/bitwise-mag7x-crosses-1m/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260920-010528-mag7x-crosses-1m-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
