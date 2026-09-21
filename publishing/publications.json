@@ -4897,6 +4897,33 @@
       },
       "source_observation_id": "obs-20260921-155801-tau-aaplct-apy-collapse-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260921-202654-superspcx-predeposit",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "20260921-superspcx-predeposit-live",
+      "title": "SuperformのsuperSPCXがBaseでプレデポジット稼働、表示APYは41.31%",
+      "summary": "SuperformはSpaceX連動のCoinbase Tokenized Stockを用いるSPCX SuperVault（superSPCX）をBaseでプレデポジット稼働中としており、ローンチキャンペーンでは最大100% APYを掲げている。2026-09-21 20:26:54 JSTのPortals観測ではTVLは94,555.04ドル、APYは41.31%、base APYは0%、reward APYは41.31%だった。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-21T20:26:54+09:00",
+      "updated_at": "2026-09-21T20:26:54+09:00",
+      "as_of": "2026-09-21T20:26:54+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/20260921-superspcx-predeposit-live/index.html",
+      "url": "https://signaetstructura.com/ja/research/20260921-superspcx-predeposit-live/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260921-202654-superspcx-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
