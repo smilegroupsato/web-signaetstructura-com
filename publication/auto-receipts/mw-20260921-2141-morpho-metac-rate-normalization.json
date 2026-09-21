@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260921-2141-morpho-metac-rate-normalization",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-20260921-2141-morpho-metac-rate-normalization-ja",
+  "source_observation_id": "obs-20260921-2141-morpho-metac-rate-normalization-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "d0259d5049222769d3c62d53722315857de903e6",
-  "source_path": "publication/sc-markets-research/auto-intake/2026-09-21-2141-morpho-metac-rate-normalization.json",
+  "source_sha": "ab81af7e412d5e1cf98b58a90ee88ea49128afd2",
+  "source_path": "publication/sc-markets-research/auto-intake/2026-09-21-2141-morpho-metac-rate-normalization_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/morpho-metac-rate-normalization/"
+  "production_url": "https://signaetstructura.com/en/research/morpho-metac-rate-normalization/"
 }
