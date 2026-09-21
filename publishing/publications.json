@@ -4843,6 +4843,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260921-0041-zyfai-225k-deposits-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260921-1558-tau-aaplct-apy-collapse",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "tau-aaplct-apy-collapse-reward-visibility",
+      "title": "TAU AAPLCTの表示APYが10.27%から0.34%へ低下、TVLはほぼ横ばい",
+      "summary": "Base上のTAU/IPOR Fusion Apple Carry Trade（AAPLCT）は、2026-09-17の公開観測で10.27%だった表示APYが、2026-09-21のDefiLlama直接プール表示では0.34%へ低下した。一方、TVLは38,186ドルから38,006ドルでほぼ横ばい。前回は10.27%のうち10.00ポイントがUSDC報酬として表示されていたため、今回の変化は資金流出ではなく、報酬表示・適用条件またはデータ更新の変化として確認する必要がある。Meta Carry Trade（METACT）も同時点で0.52%、TVL 10,605ドルと1%未満の表示になっている。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-21T15:58:01+09:00",
+      "updated_at": "2026-09-21T15:58:01+09:00",
+      "as_of": "2026-09-21T15:58:01+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/tau-aaplct-apy-collapse-reward-visibility/index.html",
+      "url": "https://signaetstructura.com/ja/research/tau-aaplct-apy-collapse-reward-visibility/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-20260921-155801-tau-aaplct-apy-collapse-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
