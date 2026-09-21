@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260921-1558-tau-aaplct-apy-collapse",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-20260921-155801-tau-aaplct-apy-collapse-ja",
+  "source_observation_id": "obs-20260921-155801-tau-aaplct-apy-collapse-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "c580728de28a3709a183f9a7ec61b4d0ec95535e",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.21_1558_tau-aaplct-apy-collapse.json",
+  "source_sha": "6baebc5489e0a76d2a2983049dd860cead7b33ad",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.21_1558_tau-aaplct-apy-collapse_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/tau-aaplct-apy-collapse-reward-visibility/"
+  "production_url": "https://signaetstructura.com/en/research/tau-aaplct-apy-collapse-reward-visibility/"
 }
