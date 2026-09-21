@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260922-0435-harvest-metac-fresh-inflow",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "base-stock-yield-20260922-043554-harvest-metac-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "34aec358fe294cc643246a93cd02ff774ac55306",
+  "source_path": "publication/sc-markets-research/auto-intake/2026-09-22-0435-harvest-metac-fresh-inflow.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/harvest-metac-fresh-inflow-provider-gap/"
+}

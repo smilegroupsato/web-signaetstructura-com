@@ -5005,6 +5005,33 @@
       },
       "source_observation_id": "obs-20260921-2141-morpho-metac-rate-normalization-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260922-0435-harvest-metac-fresh-inflow",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "harvest-metac-fresh-inflow-provider-gap",
+      "title": "Harvest FARM_METAc、1日で5.24千ドル流入しTVL 1.31万ドル、表示APYは49%と83%に乖離",
+      "summary": "Base上のHarvest Finance FARM_METAcで、Portalsの専用ページがTVL 13,149.53ドル、直近1日5,240.64ドルの預入、10 deposits / 0 withdrawals、49.24% APYを表示した。2026-09-10の公開観測ではHarvestの4つの株式ラッパーはいずれも約4,651〜5,855ドルだったため、現在のMETAc TVLは当時のレンジ上限との比較でも約124.6%大きい。一方、PortalsのBase株式集約面は83.16%、Harvest公式アプリは83.23%を表示しており、同時点のAPY表示には約34ポイントの差がある。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-22T04:35:54+09:00",
+      "updated_at": "2026-09-22T04:35:54+09:00",
+      "as_of": "2026-09-22T04:35:54+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/harvest-metac-fresh-inflow-provider-gap/index.html",
+      "url": "https://signaetstructura.com/ja/research/harvest-metac-fresh-inflow-provider-gap/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-stock-yield-20260922-043554-harvest-metac-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
