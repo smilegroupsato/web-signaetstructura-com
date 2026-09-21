@@ -4951,6 +4951,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260921-202654-superspcx-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260921-2141-morpho-metac-rate-normalization",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "morpho-metac-rate-normalization",
+      "title": "MorphoのMETAc担保USDC金利、約17%から約5%へ正常化",
+      "summary": "Base上のMorpho METAc担保USDC市場で、現在の表示貸出金利は5.07%、借入金利は5.64%、利用率は90.21%となった。2026-09-19の公開観測では貸出16.98%、借入17.52%、利用率約97%だったため、高利用率で生じていた二桁金利は解消し、約90%利用率の通常レンジへ戻っている。新しい外部インセンティブは確認していない。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-21T21:41:20+09:00",
+      "updated_at": "2026-09-21T21:41:20+09:00",
+      "as_of": "2026-09-21T21:41:20+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/morpho-metac-rate-normalization/index.html",
+      "url": "https://signaetstructura.com/ja/research/morpho-metac-rate-normalization/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-20260921-2141-morpho-metac-rate-normalization-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
