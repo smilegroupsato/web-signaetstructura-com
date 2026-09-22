@@ -5221,6 +5221,33 @@
       },
       "source_observation_id": "obs-20260922-2102-tau-aaplct-reward-visibility-return-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260923-0040-revert-base-stock-lp-rewards",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "revert-aerodrome-tokenized-stock-lp-rewards",
+      "title": "Revert、Baseのtokenized stock×USDC LPに25,000 USDCの期間限定報酬",
+      "summary": "Revert Financeは、BaseのAerodrome上にあるCoinbase Tokenized Stocks 10銘柄とUSDCのLPを対象に、総額25,000 USDCの期間限定報酬を発表した。対象はNVDAc、TSLAc、AAPLc、GOOGLc、MSFTc、AMZNc、METAc、MSTRc、SNDKc、SPCXc。Revert経由でキャンペーン期間中に新規作成したポジションが対象で、報酬は実際に獲得した取引手数料に応じて時間単位で支払われる。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-23T00:40:20+09:00",
+      "updated_at": "2026-09-23T00:40:20+09:00",
+      "as_of": "2026-09-23T00:40:20+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/revert-aerodrome-tokenized-stock-lp-rewards/index.html",
+      "url": "https://signaetstructura.com/ja/research/revert-aerodrome-tokenized-stock-lp-rewards/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260923-004020-revert-aerodrome-rewards-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
