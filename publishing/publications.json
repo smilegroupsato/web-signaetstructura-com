@@ -5113,6 +5113,33 @@
       },
       "source_observation_id": "base-stock-watch-20260922-103741-tau-metac-reward-return-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260922-103741-tau-metac-reward-visibility-return",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "tau-metac-reward-visibility-return",
+      "title": "TAU METAc Carry Vault shows 12.01% APY on Portals with a 10% reward layer visible again",
+      "summary": "At the 2026-09-22 10:37:41 JST observation, Portals showed TAU's METAc Carry Vault on Base at 12.01% APY and $19,460.07 TVL, split into 2.01% base APY and 10.00% reward APY. A public observation on 2026-09-21 had shown METACT at 0.52% APY and $10,605 TVL on DefiLlama, so a 10% reward layer is again visible in the displayed stock-carry yield. The providers differ, however, and no official restart or extension of the incentive was confirmed.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-22T10:37:41+09:00",
+      "updated_at": "2026-09-22T10:37:41+09:00",
+      "as_of": "2026-09-22T10:37:41+09:00",
+      "status": "published",
+      "article_path": "site/en/research/tau-metac-reward-visibility-return/index.html",
+      "url": "https://signaetstructura.com/en/research/tau-metac-reward-visibility-return/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-stock-watch-20260922-103741-tau-metac-reward-return-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }

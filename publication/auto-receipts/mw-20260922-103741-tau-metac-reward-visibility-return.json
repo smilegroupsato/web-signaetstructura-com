@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260922-103741-tau-metac-reward-visibility-return",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-stock-watch-20260922-103741-tau-metac-reward-return-ja",
+  "source_observation_id": "base-stock-watch-20260922-103741-tau-metac-reward-return-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "7ad43a0b32257be0b303713bd22ba544f405eecc",
-  "source_path": "publication/sc-markets-research/auto-intake/2026.09.22_1037_tau-metac-reward-visibility-return.json",
+  "source_sha": "86309acef7fa087ccb0c6a402c39e1f458f8c64e",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.22_1037_tau-metac-reward-visibility-return_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/tau-metac-reward-visibility-return/"
+  "production_url": "https://signaetstructura.com/en/research/tau-metac-reward-visibility-return/"
 }
