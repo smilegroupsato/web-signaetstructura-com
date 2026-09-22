@@ -5140,6 +5140,33 @@
       },
       "source_observation_id": "base-stock-watch-20260922-103741-tau-metac-reward-return-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260922-1545-aave-v4-base-equities-hub",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "aave-v4-base-equities-hub",
+      "title": "Aave V4 on Base、tokenized stockを担保にUSDCを借りる専用Equities Hubを具体化",
+      "summary": "Aave LabsのBase向けV4 ARFCが2026-09-21に更新され、Coinbase B20のtokenized equitiesを担保専用資産として扱い、USDCだけを借入可能とするEquities Hubの初期設計とリスクパラメータが提示された。対象はAAPLc、AMZNc、GOOGLc、METAc、MSFTc、NVDAc、TSLAcの7銘柄で、USDCのAdd Capは32M、Draw Capは21M。ARFCはSnapshot段階へ進んでいるが、まだBaseで稼働していない。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-22T15:45:44+09:00",
+      "updated_at": "2026-09-22T15:45:44+09:00",
+      "as_of": "2026-09-22T15:45:44+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/aave-v4-base-equities-hub/index.html",
+      "url": "https://signaetstructura.com/ja/research/aave-v4-base-equities-hub/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260922-154544-aave-v4-base-equities-hub-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
