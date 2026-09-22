@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260923-054946-revert-aerodrome-tokenized-stock-lp-live",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-tokenized-stock-yield-20260923-054946-revert-live-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "fd12194dbb69c01792a41b64e94636f46b3fbe22",
+  "source_path": "publication/sc-markets-research/auto-intake/mw-20260923-054946-revert-aerodrome-tokenized-stock-lp-live.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/revert-aerodrome-tokenized-stock-lp-rewards-live/"
+}
