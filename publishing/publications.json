@@ -5248,6 +5248,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260923-004020-revert-aerodrome-rewards-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260923-0040-revert-base-stock-lp-rewards",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "revert-aerodrome-tokenized-stock-lp-rewards",
+      "title": "Revert adds a 25,000 USDC incentive for Base tokenized-stock/USDC LPs",
+      "summary": "Revert Finance announced a limited-time 25,000 USDC reward program for liquidity providers in Aerodrome pools on Base pairing USDC with ten Coinbase Tokenized Stocks: NVDAc, TSLAc, AAPLc, GOOGLc, MSFTc, AMZNc, METAc, MSTRc, SNDKc and SPCXc. Eligible positions must be newly opened through Revert during the campaign period, with rewards paid hourly based on the trading fees the liquidity actually earns.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-23T00:40:20+09:00",
+      "updated_at": "2026-09-23T00:40:20+09:00",
+      "as_of": "2026-09-23T00:40:20+09:00",
+      "status": "published",
+      "article_path": "site/en/research/revert-aerodrome-tokenized-stock-lp-rewards/index.html",
+      "url": "https://signaetstructura.com/en/research/revert-aerodrome-tokenized-stock-lp-rewards/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260923-004020-revert-aerodrome-rewards-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
