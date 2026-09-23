@@ -5572,6 +5572,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260923-185903-supernvda-provider-convergence-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260923-215410-tau-metact-tvl-surge",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "tau-metact-tvl-surge",
+      "title": "TAU METACTのTVLが2026-09-21比で約3.7倍、表示APYは低下",
+      "summary": "Base上のTAU/IPOR Fusion Meta Carry Trade（METACT）は、2026-09-21の公開観測でTVL $10,605・APY 0.52%だったのに対し、2026-09-23のDefiLlama直接ページではTVL $38,923・APY 0.37%となった。TVLは約+267%（約3.7倍）増加した一方、表示APYは0.15ポイント低下している。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-23T21:54:10+09:00",
+      "updated_at": "2026-09-23T21:54:10+09:00",
+      "as_of": "2026-09-23T21:54:10+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/tau-metact-tvl-surge/index.html",
+      "url": "https://signaetstructura.com/ja/research/tau-metact-tvl-surge/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260923-215410-tau-metact-tvl-surge-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
