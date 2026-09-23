@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260923-215410-tau-metact-tvl-surge",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-tokenized-stock-yield-watch-20260923-215410-tau-metact-tvl-surge-ja",
+  "source_observation_id": "base-tokenized-stock-yield-watch-20260923-215410-tau-metact-tvl-surge-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "c7a54068a82de5912a901da9e9ab63446f5fa8d2",
-  "source_path": "publication/sc-markets-research/auto-intake/2026-09-23-215410-tau-metact-tvl-surge.json",
+  "source_sha": "0274e6364e5c163cc410a2f6b197d845eff76bb8",
+  "source_path": "publication/sc-markets-research/auto-intake/2026-09-23-215410-tau-metact-tvl-surge_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/tau-metact-tvl-surge/"
+  "production_url": "https://signaetstructura.com/en/research/tau-metact-tvl-surge/"
 }
