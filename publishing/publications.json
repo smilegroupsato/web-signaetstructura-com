@@ -5491,6 +5491,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260923T171447-supernvda-provider-divergence-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260923-171447-supernvda-provider-divergence",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "supernvda-provider-divergence-20260923-1714",
+      "title": "superNVDA Portals APY falls to 7.90% as the gap versus DefiLlama widens",
+      "summary": "Superform's NVDA SuperVault (superNVDA) on Base is showing 7.90% APY and $398,389.56 TVL on Portals, versus 17.75% APY and $413,547 TVL on DefiLlama. The immediately preceding Portals observation at 2026-09-23 16:05 JST showed 18.83% APY and about $414.99K TVL, so Portals' displayed APY is lower by about 10.93 percentage points while the current cross-provider APY gap has widened to 9.85 points.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-23T17:14:47+09:00",
+      "updated_at": "2026-09-23T17:14:47+09:00",
+      "as_of": "2026-09-23T17:14:47+09:00",
+      "status": "published",
+      "article_path": "site/en/research/supernvda-provider-divergence-20260923-1714/index.html",
+      "url": "https://signaetstructura.com/en/research/supernvda-provider-divergence-20260923-1714/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260923T171447-supernvda-provider-divergence-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
