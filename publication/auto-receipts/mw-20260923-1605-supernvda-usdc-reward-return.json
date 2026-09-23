@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260923-1605-supernvda-usdc-reward-return",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "base-stock-yield-20260923-160503-supernvda-reward-stack-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "98bc1994804bcabdf07137fc2253a70f96c481c7",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.23_160503_supernvda-usdc-reward-return_ja.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/supernvda-usdc-reward-return/"
+}
