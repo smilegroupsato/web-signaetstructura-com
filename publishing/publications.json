@@ -5383,6 +5383,33 @@
       },
       "source_observation_id": "base-tsy-20260923-141945-revert-dilution-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260923-1419-revert-stock-lp-dilution-continues",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "revert-stock-lp-dilution-continues",
+      "title": "Revert-routed Aerodrome tokenized-stock LP APR falls to 138.93% as TVL expands",
+      "summary": "In the Revert-routed Aerodrome tokenized-stock LP incentive campaign on Base, Merkl's opportunity list shows TVL rising from $410.6K at the 2026-09-23 10:03 JST observation to $508.5K at 14:19 JST, a 23.8% increase, while displayed APR fell from 172.05% to 138.93%, down 33.12 percentage points. Daily USDC rewards remained approximately $1.93K, indicating continued reward-density compression as participating liquidity grows.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-23T14:19:45+09:00",
+      "updated_at": "2026-09-23T14:19:45+09:00",
+      "as_of": "2026-09-23T14:19:45+09:00",
+      "status": "published",
+      "article_path": "site/en/research/revert-stock-lp-dilution-continues/index.html",
+      "url": "https://signaetstructura.com/en/research/revert-stock-lp-dilution-continues/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tsy-20260923-141945-revert-dilution-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
