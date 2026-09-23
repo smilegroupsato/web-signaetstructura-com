@@ -5626,6 +5626,33 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260923-215410-tau-metact-tvl-surge-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260924-025046-supernvda-reward-reset",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "supernvda-reward-reset-usdc-only-20260924",
+      "title": "superNVDAの表示APYが10%へ低下、現在はUSDC報酬のみ表示",
+      "summary": "Base上のSuperform NVDA SuperVault（superNVDA）は、2026-09-24 02:50:46 JSTの観測でDefiLlamaがAPY 10.00%、TVL 416,931ドル、内訳はbase 0.00% + USDC reward 10.00%を表示した。前回2026-09-23 18:59:03 JSTには19.02%、TVL 430,021ドル、USDC+sUP rewardと表示されており、表示APYは9.02ポイント低下し、現在の表示上はsUPが報酬構成から外れている。Portalsの直接面も同時刻帯にAPY 10.00%、TVL 415,988.52ドル、base 0.00% + reward 10.00%を表示し、主要2データ提供元のAPYは一致している。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-24T02:50:46+09:00",
+      "updated_at": "2026-09-24T02:50:46+09:00",
+      "as_of": "2026-09-24T02:50:46+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/supernvda-reward-reset-usdc-only-20260924/index.html",
+      "url": "https://signaetstructura.com/ja/research/supernvda-reward-reset-usdc-only-20260924/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tokenized-stock-yield-watch-20260924-025046-supernvda-reward-reset-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
