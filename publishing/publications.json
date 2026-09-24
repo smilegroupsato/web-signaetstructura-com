@@ -5653,6 +5653,33 @@
       },
       "source_observation_id": "obs-base-tokenized-stock-yield-watch-20260924-025046-supernvda-reward-reset-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260924-0956-supernvda-sup-reward-restored",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "supernvda-sup-reward-restored",
+      "title": "superNVDA、sUP報酬表示が復帰しAPYは18.22%へ",
+      "summary": "Base上のSuperform NVDA SuperVault（superNVDA）は、DefiLlamaでAPY 18.22%、TVL $406,168、内訳はbase 0.00% + USDC・sUP reward 18.22%を表示している。2026-09-24 02:50:46 JSTの公開観測では10.00%、TVL $416,931、USDC rewardのみだったため、表示APYは8.22ポイント上昇し、sUPが報酬構成に再び表示された。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-24T09:56:26+09:00",
+      "updated_at": "2026-09-24T09:56:26+09:00",
+      "as_of": "2026-09-24T09:56:26+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/supernvda-sup-reward-restored/index.html",
+      "url": "https://signaetstructura.com/ja/research/supernvda-sup-reward-restored/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260924-0956-supernvda-sup-restored-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
