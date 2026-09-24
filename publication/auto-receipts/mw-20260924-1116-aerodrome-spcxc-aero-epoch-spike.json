@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260924-1116-aerodrome-spcxc-aero-epoch-spike",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-tokenized-stock-yield-watch-20260924-1116-aerodrome-spcxc-aero-epoch-spike-ja",
+  "source_observation_id": "base-tokenized-stock-yield-watch-20260924-1116-aerodrome-spcxc-aero-epoch-spike-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
   "source_sha": "c015dc354354d0e68d96ab53cf60f3059c082b79",
-  "source_path": "publication/sc-markets-research/auto-intake/2026-09-24-1116-aerodrome-spcxc-aero-epoch-spike.json",
+  "source_path": "publication/sc-markets-research/auto-intake/2026-09-24-1116-aerodrome-spcxc-aero-epoch-spike_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/aerodrome-spcxc-aero-epoch-spike/"
+  "production_url": "https://signaetstructura.com/en/research/aerodrome-spcxc-aero-epoch-spike/"
 }
