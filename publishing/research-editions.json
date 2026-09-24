@@ -1,6 +1,6 @@
 {
   "schema_version": "research-edition-overlay-v0.1",
-  "updated_at_jst": "2026-09-02 18:08 JST",
+  "updated_at_jst": "2026-09-24 22:30 JST",
   "publications": [
     {
       "publication_id": "scmr-20260902-001",
@@ -11,7 +11,11 @@
       "summary": "177件のペグ割れエピソードとFantom上の流動性・売買・シェアトークンの履歴を再構築し、Tombフォークが急成長し、何度もペグを割って戻り、最後に戻れなくなる過程を数字で読む。",
       "content_type": "historical_case_study",
       "content_type_label": "過去事例研究",
-      "themes": ["historical-markets", "defi", "liquidity"],
+      "themes": [
+        "historical-markets",
+        "defi",
+        "liquidity"
+      ],
       "published_at": "2026-09-02T12:59:00+09:00",
       "updated_at": "2026-09-02T18:08:00+09:00",
       "as_of": "2026-09-02",
@@ -20,7 +24,11 @@
       "url": "https://signaetstructura.com/ja/research/tomb-fork-boom-money-printer-to-graveyard/",
       "hero_figure": "scmr-20260829-001-fig15",
       "related_publications": [],
-      "homepage": {"eligible": true, "priority": 120, "lead_candidate": true},
+      "homepage": {
+        "eligible": true,
+        "priority": 120,
+        "lead_candidate": true
+      },
       "source_markdown": "publishing/research-sources/ja/tomb-fork-boom-money-printer-to-graveyard.md",
       "figure_gallery": [
         "scmr-20260829-001-fig05",
@@ -40,7 +48,11 @@
       "summary": "A reconstruction of 177 depeg episodes across Fantom Tomb forks, separating liquidity, selling, share-token behavior and recovery paths to ask why most depegs recovered while a few did not.",
       "content_type": "historical_case_study",
       "content_type_label": "Historical Case Study",
-      "themes": ["historical-markets", "defi", "liquidity"],
+      "themes": [
+        "historical-markets",
+        "defi",
+        "liquidity"
+      ],
       "published_at": "2026-09-02T18:08:00+09:00",
       "updated_at": "2026-09-02T18:08:00+09:00",
       "as_of": "2026-09-02",
@@ -49,7 +61,11 @@
       "url": "https://signaetstructura.com/en/research/tomb-fork-boom-money-printer-to-graveyard/",
       "hero_figure": "scmr-20260829-001-fig15",
       "related_publications": [],
-      "homepage": {"eligible": true, "priority": 120, "lead_candidate": true},
+      "homepage": {
+        "eligible": true,
+        "priority": 120,
+        "lead_candidate": true
+      },
       "source_markdown": "publishing/research-sources/en/tomb-fork-boom-money-printer-to-graveyard.md",
       "figure_gallery": [
         "scmr-20260829-001-fig05",
@@ -59,6 +75,66 @@
         "scmr-20260829-001-fig19",
         "scmr-20260829-001-fig20"
       ]
+    },
+    {
+      "publication_id": "scmr-20260924-001",
+      "language": "ja",
+      "edition": "japanese",
+      "slug": "blackrock-machine-native-economy-agentic-commerce",
+      "title": "AIエージェントは暗号資産の需要を生むのか",
+      "summary": "BlackRockの「The Machine-Native Economy」を手がかりに、AIエージェントが生む決済・計算資源需要と、特定の暗号資産への価値帰属を分けて考える。",
+      "content_type": "theme_analysis",
+      "content_type_label": "テーマ分析",
+      "themes": [
+        "ai",
+        "digital-assets",
+        "payments",
+        "compute"
+      ],
+      "published_at": "2026-09-24T22:30:00+09:00",
+      "updated_at": "2026-09-24T22:30:00+09:00",
+      "as_of": "2026-09-24",
+      "status": "published",
+      "article_path": "site/ja/research/blackrock-machine-native-economy-agentic-commerce/index.html",
+      "url": "https://signaetstructura.com/ja/research/blackrock-machine-native-economy-agentic-commerce/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 130,
+        "lead_candidate": true
+      },
+      "source_markdown": "publishing/research-sources/ja/blackrock-machine-native-economy-agentic-commerce.md"
+    },
+    {
+      "publication_id": "scmr-20260924-001",
+      "language": "en",
+      "edition": "english",
+      "slug": "blackrock-machine-native-economy-agentic-commerce",
+      "title": "When Does Agentic Commerce Become Crypto Demand?",
+      "summary": "Using BlackRock’s The Machine-Native Economy as a framework, this essay separates demand for agentic payments and compute from the harder question of value capture by specific digital assets.",
+      "content_type": "theme_analysis",
+      "content_type_label": "Theme Analysis",
+      "themes": [
+        "ai",
+        "digital-assets",
+        "payments",
+        "compute"
+      ],
+      "published_at": "2026-09-24T22:30:00+09:00",
+      "updated_at": "2026-09-24T22:30:00+09:00",
+      "as_of": "2026-09-24",
+      "status": "published",
+      "article_path": "site/en/research/blackrock-machine-native-economy-agentic-commerce/index.html",
+      "url": "https://signaetstructura.com/en/research/blackrock-machine-native-economy-agentic-commerce/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 130,
+        "lead_candidate": true
+      },
+      "source_markdown": "publishing/research-sources/en/blackrock-machine-native-economy-agentic-commerce.md"
     }
   ]
 }
