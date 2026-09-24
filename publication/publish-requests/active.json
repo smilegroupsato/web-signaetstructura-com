@@ -1,8 +1,8 @@
 {
-  "request_id": "ses-prod-20260902-003",
-  "target_sha": "7ead50ae305c7deeec6d124355a065d688f51b34",
+  "request_id": "ses-prod-20260924-001",
+  "target_sha": "93dd5aea1312d87e24026a5f0aecc26c6c4e9f07",
   "confirm": "DEPLOY",
-  "approved_at_jst": "2026-09-02 18:15 JST",
+  "approved_at_jst": "2026-09-24 22:30 JST",
   "approved_by": "佐藤",
-  "note": "Publish final-approved scmr-20260902-001 Japanese and English Tomb Fork longform editions. Replace the existing Japanese edition with the polished final source, add the synchronized English edition, retain reused Figure provenance from scmr-20260829-001, and use deterministic research-edition overlay sync. Publication and Compliance final gates: pass. Conflict of interest: none."
+  "note": "Publish scmr-20260924-001 BlackRock Machine-Native Economy Japanese and English editions. Publication Review: pass. Compliance Review: pass. Conflict of interest: none. Japanese related coverage includes the BeInCrypto Japan article actually read by Sato."
 }
