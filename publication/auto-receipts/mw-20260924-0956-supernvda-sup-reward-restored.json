@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260924-0956-supernvda-sup-reward-restored",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "base-tokenized-stock-yield-watch-20260924-0956-supernvda-sup-restored-ja",
+  "source_observation_id": "base-tokenized-stock-yield-watch-20260924-0956-supernvda-sup-restored-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "c67b37764c7c92b0579fa9079ab2e1ee92ca6ee4",
-  "source_path": "publication/sc-markets-research/auto-intake/2026-09-24-0956-supernvda-sup-reward-restored.json",
+  "source_sha": "4c5a687aff7be57cadbb2410a482d2eabfaa163e",
+  "source_path": "publication/sc-markets-research/auto-intake/2026-09-24-0956-supernvda-sup-reward-restored_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/supernvda-sup-reward-restored/"
+  "production_url": "https://signaetstructura.com/en/research/supernvda-sup-reward-restored/"
 }
