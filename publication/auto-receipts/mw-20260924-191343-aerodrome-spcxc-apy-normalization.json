@@ -2,12 +2,12 @@
   "schema_version": "signa-auto-publication-receipt-v0.1",
   "publication_id": "mw-20260924-191343-aerodrome-spcxc-apy-normalization",
   "series_id": "base-tokenized-stock-yield-watch",
-  "source_observation_id": "obs-base-tokenized-stock-yield-20260924-191343-spcxc-ja",
+  "source_observation_id": "obs-base-tokenized-stock-yield-20260924-191343-spcxc-en",
   "source_repo": "smilegroupsato/sc-crypto-ops",
-  "source_sha": "5d8734a5a736e1df520871b88435bd9711418097",
-  "source_path": "publication/sc-markets-research/auto-intake/2026-09-24-191343-aerodrome-spcxc-apy-normalization.json",
+  "source_sha": "b828ba44d331d59fc0c1e5a5c56611d00443c908",
+  "source_path": "publication/sc-markets-research/auto-intake/2026-09-24-191343-aerodrome-spcxc-apy-normalization_en.json",
   "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
   "shadow": false,
   "stale_backfill": false,
-  "production_url": "https://signaetstructura.com/ja/research/aerodrome-spcxc-apy-normalization/"
+  "production_url": "https://signaetstructura.com/en/research/aerodrome-spcxc-apy-normalization/"
 }

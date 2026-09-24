@@ -5869,6 +5869,33 @@
       },
       "source_observation_id": "obs-base-tokenized-stock-yield-20260924-191343-spcxc-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260924-191343-aerodrome-spcxc-apy-normalization",
+      "language": "en",
+      "edition": "automatic-market-watch",
+      "slug": "aerodrome-spcxc-apy-normalization",
+      "title": "Aerodrome USDC-SPCXc four-digit APY print falls to 237%",
+      "summary": "Aerodrome Slipstream's USDC-SPCXc pool on Base showed 237.10% displayed APY and about $1.07 million of TVL at the 2026-09-24 19:13 JST observation. The same pool had shown 1,017.04% and about $1.03 million of TVL at the 11:16 JST observation, so displayed APY fell by 779.94 percentage points, or about 76.7%, while TVL remained broadly stable.",
+      "content_type": "market_watch",
+      "content_type_label": "Market Watch",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-24T19:13:43+09:00",
+      "updated_at": "2026-09-24T19:13:43+09:00",
+      "as_of": "2026-09-24T19:13:43+09:00",
+      "status": "published",
+      "article_path": "site/en/research/aerodrome-spcxc-apy-normalization/index.html",
+      "url": "https://signaetstructura.com/en/research/aerodrome-spcxc-apy-normalization/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-tokenized-stock-yield-20260924-191343-spcxc-en",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }
