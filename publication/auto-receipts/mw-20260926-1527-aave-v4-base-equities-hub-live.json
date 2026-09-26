@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260926-1527-aave-v4-base-equities-hub-live",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "obs-base-stock-yield-20260926-152701-aave-v4-equities-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "e27641d6d983c859b1df17eb6bd909f4976a30b1",
+  "source_path": "publication/sc-markets-research/auto-intake/2026.09.26_01_aave-v4-base-equities-hub-live.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/aave-v4-base-equities-hub-live/"
+}

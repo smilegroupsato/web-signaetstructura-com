@@ -1,6 +1,6 @@
 {
   "schema_version": "public-publication-registry-v0.1",
-  "updated_at_jst": "2026-09-02 18:08 JST",
+  "updated_at_jst": "2026-09-24 22:30 JST",
   "publications": [
     {
       "publication_id": "scmr-20260831-001",
@@ -5896,6 +5896,93 @@
       },
       "source_observation_id": "obs-base-tokenized-stock-yield-20260924-191343-spcxc-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "mw-20260926-1527-aave-v4-base-equities-hub-live",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "aave-v4-base-equities-hub-live",
+      "title": "Aave V4のBase Equities Hubが稼働、7銘柄のtokenized stockがUSDC借入担保に",
+      "summary": "2026-09-25、Aave V4のBase Equities Hubが稼働し、AAPLc、AMZNc、GOOGLc、METAc、MSFTc、NVDAc、TSLAcの7銘柄がUSDC借入の担保として利用可能になった。2026-09-22の公開観測時点ではガバナンス段階で未稼働だったため、tokenized stockを大手レンディング市場の担保として使う構成が実運用へ移ったことが今回の主要変化である。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-26T15:27:01+09:00",
+      "updated_at": "2026-09-26T15:27:01+09:00",
+      "as_of": "2026-09-26T15:27:01+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/aave-v4-base-equities-hub-live/index.html",
+      "url": "https://signaetstructura.com/ja/research/aave-v4-base-equities-hub-live/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "obs-base-stock-yield-20260926-152701-aave-v4-equities-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "scmr-20260924-001",
+      "language": "ja",
+      "edition": "japanese",
+      "slug": "blackrock-machine-native-economy-agentic-commerce",
+      "title": "AIエージェントは暗号資産の需要を生むのか",
+      "summary": "BlackRockの「The Machine-Native Economy」を手がかりに、AIエージェントが生む決済・計算資源需要と、特定の暗号資産への価値帰属を分けて考える。",
+      "content_type": "theme_analysis",
+      "content_type_label": "テーマ分析",
+      "themes": [
+        "ai",
+        "digital-assets",
+        "payments",
+        "compute"
+      ],
+      "published_at": "2026-09-24T22:30:00+09:00",
+      "updated_at": "2026-09-24T22:30:00+09:00",
+      "as_of": "2026-09-24",
+      "status": "published",
+      "article_path": "site/ja/research/blackrock-machine-native-economy-agentic-commerce/index.html",
+      "url": "https://signaetstructura.com/ja/research/blackrock-machine-native-economy-agentic-commerce/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 130,
+        "lead_candidate": true
+      },
+      "source_markdown": "publishing/research-sources/ja/blackrock-machine-native-economy-agentic-commerce.md"
+    },
+    {
+      "publication_id": "scmr-20260924-001",
+      "language": "en",
+      "edition": "english",
+      "slug": "blackrock-machine-native-economy-agentic-commerce",
+      "title": "When Does Agentic Commerce Become Crypto Demand?",
+      "summary": "Using BlackRock’s The Machine-Native Economy as a framework, this essay separates demand for agentic payments and compute from the harder question of value capture by specific digital assets.",
+      "content_type": "theme_analysis",
+      "content_type_label": "Theme Analysis",
+      "themes": [
+        "ai",
+        "digital-assets",
+        "payments",
+        "compute"
+      ],
+      "published_at": "2026-09-24T22:30:00+09:00",
+      "updated_at": "2026-09-24T22:30:00+09:00",
+      "as_of": "2026-09-24",
+      "status": "published",
+      "article_path": "site/en/research/blackrock-machine-native-economy-agentic-commerce/index.html",
+      "url": "https://signaetstructura.com/en/research/blackrock-machine-native-economy-agentic-commerce/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 130,
+        "lead_candidate": true
+      },
+      "source_markdown": "publishing/research-sources/en/blackrock-machine-native-economy-agentic-commerce.md"
     }
   ]
 }
