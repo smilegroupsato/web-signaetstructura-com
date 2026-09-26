@@ -5983,6 +5983,33 @@
         "lead_candidate": true
       },
       "source_markdown": "publishing/research-sources/en/blackrock-machine-native-economy-agentic-commerce.md"
+    },
+    {
+      "publication_id": "mw-20260927-044934-revert-stock-lp-dilution",
+      "language": "ja",
+      "edition": "automatic-market-watch",
+      "slug": "revert-stock-lp-dilution-20260927-044934",
+      "title": "Revert株式トークンLPの報酬APRが70.51%へ低下、TVLは約100万ドル",
+      "summary": "Base上のRevert経由Aerodrome株式トークンLP向けUSDC incentiveについて、Merklの公開一覧はAPR 70.51%、TVL約100万ドル、日次報酬約1.92Kドルを表示している。2026-09-24 14:01 JSTの公開観測では97.48%、724.74Kドル、約1.93Kドル/日だったため、表示TVLは概算で約38%増える一方、APRは26.97ポイント低下した。",
+      "content_type": "market_watch",
+      "content_type_label": "市場観測",
+      "themes": [],
+      "series": "base-tokenized-stock-yield-watch",
+      "published_at": "2026-09-27T04:49:34+09:00",
+      "updated_at": "2026-09-27T04:49:34+09:00",
+      "as_of": "2026-09-27T04:49:34+09:00",
+      "status": "published",
+      "article_path": "site/ja/research/revert-stock-lp-dilution-20260927-044934/index.html",
+      "url": "https://signaetstructura.com/ja/research/revert-stock-lp-dilution-20260927-044934/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 20,
+        "lead_candidate": false
+      },
+      "source_observation_id": "base-tokenized-stock-yield-watch-20260927-044934-revert-stock-lp-dilution-ja",
+      "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "schema_version": "signa-auto-publication-receipt-v0.1",
+  "publication_id": "mw-20260927-044934-revert-stock-lp-dilution",
+  "series_id": "base-tokenized-stock-yield-watch",
+  "source_observation_id": "base-tokenized-stock-yield-watch-20260927-044934-revert-stock-lp-dilution-ja",
+  "source_repo": "smilegroupsato/sc-crypto-ops",
+  "source_sha": "902012869e5cefff7c315a3aecf4afa5ead56e69",
+  "source_path": "publication/sc-markets-research/auto-intake/2026-09-27-044934-revert-stock-lp-dilution.json",
+  "validation_profile": "base-tokenized-stock-yield-watch-v0.1",
+  "shadow": false,
+  "stale_backfill": false,
+  "production_url": "https://signaetstructura.com/ja/research/revert-stock-lp-dilution-20260927-044934/"
+}
