@@ -5919,7 +5919,8 @@
       "homepage": {
         "eligible": true,
         "priority": 20,
-        "lead_candidate": false
+        "lead_candidate": false,
+        "excerpt": "Aave V4のBase Equities Hubが稼働。7銘柄の株式トークンがUSDC借入の担保となり、ガバナンス提案から実運用へ移った。"
       },
       "source_observation_id": "obs-base-stock-yield-20260926-152701-aave-v4-equities-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
@@ -6006,7 +6007,8 @@
       "homepage": {
         "eligible": true,
         "priority": 20,
-        "lead_candidate": false
+        "lead_candidate": false,
+        "excerpt": "株式トークンLPのTVLが約100万ドルへ増加し、報酬APRは70.51%へ低下。資金流入による報酬の希薄化を追う。"
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260927-044934-revert-stock-lp-dilution-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
@@ -6033,7 +6035,8 @@
       "homepage": {
         "eligible": true,
         "priority": 20,
-        "lead_candidate": false
+        "lead_candidate": false,
+        "excerpt": "Stock-token LP TVL rose to about $1 million as reward APR declined to 70.51%. The observation tracks incentive dilution as capital enters."
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260927-044934-revert-stock-lp-dilution-en",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
@@ -6060,7 +6063,8 @@
       "homepage": {
         "eligible": true,
         "priority": 20,
-        "lead_candidate": false
+        "lead_candidate": false,
+        "excerpt": "Revert経由の株式トークンLPに資金が流入し、報酬APRは約30%へ低下。日次報酬がほぼ変わらない中、TVLの増加が利回りを薄めた。"
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260927-065812-revert-stock-lp-dilution-acceleration-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
@@ -6087,7 +6091,8 @@
       "homepage": {
         "eligible": true,
         "priority": 20,
-        "lead_candidate": false
+        "lead_candidate": false,
+        "excerpt": "MSTRcの表示APYが低下する一方、TVLは増加。直接プールと集約一覧の表示差が残り、参照先によって利回りの見え方が異なる。"
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260927-141052-mstrc-yield-normalization-surface-divergence-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
