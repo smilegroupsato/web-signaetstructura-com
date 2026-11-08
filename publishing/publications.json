@@ -1,6 +1,6 @@
 {
   "schema_version": "public-publication-registry-v0.1",
-  "updated_at_jst": "2026-09-24 22:30 JST",
+  "updated_at_jst": "2026-11-08 14:44:27 JST",
   "publications": [
     {
       "publication_id": "scmr-20260831-001",
@@ -6091,6 +6091,60 @@
       },
       "source_observation_id": "base-tokenized-stock-yield-watch-20260927-141052-mstrc-yield-normalization-surface-divergence-ja",
       "auto_publish_profile": "base-tokenized-stock-yield-watch-v0.1"
+    },
+    {
+      "publication_id": "scmr-20261108-001",
+      "language": "ja",
+      "edition": "japanese",
+      "slug": "austrian-banknote-privilege-1816-1878",
+      "title": "紙幣発行の利益は、誰のものだったのか",
+      "summary": "オーストリア国立銀行1816–1878年――発券特権、政府向け低利融資、戦時の兌換停止、銀行利益の官民配分を史料で検証。",
+      "content_type": "historical_case_study",
+      "content_type_label": "過去事例研究",
+      "themes": [
+        "historical-markets"
+      ],
+      "series": null,
+      "published_at": "2026-11-08T14:44:27+09:00",
+      "updated_at": "2026-11-08T14:44:27+09:00",
+      "as_of": "2026-11-08",
+      "status": "publication-candidate",
+      "article_path": "site/ja/research/austrian-banknote-privilege-1816-1878/index.html",
+      "url": "https://signaetstructura.com/ja/research/austrian-banknote-privilege-1816-1878/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 12,
+        "lead_candidate": false
+      }
+    },
+    {
+      "publication_id": "scmr-20261108-001",
+      "language": "en",
+      "edition": "english",
+      "slug": "austrian-banknote-privilege-1816-1878",
+      "title": "Who Benefited from the Privilege to Issue Banknotes?",
+      "summary": "Austria, 1816–1878: banknote privilege, subsidised government credit, wartime convertibility and the division of bank profits.",
+      "content_type": "historical_case_study",
+      "content_type_label": "Historical Case Study",
+      "themes": [
+        "historical-markets"
+      ],
+      "series": null,
+      "published_at": "2026-11-08T14:44:27+09:00",
+      "updated_at": "2026-11-08T14:44:27+09:00",
+      "as_of": "2026-11-08",
+      "status": "publication-candidate",
+      "article_path": "site/en/research/austrian-banknote-privilege-1816-1878/index.html",
+      "url": "https://signaetstructura.com/en/research/austrian-banknote-privilege-1816-1878/",
+      "hero_figure": null,
+      "related_publications": [],
+      "homepage": {
+        "eligible": true,
+        "priority": 12,
+        "lead_candidate": false
+      }
     }
   ]
 }
