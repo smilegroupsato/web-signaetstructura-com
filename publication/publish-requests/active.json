@@ -1,8 +1,8 @@
 {
-  "request_id": "ses-prod-20261108-001",
-  "target_sha": "b59911428fe8d5d93b75f9d1ac872c9970f0bb7d",
+  "request_id": "ses-prod-20261109-001",
+  "target_sha": "5e378d47ffd6f8ece2759eeda515b80a42d0cfd0",
   "confirm": "DEPLOY",
-  "approved_at_jst": "2026-11-08 17:02 JST",
+  "approved_at_jst": "2026-11-09 07:29 JST",
   "approved_by": "佐藤",
-  "note": "Explicit publication approval for scmr-20261108-001, Japanese and English historical case study of Austrian banknote privilege, 1816–1878. PR #33 preview validation passed. Unverified distributional amounts remain explicitly qualified."
+  "note": "Correction requested by Sato: remove stale 'レビュー用原稿・未公開' label from the already-published Japanese Austrian banknote case study. PR #35 merged. No research content change."
 }
