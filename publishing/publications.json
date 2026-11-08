@@ -1,6 +1,6 @@
 {
   "schema_version": "public-publication-registry-v0.1",
-  "updated_at_jst": "2026-11-08 14:44:27 JST",
+  "updated_at_jst": "2026-11-08 17:02 JST",
   "publications": [
     {
       "publication_id": "scmr-20260831-001",
@@ -6105,10 +6105,10 @@
         "historical-markets"
       ],
       "series": null,
-      "published_at": "2026-11-08T14:44:27+09:00",
-      "updated_at": "2026-11-08T14:44:27+09:00",
+      "published_at": "2026-11-08T17:02:00+09:00",
+      "updated_at": "2026-11-08T17:02:00+09:00",
       "as_of": "2026-11-08",
-      "status": "publication-candidate",
+      "status": "published",
       "article_path": "site/ja/research/austrian-banknote-privilege-1816-1878/index.html",
       "url": "https://signaetstructura.com/ja/research/austrian-banknote-privilege-1816-1878/",
       "hero_figure": null,
@@ -6132,10 +6132,10 @@
         "historical-markets"
       ],
       "series": null,
-      "published_at": "2026-11-08T14:44:27+09:00",
-      "updated_at": "2026-11-08T14:44:27+09:00",
+      "published_at": "2026-11-08T17:02:00+09:00",
+      "updated_at": "2026-11-08T17:02:00+09:00",
       "as_of": "2026-11-08",
-      "status": "publication-candidate",
+      "status": "published",
       "article_path": "site/en/research/austrian-banknote-privilege-1816-1878/index.html",
       "url": "https://signaetstructura.com/en/research/austrian-banknote-privilege-1816-1878/",
       "hero_figure": null,
