@@ -1,8 +1,8 @@
 {
-  "request_id": "ses-prod-20260924-001",
-  "target_sha": "93dd5aea1312d87e24026a5f0aecc26c6c4e9f07",
+  "request_id": "ses-prod-20261108-001",
+  "target_sha": "b59911428fe8d5d93b75f9d1ac872c9970f0bb7d",
   "confirm": "DEPLOY",
-  "approved_at_jst": "2026-09-24 22:30 JST",
+  "approved_at_jst": "2026-11-08 17:02 JST",
   "approved_by": "佐藤",
-  "note": "Publish scmr-20260924-001 BlackRock Machine-Native Economy Japanese and English editions. Publication Review: pass. Compliance Review: pass. Conflict of interest: none. Japanese related coverage includes the BeInCrypto Japan article actually read by Sato."
+  "note": "Explicit publication approval for scmr-20261108-001, Japanese and English historical case study of Austrian banknote privilege, 1816–1878. PR #33 preview validation passed. Unverified distributional amounts remain explicitly qualified."
 }
